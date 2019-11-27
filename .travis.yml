@@ -9,7 +9,7 @@ install:
 script:
   - bash -e make_output.sh
 before_deploy:
-  - find . -type l -delete  ### jekyll does not work with symlink
+  - bash -e make_encrypt_site.sh
 deploy:
   provider: pages
   github_token: $GITHUB_TOKEN
