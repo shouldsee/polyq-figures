@@ -1,4 +1,5 @@
 rm -rf OUTPUT
+mkdir OUTPUT
 python2 src/make_boxplot.py
 python2 src/make_heatmap.py
 python2 src/make_chipseq_targets.py
