@@ -1,0 +1,10 @@
+language: python
+python:
+  - "2.7"
+#  - "3.5"
+cache: pip
+install:
+  - pip install -r requirements.txt
+  - sudo bash -e install-binary.sh
+script:
+  - bash -e make_output.sh
