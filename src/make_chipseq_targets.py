@@ -11,9 +11,11 @@ from pymisca.util import colGroupMean
 pyext.colGroupMean = colGroupMean
 import pymisca.vis_util as pyvis
 
+import src.util as _util
 from util import _get_file
 import synotil.dio
 import synotil.qcplots
+
 
 
 SRC_DIR = os.path.dirname(__file__)
@@ -66,11 +68,12 @@ df = pyext.readData('temp.bed',columns=pyext.columns.bed,guess_index=0).set_inde
 # OUTPUT_FILE = 'OUTPUT/0918-elf3target.bed'
 pyext.dir__real(dirname="OUTPUT")
 
-OUTPUT_BED_FILE = OUTPUT_FILE = 'OUTPUT/chipseq_differential_binding.peak_list.bed'
+OUTPUT_BED_FILE = OUTPUT_FILE = _util._get_output_file('OUTPUT/chipseq_differential_binding.peak_list.bed')
 df.loc[clu].to_csv(OUTPUT_FILE,sep='\t',header=None,index=0)
 
-OUTPUT_FILE = "OUTPUT/chipseq_differential_binding.peak_list.csv"
-df.loc[clu].to_csv(OUTPUT_FILE,sep=',',header=None,index=0)
+OUTPUT_FILE = _util._get_output_file("OUTPUT/chipseq_differential_binding.peak_list.csv")
+df.loc[clu].to_csv( OUTPUT_FILE
+                   ,sep=',',header=None,index=0)
 
 
 #### making gene list
@@ -79,7 +82,7 @@ shutil.move(synotil.dio.npk_expandSummit(FNAME,radius=1,), FNAME+'.summit')
 INPUT_BED_FILE = FNAME +'.summit'
 
 # INPUT_BED_FILE = 'OUTPUT/chipseq_differential_binding.peak_list.bed.summit'
-OUTPUT_FILE = "OUTPUT/chipseq_targets_genes_job.peak_list.csv"
+OUTPUT_FILE = _util._get_output_file("OUTPUT/chipseq_targets_genes_job.peak_list.csv")
 
 GSIZE = _get_file("/home/feng/ref/Arabidopsis_thaliana_TAIR10/genome.sizes")
 cds_file = _get_file("/home/feng/ref/Arabidopsis_thaliana_TAIR10/Annotation/genes.gtf.cds")

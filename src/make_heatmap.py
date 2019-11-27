@@ -1,5 +1,7 @@
 from rnaseq_figure import job as template
 import pymisca.ext as pyext
+import src.util as _util
+
 def fig__saveFile(fig, ofname, transparent = False, **kwargs):
     fig.savefig(ofname,
                 bbox_inches='tight',
@@ -33,6 +35,7 @@ for FNAME in [
     
     with pyext.getPathStack(['OUTPUT'],force=1):
         OFNAME = FNAME.replace('/','_')+'.png'
+        OFNAME = _util._get_output_file(OFNAME)
         fig__saveFile(fig,OFNAME)
     fig;
     

@@ -3,6 +3,7 @@ from pymisca.atto_jobs import ModuleJob
 import path
 import os
 from util import _get_file,_get_output_file
+import src.util as _util
 
 FORCE = 1
 SRC_DIR = os.path.dirname(__file__)# 
@@ -10,12 +11,12 @@ SRC_DIR = os.path.dirname(__file__)#
 # _SRC = path.Path(__file__).dirname()
 RESULTS = res = [
     ModuleJob({
-    "MODULE_FILE":"./src/plot_bigwig_pileup.py",
+    "MODULE_FILE": "./src/plot_bigwig_pileup.py",
     "DATA":{
-        "PEAK_FILE": _get_output_file('chipseq_differential_binding.peak_list.bed.summit'),
+        "PEAK_FILE": _util._get_middle_file('OUTPUT/chipseq_differential_binding.peak_list.bed.summit'),
 
 #         "PEAK_FILE":'/home/feng/static/lists/1112__ELF3__chipTarg.narrowPeak',
-        "OUTDIR":"OUTPUT/fig-2c",
+        "OUTDIR": _util._get_output_file("OUTPUT/fig-2c"),
         'FORCE':FORCE,
         "BIGWIG_FILES":[
             _get_file('Mapped_data/192C/S17/ELF3myc-17C-ZT10_S17_Ath-TAIR10_RPKM.bw'),
@@ -37,10 +38,10 @@ RESULTS = res = [
     ModuleJob({
     "MODULE_FILE":"./src/plot_bigwig_pileup.py",
     "DATA":{
-        "PEAK_FILE": _get_output_file('chipseq_differential_binding.peak_list.bed.summit'),
+        "PEAK_FILE": _util._get_middle_file('OUTPUT/chipseq_differential_binding.peak_list.bed.summit'),
         
 #         "PEAK_FILE":'/home/feng/static/lists/1112__ELF3__chipTarg.narrowPeak',
-        "OUTDIR":"OUTPUT/fig-2d",
+        "OUTDIR": _util._get_output_file("OUTPUT/fig-2d"),
         'FORCE':FORCE,
         "BIGWIG_FILES":[
             _get_file('Mapped_data/192C/S1/1487-17-ZT10_S1_Ath-TAIR10_RPKM.bw'),
@@ -67,9 +68,9 @@ RESULTS = res = [
     ModuleJob({
     "MODULE_FILE":"./src/plot_bigwig_pileup.py",
     "DATA":{
-        "PEAK_FILE": _get_output_file('chipseq_differential_binding.peak_list.bed.summit'),
+        "PEAK_FILE": _util._get_middle_file('OUTPUT/chipseq_differential_binding.peak_list.bed.summit'),
 #         "PEAK_FILE":'/home/feng/static/lists/1112__ELF3__chipTarg.narrowPeak',
-        "OUTDIR":"OUTPUT/fig-2e",
+        "OUTDIR": _util._get_output_file("OUTPUT/fig-2e"),
         'FORCE':FORCE,
         "BIGWIG_FILES":[
             _get_file('Mapped_data/189C/S10/gELF3myc-17C_S10_RPKM.bw'),

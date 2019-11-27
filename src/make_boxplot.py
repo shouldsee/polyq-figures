@@ -1,6 +1,9 @@
 # %%python2
 from rnaseq_figure import job as template
 import pymisca.ext as pyext
+from src.util import _get_output_file
+
+
 def fig__saveFile(fig, ofname, transparent = False, **kwargs):
     fig.savefig(ofname,
                 bbox_inches='tight',
@@ -27,8 +30,9 @@ for FNAME in [
     fig.set_figheight(7)
     fig.axes[0].set_title(FNAME)
 #     OFNAME  = 'OUTPUT/'+FNAME.replace('/','_')+'.svg'
-    with pyext.getPathStack(['OUTPUT'],force=1):
-        OFNAME = FNAME.replace('/','_')+'.svg'
-        fig__saveFile(fig,OFNAME)
-    fig;
+#     with pyext.getPathStack(['OUTPUT'],force=1):
+    OFNAME = "OUTPUT/" + FNAME.replace('/','_')+'.svg'
+    OFNAME = _get_output_file(OFNAME)
+    fig__saveFile(fig,OFNAME)
+#     fig;
 # job['visualise_datasets'].head()
