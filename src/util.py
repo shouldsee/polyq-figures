@@ -10,7 +10,7 @@ import time
 SRC_DIR = os.path.dirname(__file__)
 
 STATIC_DIR = 'src/static'
-INDEX_FILE = "OUTPUT.index.json.list"
+INDEX_FILE = os.path.realpath("OUTPUT/index.json.list")
 
 # import pymisca.ext as pyext
 from pymisca.events import LinkEvent,CopyEvent

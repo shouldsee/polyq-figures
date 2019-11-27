@@ -33,10 +33,10 @@ for FNAME in [
         len(job['visualise_datasets'].columns))
     fig.axes[0].set_title(FNAME)
     
-    with pyext.getPathStack(['OUTPUT'],force=1):
-        OFNAME = FNAME.replace('/','_')+'.png'
-        OFNAME = _util._get_output_file(OFNAME)
-        fig__saveFile(fig,OFNAME)
+#     with pyext.getPathStack(['OUTPUT'],force=1):
+    OFNAME = "OUTPUT/"+FNAME.replace('/','_')+'.png'
+    OFNAME = _util._get_output_file(OFNAME)
+    fig__saveFile(fig,OFNAME)
     fig;
     
 #     fig.savefig('results/'+FNAME.replace('/','_')+'.png')
