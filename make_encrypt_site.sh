@@ -1,5 +1,5 @@
 shopt -s extglob ###expanding ./!($HASH)
-### password is reviewpaw
+### password is reviewPAW
 DIR=${1:-$PWD}
 HASH=a93194bed5709a448522d69b9a722c02d1e7e71f
 find $DIR -type l -delete  ### jekyll does not work with symlink
