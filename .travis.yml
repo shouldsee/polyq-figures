@@ -8,6 +8,8 @@ install:
   - sudo bash -e install-binary.sh
 script:
   - bash -e make_output.sh
+before_deploy:
+  - find . -type l -delete  ### jekyll does not work with symlink
 deploy:
   provider: pages
   github_token: $GITHUB_TOKEN
