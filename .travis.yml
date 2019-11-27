@@ -12,8 +12,9 @@ deploy:
   provider: pages
   skip_cleanup: true
   keep_history: true
+  target-branch: gh-pages
   on:
-    branch: gh-pages
+    branch: master
 env:
   deploy:
     - secure: PvbedhdQcnGp45Yy/lssk+Lsqa0oXMQBaOkEO/4PySwnnHz56Ohaj6vD6MR+HqfaupBx1j6MxvWrpiALG2MajYkmcdIznrxndaLeyft0oUsKCw2FEOT0E+JDYqjO+VHOrMiOiMza97XtDrnWtd3csjne1jcOxs7UXVbwZ5VTFu0WJbU/rk9dsG5Jui2DJ21tkSXJ+8Dio41Y2mbO4g+kPjRoVcQAIt2QYERUvNqL/yLrUfOEoo2NiHp/47WRe/EaR3ls/TwPRyvFoTkYZrauAYJ+V5Hib84ku8kpJOQgix9TIxwHZBYEG2aSVhfdwr4ZhhhRR/Q1nXG6Dbkz9/Bc1OyyLvQjZMdYEboQFz1L0BW5J61BehTbaS+DV+lx0iKXuCeNsmTIt1I0xnHMTCs2MPcI7wGA6CQfM9018migPwt6SZqh8toH6idaHkDl6gwrPujaM6w6A2j4oLb+N+4HCBOBChrGNfzOR+Y9TJd38XC1lgYNGEajfcWcRtPJoHaA6tV2gJPyl3F8zyikJSwAAK7qm4MblV45mCitnd2tAdxEGHms6er9NiVigjlXGiPeBZycT/tiV8XezDBfTGblGFEv3yR+1zLZxvUtPyQxkOU/2lCympmd6cCS6dnq+Y1LyCUBjlksnM+H2BXXY4AHsdT7iJ4vHpMA+kcG3G2OJU4=  
