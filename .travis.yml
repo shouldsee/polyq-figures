@@ -11,9 +11,7 @@ script:
   - sudo apt-get install -y graphviz
   - bash -e make_output.sh
 # before_deploy:
-after_success:
-  - bash -e make_encrypt_site.sh
-  - bash -e travis_push.sh  
+
 # deploy:
 #   provider: pages
 #   github_token: $GITHUB_TOKEN
@@ -22,7 +20,14 @@ after_success:
 #   target-branch: gh-pages
 #   on:
 #     branch: master
+deploy:
+  provider: script
+  skip_cleanup: true
+  keep_history: true
+  script: "bash -e make_encrypt_site.sh . $HASH; cd $HASH; bash -xe travis_push.sh"
+  on:
+    branch: master    
 env:
   global:
-#     GITHUB_PATH: "shouldsee/polyq-figures"
+    HASH: a93194bed5709a448522d69b9a722c02d1e7e71f
     GITHUB_PATH: "shouldsee/test_private"
