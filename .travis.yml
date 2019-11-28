@@ -24,4 +24,5 @@ after_success:
 #     branch: master
 env:
   global:
-    GITHUB_PATH: "shouldsee/polyq-figures"
+#     GITHUB_PATH: "shouldsee/polyq-figures"
+    GITHUB_PATH: "shouldsee/test_private"
