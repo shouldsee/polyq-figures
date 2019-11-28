@@ -1,0 +1,14 @@
+{"TS": 1574948020.755391, "OUTPUT_FILE": "OUTPUT/src_BOXPLOT_1_OX-lines.tsv.svg", "RUNTIME_FILE": "src/make_boxplot.py"}
+{"TS": 1574948021.193997, "OUTPUT_FILE": "OUTPUT/src_BOXPLOT2_mutants.tsv.svg", "RUNTIME_FILE": "src/make_boxplot.py"}
+{"TS": 1574948021.633927, "OUTPUT_FILE": "OUTPUT/src_BOXPLOT3_Qlines.tsv.svg", "RUNTIME_FILE": "src/make_boxplot.py"}
+{"TS": 1574948023.788025, "OUTPUT_FILE": "OUTPUT/src_FIG-S6_HEATMAP1_Q-lines.tsv.png", "RUNTIME_FILE": "src/make_heatmap.py"}
+{"TS": 1574948024.231353, "OUTPUT_FILE": "OUTPUT/src_FIG-S5_HEATMAP2_genotypes.tsv.png", "RUNTIME_FILE": "src/make_heatmap.py"}
+{"TS": 1574948024.763386, "OUTPUT_FILE": "OUTPUT/src_FIG-S7_HEATMAP3.tsv.png", "RUNTIME_FILE": "src/make_heatmap.py"}
+{"TS": 1574948033.107654, "OUTPUT_FILE": "OUTPUT/chipseq_differential_binding.peak_list.bed", "RUNTIME_FILE": "src/make_chipseq_targets.py"}
+{"TS": 1574948033.115861, "OUTPUT_FILE": "OUTPUT/chipseq_differential_binding.peak_list.csv", "RUNTIME_FILE": "src/make_chipseq_targets.py"}
+{"TS": 1574948033.135726, "OUTPUT_FILE": "OUTPUT/chipseq_targets_genes_job.peak_list.csv", "RUNTIME_FILE": "src/make_chipseq_targets.py"}
+{"TS": 1574948035.478253, "OUTPUT_FILE": "OUTPUT/fig-2c", "RUNTIME_FILE": "src/make_chipseq_pileups.py"}
+{"TS": 1574948037.296063, "OUTPUT_FILE": "OUTPUT/fig-2d", "RUNTIME_FILE": "src/make_chipseq_pileups.py"}
+{"TS": 1574948038.560551, "OUTPUT_FILE": "OUTPUT/fig-2e", "RUNTIME_FILE": "src/make_chipseq_pileups.py"}
+{"TS": 1574948041.827602, "OUTPUT_FILE": "OUTPUT/gene_lists_dataframe.csv", "RUNTIME_FILE": "src/make_gene_lists.py"}
+{"TS": 1574948042.940235, "OUTPUT_FILE": "/home/travis/build/shouldsee/polyq-figures/OUTPUT/index.json.list.dot.svg", "RUNTIME_FILE": "src/make_dep_graph.py"}
