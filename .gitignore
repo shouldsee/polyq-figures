@@ -1,4 +1,4 @@
-OUTPUT/
+#OUTPUT/
 OUTPUT.EXPECT/
 *.lock
 .ipynb*
