@@ -3,13 +3,13 @@ python:
   - "2.7"
 #   - "3.5"
 cache: pip
-install:
-  - pip install .
+install: |
+  pip install .
 #  - pip install -r requirements.txt
-  - sudo bash -e install-binary.sh
-script:
-  - sudo apt-get install -y graphviz
-  - bash -e make_output.sh
+  sudo bash -e install-binary.sh
+script: |
+  sudo apt-get install -y graphviz
+  bash -e make_output.sh
 # before_deploy:
 # deploy:
 #   provider: pages
@@ -23,14 +23,13 @@ deploy:
   provider: script
   skip_cleanup: true
   keep_history: true
-#   script: | 
-#     curl -L https://raw.githubusercontent.com/shouldsee/travis_test/master/make_encrypt_site.sh | bash -es . $HASH;
-#     curl -L https://raw.githubusercontent.com/shouldsee/travis_test/master/travis_push.sh | bash -es;
-#   -e make_encrypt_site.sh . $HASH; cd $HASH; find ..; bash -xe travis_push.sh"
-  script: [
-  "curl -L https://raw.githubusercontent.com/shouldsee/travis_test/master/make_encrypt_site.sh | bash -es . $HASH;",
-  "curl -L https://raw.githubusercontent.com/shouldsee/travis_test/master/travis_push.sh | bash -es;",
-  ]
+  script: | 
+    curl -L https://raw.githubusercontent.com/shouldsee/travis_test/master/make_encrypt_site.sh | bash -es . $HASH;
+    curl -L https://raw.githubusercontent.com/shouldsee/travis_test/master/travis_push.sh | bash -es;
+#   script: [
+#   "curl -L https://raw.githubusercontent.com/shouldsee/travis_test/master/make_encrypt_site.sh | bash -es . $HASH;",
+#   "curl -L https://raw.githubusercontent.com/shouldsee/travis_test/master/travis_push.sh | bash -es;",
+#   ]
 #   script: "bash -e make_encrypt_site.sh . $HASH; cd $HASH; find ..; bash -xe travis_push.sh"
   on:
     branch: master    
