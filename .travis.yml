@@ -10,13 +10,18 @@ install:
 script:
   - sudo apt-get install -y graphviz
   - bash -e make_output.sh
-before_deploy:
+# before_deploy:
+after_success:
   - bash -e make_encrypt_site.sh
-deploy:
-  provider: pages
-  github_token: $GITHUB_TOKEN
-  skip_cleanup: true
-  keep_history: true
-  target-branch: gh-pages
-  on:
-    branch: master
+  - bash -e travis_push.sh  
+# deploy:
+#   provider: pages
+#   github_token: $GITHUB_TOKEN
+#   skip_cleanup: true
+#   keep_history: true
+#   target-branch: gh-pages
+#   on:
+#     branch: master
+env:
+  global:
+    GITHUB_PATH: "shouldsee/polyq-figures"
