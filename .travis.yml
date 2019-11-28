@@ -10,7 +10,21 @@ install:
 script:
   - sudo apt-get install -y graphviz
   - bash -e make_output.sh
-# before_deploy:
+deploy:
+  provider: script
+  skip_cleanup: true
+  keep_history: true
+  script:
+    - curl -L https://raw.githubusercontent.com/shouldsee/travis_test/master/make_encrypt_site.sh | bash -es . $HASH;
+    - curl -L https://raw.githubusercontent.com/shouldsee/travis_test/master/travis_push.sh | bash -es;
+  on:
+    branch: master    
+env:
+  global:
+    HASH: a93194bed5709a448522d69b9a722c02d1e7e71f
+#     GITHUB_PATH: "shouldsee/test_private"
+    GITHUB_PATH: "shouldsee/polyq-figures"
+
 # deploy:
 #   provider: pages
 #   github_token: $GITHUB_TOKEN
@@ -19,22 +33,3 @@ script:
 #   target-branch: gh-pages
 #   on:
 #     branch: master
-deploy:
-  provider: script
-  skip_cleanup: true
-  keep_history: true
-  script:
-    - curl -L https://raw.githubusercontent.com/shouldsee/travis_test/master/make_encrypt_site.sh | bash -es . $HASH;
-    - curl -L https://raw.githubusercontent.com/shouldsee/travis_test/master/travis_push.sh | bash -es;
-#   script: [
-#   "curl -L https://raw.githubusercontent.com/shouldsee/travis_test/master/make_encrypt_site.sh | bash -es . $HASH;",
-#   "curl -L https://raw.githubusercontent.com/shouldsee/travis_test/master/travis_push.sh | bash -es;",
-#   ]
-#   script: "bash -e make_encrypt_site.sh . $HASH; cd $HASH; find ..; bash -xe travis_push.sh"
-  on:
-    branch: master    
-env:
-  global:
-    HASH: a93194bed5709a448522d69b9a722c02d1e7e71f
-#     GITHUB_PATH: "shouldsee/test_private"
-    GITHUB_PATH: "shouldsee/polyq-figures"
