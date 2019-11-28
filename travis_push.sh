@@ -7,7 +7,7 @@ setup_git() {
 
 commit_website_files() {
   git checkout -b gh-pages
-  find . > LOCAL_INDEX
+  find . | tee LOCAL_INDEX
   git add --all  
 #  git add . *.html
   git commit --message "Travis build: $TRAVIS_BUILD_NUMBER"
