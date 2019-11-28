@@ -7,11 +7,13 @@ setup_git() {
 
 commit_website_files() {
   git checkout -b gh-pages
-  find . | tee LOCAL_INDEX
-  cat ../.gitignore
-  git add ../ --all
-  git status ../
+#   find . | tee LOCAL_INDEX
+#   cat ../.gitignore
+#   git add ../ --all
+#   git status ../
 #  git add . *.html
+  git status
+  git add --all
   git commit --message "Travis build: $TRAVIS_BUILD_NUMBER"
 }
 
