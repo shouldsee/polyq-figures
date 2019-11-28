@@ -11,7 +11,6 @@ script:
   - sudo apt-get install -y graphviz
   - bash -e make_output.sh
 # before_deploy:
-
 # deploy:
 #   provider: pages
 #   github_token: $GITHUB_TOKEN
@@ -30,4 +29,5 @@ deploy:
 env:
   global:
     HASH: a93194bed5709a448522d69b9a722c02d1e7e71f
-    GITHUB_PATH: "shouldsee/test_private"
+#     GITHUB_PATH: "shouldsee/test_private"
+    GITHUB_PATH: "shouldsee/polyq-figures"
