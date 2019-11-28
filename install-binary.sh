@@ -1,4 +1,3 @@
-apt-get install graphviz
 
 DIR_BIN=/usr/local/bin
 URL=https://github.com/arq5x/bedtools2/releases/download/v2.28.0/bedtools
