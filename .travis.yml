@@ -5,8 +5,8 @@ python:
 cache: pip
 install:
   - pip install -r requirements.txt
-  - sudo bash -e install-binary.sh
 script:
+  - sudo bash -e install-binary.sh
   - bash -e make_output.sh
 before_deploy:
   - bash -e make_encrypt_site.sh
