@@ -32,7 +32,7 @@ def _get_output_file(FNAME,INDEX_FILE=INDEX_FILE):
     d = [
         ("TS",time.time()),
         ("OUTPUT_FILE",FNAME,),
-        ("RUNTIME_FILE", pymisca.header.get__frameDict(level=1)['__file__']),
+        ("RUNTIME_FILE", pymisca.header.name__lookup('__file__',level=-1)),
     ]
     d = _dict(d)
     print (json.dumps(d,indent=4))

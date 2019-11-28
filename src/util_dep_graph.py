@@ -2,6 +2,9 @@ from graphviz import Digraph
 import pymisca.ext as pyext
 from pymisca.ext import jf2 as _jf2
 import json
+from pymisca.atto_jobs import Shellexec
+# from src.util import 
+import src.util as _util
 
 def graph_add_node_dict(s,name,d,**kw):
     if hasattr(d,'items',):
@@ -23,7 +26,10 @@ def graph_add_node_table(s, name, tab,**kw):
     return s
 
 # FNAME = 'OUTPUT/index.json.list'
-def make_dep_graph(FNAME,save=1):
+def make_dep_graph(FNAME=_util.INDEX_FILE, save=1):
+    DOT_FILE = FNAME+'.dot'
+    FORMAT='.svg'
+    OFNAME= _util.get_output_file(OFNAME+FORMAT)
     it = [ json.loads(x.rstrip(),object_pairs_hook=pyext._DICT_CLASS) for x in open(FNAME,'r')]
     s = Digraph('structs', node_attr={'shape': 'plaintext'},
                 graph_attr={ "rankdir":"LR" }
@@ -42,11 +48,11 @@ def make_dep_graph(FNAME,save=1):
                                     {'RUNTIME_FILE':d['RUNTIME_FILE']},
                                    href=d['RUNTIME_FILE'])
                 s.edge(d['OUTPUT_FILE'],d['RUNTIME_FILE'])
-    if save:
-        s.save(FNAME+'.dot')
-        s = FNAME+'.dot'
-    else:
-        pass
+    res = Shellexec({'CMD_LIST':['dot',
+                                 '-T%s'%FORMAT, DOT_FILE,'>',
+                                 OFNAME.replace('/','.'),
+                                ],'OUTDIR':'.'})       
+     
     return s
 
 #     FILE = s.render(format='svg')
@@ -62,3 +68,5 @@ if __name__ == '__main__':
 
     FILE = s.render(format='svg',filename='test.svg')
     pyext.ipd.display(pyext.ipd.SVG(FILE))
+    
+    
