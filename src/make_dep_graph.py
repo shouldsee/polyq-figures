@@ -48,6 +48,7 @@ def make_dep_graph(FNAME=_util.INDEX_FILE, save=1):
                                     {'RUNTIME_FILE':d['RUNTIME_FILE']},
                                    href=d['RUNTIME_FILE'])
                 s.edge(d['OUTPUT_FILE'],d['RUNTIME_FILE'])
+    s.save(DOT_FILE)
     res = Shellexec({'CMD_LIST':['dot',
                                  '-T%s'%FORMAT, DOT_FILE,'>',
                                  OFNAME,
