@@ -3,13 +3,13 @@ python:
   - "2.7"
 #   - "3.5"
 cache: pip
-install: |
-  pip install .
+install:
+  - pip install .
 #  - pip install -r requirements.txt
-  sudo bash -e install-binary.sh
-script: |
-  sudo apt-get install -y graphviz
-  bash -e make_output.sh
+  - sudo bash -e install-binary.sh
+script:
+  - sudo apt-get install -y graphviz
+  - bash -e make_output.sh
 # before_deploy:
 # deploy:
 #   provider: pages
