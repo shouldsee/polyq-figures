@@ -1,0 +1,190 @@
+digraph structs {
+	graph [rankdir=LR]
+	node [shape=plaintext]
+	"OUTPUT/src_BOXPLOT_1_OX-lines.tsv.svg" -> "src/make_boxplot.py"
+	"OUTPUT/src_BOXPLOT2_mutants.tsv.svg" -> "src/make_boxplot.py"
+	"OUTPUT/src_BOXPLOT3_Qlines.tsv.svg" -> "src/make_boxplot.py"
+	"OUTPUT/src_FIG-S6_HEATMAP1_Q-lines.tsv.png" -> "src/make_heatmap.py"
+	"OUTPUT/src_FIG-S5_HEATMAP2_genotypes.tsv.png" -> "src/make_heatmap.py"
+	"OUTPUT/src_FIG-S7_HEATMAP3.tsv.png" -> "src/make_heatmap.py"
+	"OUTPUT/chipseq_differential_binding.peak_list.bed" -> "src/make_chipseq_targets.py"
+	"OUTPUT/chipseq_differential_binding.peak_list.csv" -> "src/make_chipseq_targets.py"
+	"OUTPUT/chipseq_targets_genes_job.peak_list.csv" -> "src/make_chipseq_targets.py"
+	"OUTPUT/fig-2c" -> "src/make_chipseq_pileups.py"
+	"OUTPUT/fig-2d" -> "src/make_chipseq_pileups.py"
+	"OUTPUT/fig-2e" -> "src/make_chipseq_pileups.py"
+	"OUTPUT/gene_lists_dataframe.csv" -> "src/make_gene_lists.py"
+	"/home/user/repos/polyq-figures/OUTPUT/index.json.list.dot.svg" -> "src/make_dep_graph.py"
+	subgraph right {
+		"src/make_boxplot.py" [label=<
+    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+      <TR>
+      <TD PORT="RUNTIME_FILE" >RUNTIME_FILE</TD>
+      <TD PORT="src/make_boxplot.py" >src/make_boxplot.py</TD>  </TR>
+    </TABLE>> href="src/make_boxplot.py"]
+		"src/make_boxplot.py" [label=<
+    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+      <TR>
+      <TD PORT="RUNTIME_FILE" >RUNTIME_FILE</TD>
+      <TD PORT="src/make_boxplot.py" >src/make_boxplot.py</TD>  </TR>
+    </TABLE>> href="src/make_boxplot.py"]
+		"src/make_boxplot.py" [label=<
+    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+      <TR>
+      <TD PORT="RUNTIME_FILE" >RUNTIME_FILE</TD>
+      <TD PORT="src/make_boxplot.py" >src/make_boxplot.py</TD>  </TR>
+    </TABLE>> href="src/make_boxplot.py"]
+		"src/make_heatmap.py" [label=<
+    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+      <TR>
+      <TD PORT="RUNTIME_FILE" >RUNTIME_FILE</TD>
+      <TD PORT="src/make_heatmap.py" >src/make_heatmap.py</TD>  </TR>
+    </TABLE>> href="src/make_heatmap.py"]
+		"src/make_heatmap.py" [label=<
+    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+      <TR>
+      <TD PORT="RUNTIME_FILE" >RUNTIME_FILE</TD>
+      <TD PORT="src/make_heatmap.py" >src/make_heatmap.py</TD>  </TR>
+    </TABLE>> href="src/make_heatmap.py"]
+		"src/make_heatmap.py" [label=<
+    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+      <TR>
+      <TD PORT="RUNTIME_FILE" >RUNTIME_FILE</TD>
+      <TD PORT="src/make_heatmap.py" >src/make_heatmap.py</TD>  </TR>
+    </TABLE>> href="src/make_heatmap.py"]
+		"src/make_chipseq_targets.py" [label=<
+    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+      <TR>
+      <TD PORT="RUNTIME_FILE" >RUNTIME_FILE</TD>
+      <TD PORT="src/make_chipseq_targets.py" >src/make_chipseq_targets.py</TD>  </TR>
+    </TABLE>> href="src/make_chipseq_targets.py"]
+		"src/make_chipseq_targets.py" [label=<
+    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+      <TR>
+      <TD PORT="RUNTIME_FILE" >RUNTIME_FILE</TD>
+      <TD PORT="src/make_chipseq_targets.py" >src/make_chipseq_targets.py</TD>  </TR>
+    </TABLE>> href="src/make_chipseq_targets.py"]
+		"src/make_chipseq_targets.py" [label=<
+    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+      <TR>
+      <TD PORT="RUNTIME_FILE" >RUNTIME_FILE</TD>
+      <TD PORT="src/make_chipseq_targets.py" >src/make_chipseq_targets.py</TD>  </TR>
+    </TABLE>> href="src/make_chipseq_targets.py"]
+		"src/make_chipseq_pileups.py" [label=<
+    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+      <TR>
+      <TD PORT="RUNTIME_FILE" >RUNTIME_FILE</TD>
+      <TD PORT="src/make_chipseq_pileups.py" >src/make_chipseq_pileups.py</TD>  </TR>
+    </TABLE>> href="src/make_chipseq_pileups.py"]
+		"src/make_chipseq_pileups.py" [label=<
+    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+      <TR>
+      <TD PORT="RUNTIME_FILE" >RUNTIME_FILE</TD>
+      <TD PORT="src/make_chipseq_pileups.py" >src/make_chipseq_pileups.py</TD>  </TR>
+    </TABLE>> href="src/make_chipseq_pileups.py"]
+		"src/make_chipseq_pileups.py" [label=<
+    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+      <TR>
+      <TD PORT="RUNTIME_FILE" >RUNTIME_FILE</TD>
+      <TD PORT="src/make_chipseq_pileups.py" >src/make_chipseq_pileups.py</TD>  </TR>
+    </TABLE>> href="src/make_chipseq_pileups.py"]
+		"src/make_gene_lists.py" [label=<
+    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+      <TR>
+      <TD PORT="RUNTIME_FILE" >RUNTIME_FILE</TD>
+      <TD PORT="src/make_gene_lists.py" >src/make_gene_lists.py</TD>  </TR>
+    </TABLE>> href="src/make_gene_lists.py"]
+		"src/make_dep_graph.py" [label=<
+    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+      <TR>
+      <TD PORT="RUNTIME_FILE" >RUNTIME_FILE</TD>
+      <TD PORT="src/make_dep_graph.py" >src/make_dep_graph.py</TD>  </TR>
+    </TABLE>> href="src/make_dep_graph.py"]
+	}
+	subgraph left {
+		"OUTPUT/src_BOXPLOT_1_OX-lines.tsv.svg" [label=<
+    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+      <TR>
+      <TD PORT="OUTPUT_FILE" >OUTPUT_FILE</TD>
+      <TD PORT="OUTPUT/src_BOXPLOT_1_OX-lines.tsv.svg" >OUTPUT/src_BOXPLOT_1_OX-lines.tsv.svg</TD>  </TR>
+    </TABLE>> href="OUTPUT/src_BOXPLOT_1_OX-lines.tsv.svg"]
+		"OUTPUT/src_BOXPLOT2_mutants.tsv.svg" [label=<
+    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+      <TR>
+      <TD PORT="OUTPUT_FILE" >OUTPUT_FILE</TD>
+      <TD PORT="OUTPUT/src_BOXPLOT2_mutants.tsv.svg" >OUTPUT/src_BOXPLOT2_mutants.tsv.svg</TD>  </TR>
+    </TABLE>> href="OUTPUT/src_BOXPLOT2_mutants.tsv.svg"]
+		"OUTPUT/src_BOXPLOT3_Qlines.tsv.svg" [label=<
+    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+      <TR>
+      <TD PORT="OUTPUT_FILE" >OUTPUT_FILE</TD>
+      <TD PORT="OUTPUT/src_BOXPLOT3_Qlines.tsv.svg" >OUTPUT/src_BOXPLOT3_Qlines.tsv.svg</TD>  </TR>
+    </TABLE>> href="OUTPUT/src_BOXPLOT3_Qlines.tsv.svg"]
+		"OUTPUT/src_FIG-S6_HEATMAP1_Q-lines.tsv.png" [label=<
+    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+      <TR>
+      <TD PORT="OUTPUT_FILE" >OUTPUT_FILE</TD>
+      <TD PORT="OUTPUT/src_FIG-S6_HEATMAP1_Q-lines.tsv.png" >OUTPUT/src_FIG-S6_HEATMAP1_Q-lines.tsv.png</TD>  </TR>
+    </TABLE>> href="OUTPUT/src_FIG-S6_HEATMAP1_Q-lines.tsv.png"]
+		"OUTPUT/src_FIG-S5_HEATMAP2_genotypes.tsv.png" [label=<
+    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+      <TR>
+      <TD PORT="OUTPUT_FILE" >OUTPUT_FILE</TD>
+      <TD PORT="OUTPUT/src_FIG-S5_HEATMAP2_genotypes.tsv.png" >OUTPUT/src_FIG-S5_HEATMAP2_genotypes.tsv.png</TD>  </TR>
+    </TABLE>> href="OUTPUT/src_FIG-S5_HEATMAP2_genotypes.tsv.png"]
+		"OUTPUT/src_FIG-S7_HEATMAP3.tsv.png" [label=<
+    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+      <TR>
+      <TD PORT="OUTPUT_FILE" >OUTPUT_FILE</TD>
+      <TD PORT="OUTPUT/src_FIG-S7_HEATMAP3.tsv.png" >OUTPUT/src_FIG-S7_HEATMAP3.tsv.png</TD>  </TR>
+    </TABLE>> href="OUTPUT/src_FIG-S7_HEATMAP3.tsv.png"]
+		"OUTPUT/chipseq_differential_binding.peak_list.bed" [label=<
+    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+      <TR>
+      <TD PORT="OUTPUT_FILE" >OUTPUT_FILE</TD>
+      <TD PORT="OUTPUT/chipseq_differential_binding.peak_list.bed" >OUTPUT/chipseq_differential_binding.peak_list.bed</TD>  </TR>
+    </TABLE>> href="OUTPUT/chipseq_differential_binding.peak_list.bed"]
+		"OUTPUT/chipseq_differential_binding.peak_list.csv" [label=<
+    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+      <TR>
+      <TD PORT="OUTPUT_FILE" >OUTPUT_FILE</TD>
+      <TD PORT="OUTPUT/chipseq_differential_binding.peak_list.csv" >OUTPUT/chipseq_differential_binding.peak_list.csv</TD>  </TR>
+    </TABLE>> href="OUTPUT/chipseq_differential_binding.peak_list.csv"]
+		"OUTPUT/chipseq_targets_genes_job.peak_list.csv" [label=<
+    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+      <TR>
+      <TD PORT="OUTPUT_FILE" >OUTPUT_FILE</TD>
+      <TD PORT="OUTPUT/chipseq_targets_genes_job.peak_list.csv" >OUTPUT/chipseq_targets_genes_job.peak_list.csv</TD>  </TR>
+    </TABLE>> href="OUTPUT/chipseq_targets_genes_job.peak_list.csv"]
+		"OUTPUT/fig-2c" [label=<
+    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+      <TR>
+      <TD PORT="OUTPUT_FILE" >OUTPUT_FILE</TD>
+      <TD PORT="OUTPUT/fig-2c" >OUTPUT/fig-2c</TD>  </TR>
+    </TABLE>> href="OUTPUT/fig-2c"]
+		"OUTPUT/fig-2d" [label=<
+    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+      <TR>
+      <TD PORT="OUTPUT_FILE" >OUTPUT_FILE</TD>
+      <TD PORT="OUTPUT/fig-2d" >OUTPUT/fig-2d</TD>  </TR>
+    </TABLE>> href="OUTPUT/fig-2d"]
+		"OUTPUT/fig-2e" [label=<
+    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+      <TR>
+      <TD PORT="OUTPUT_FILE" >OUTPUT_FILE</TD>
+      <TD PORT="OUTPUT/fig-2e" >OUTPUT/fig-2e</TD>  </TR>
+    </TABLE>> href="OUTPUT/fig-2e"]
+		"OUTPUT/gene_lists_dataframe.csv" [label=<
+    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+      <TR>
+      <TD PORT="OUTPUT_FILE" >OUTPUT_FILE</TD>
+      <TD PORT="OUTPUT/gene_lists_dataframe.csv" >OUTPUT/gene_lists_dataframe.csv</TD>  </TR>
+    </TABLE>> href="OUTPUT/gene_lists_dataframe.csv"]
+		"/home/user/repos/polyq-figures/OUTPUT/index.json.list.dot.svg" [label=<
+    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+      <TR>
+      <TD PORT="OUTPUT_FILE" >OUTPUT_FILE</TD>
+      <TD PORT="/home/user/repos/polyq-figures/OUTPUT/index.json.list.dot.svg" >/home/user/repos/polyq-figures/OUTPUT/index.json.list.dot.svg</TD>  </TR>
+    </TABLE>> href="/home/user/repos/polyq-figures/OUTPUT/index.json.list.dot.svg"]
+	}
+}
