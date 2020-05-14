@@ -15,7 +15,8 @@ deploy:
   skip_cleanup: true
   keep_history: true
   script: >-
-    # curl -L https://raw.githubusercontent.com/shouldsee/travis_test/master/make_encrypt_site.sh | bash -es . $HASH;
+#     curl -L https://raw.githubusercontent.com/shouldsee/travis_test/master/make_encrypt_site.sh | bash -es . $HASH;
+    bash make_encrypt_site.sh .
     curl -L https://raw.githubusercontent.com/shouldsee/travis_test/master/travis_push.sh | bash -es;
   on:
     branch: master    
