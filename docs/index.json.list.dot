@@ -10,9 +10,10 @@ digraph structs {
 	"OUTPUT/chipseq_differential_binding.peak_list.bed" -> "src/make_chipseq_targets.py"
 	"OUTPUT/chipseq_differential_binding.peak_list.csv" -> "src/make_chipseq_targets.py"
 	"OUTPUT/chipseq_targets_genes_job.peak_list.csv" -> "src/make_chipseq_targets.py"
-	"OUTPUT/fig-2c" -> "src/make_chipseq_pileups.py"
 	"OUTPUT/fig-2d" -> "src/make_chipseq_pileups.py"
 	"OUTPUT/fig-2e" -> "src/make_chipseq_pileups.py"
+	"OUTPUT/fig-2e-inlet" -> "src/make_chipseq_pileups.py"
+	"OUTPUT/fig-2f" -> "src/make_chipseq_pileups.py"
 	"OUTPUT/gene_lists_dataframe.csv" -> "src/make_gene_lists.py"
 	"/home/user/repos/polyq-figures/OUTPUT/index.json.list.dot.svg" -> "src/make_dep_graph.py"
 	subgraph right {
@@ -70,6 +71,12 @@ digraph structs {
       <TD PORT="RUNTIME_FILE" >RUNTIME_FILE</TD>
       <TD PORT="src/make_chipseq_targets.py" >src/make_chipseq_targets.py</TD>  </TR>
     </TABLE>> href="src/make_chipseq_targets.py"]
+		"src/make_chipseq_pileups.py" [label=<
+    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+      <TR>
+      <TD PORT="RUNTIME_FILE" >RUNTIME_FILE</TD>
+      <TD PORT="src/make_chipseq_pileups.py" >src/make_chipseq_pileups.py</TD>  </TR>
+    </TABLE>> href="src/make_chipseq_pileups.py"]
 		"src/make_chipseq_pileups.py" [label=<
     <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
       <TR>
@@ -156,12 +163,6 @@ digraph structs {
       <TD PORT="OUTPUT_FILE" >OUTPUT_FILE</TD>
       <TD PORT="OUTPUT/chipseq_targets_genes_job.peak_list.csv" >OUTPUT/chipseq_targets_genes_job.peak_list.csv</TD>  </TR>
     </TABLE>> href="OUTPUT/chipseq_targets_genes_job.peak_list.csv"]
-		"OUTPUT/fig-2c" [label=<
-    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
-      <TR>
-      <TD PORT="OUTPUT_FILE" >OUTPUT_FILE</TD>
-      <TD PORT="OUTPUT/fig-2c" >OUTPUT/fig-2c</TD>  </TR>
-    </TABLE>> href="OUTPUT/fig-2c"]
 		"OUTPUT/fig-2d" [label=<
     <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
       <TR>
@@ -174,6 +175,18 @@ digraph structs {
       <TD PORT="OUTPUT_FILE" >OUTPUT_FILE</TD>
       <TD PORT="OUTPUT/fig-2e" >OUTPUT/fig-2e</TD>  </TR>
     </TABLE>> href="OUTPUT/fig-2e"]
+		"OUTPUT/fig-2e-inlet" [label=<
+    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+      <TR>
+      <TD PORT="OUTPUT_FILE" >OUTPUT_FILE</TD>
+      <TD PORT="OUTPUT/fig-2e-inlet" >OUTPUT/fig-2e-inlet</TD>  </TR>
+    </TABLE>> href="OUTPUT/fig-2e-inlet"]
+		"OUTPUT/fig-2f" [label=<
+    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
+      <TR>
+      <TD PORT="OUTPUT_FILE" >OUTPUT_FILE</TD>
+      <TD PORT="OUTPUT/fig-2f" >OUTPUT/fig-2f</TD>  </TR>
+    </TABLE>> href="OUTPUT/fig-2f"]
 		"OUTPUT/gene_lists_dataframe.csv" [label=<
     <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4">
       <TR>

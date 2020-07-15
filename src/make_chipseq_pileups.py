@@ -16,7 +16,7 @@ RESULTS = res = [
         "PEAK_FILE": _util._get_middle_file('OUTPUT/chipseq_differential_binding.peak_list.bed.summit'),
 
 #         "PEAK_FILE":'/home/feng/static/lists/1112__ELF3__chipTarg.narrowPeak',
-        "OUTDIR": _util._get_output_file("OUTPUT/fig-2c"),
+        "OUTDIR": _util._get_output_file("OUTPUT/fig-2d"),
         'FORCE':FORCE,
         "BIGWIG_FILES":[
             _get_file('Mapped_data/192C/S17/ELF3myc-17C-ZT10_S17_Ath-TAIR10_RPKM.bw'),
@@ -35,13 +35,14 @@ RESULTS = res = [
         ],
 }
 }),
-    ModuleJob({
+
+ModuleJob({
     "MODULE_FILE":"./src/plot_bigwig_pileup.py",
     "DATA":{
         "PEAK_FILE": _util._get_middle_file('OUTPUT/chipseq_differential_binding.peak_list.bed.summit'),
         
 #         "PEAK_FILE":'/home/feng/static/lists/1112__ELF3__chipTarg.narrowPeak',
-        "OUTDIR": _util._get_output_file("OUTPUT/fig-2d"),
+        "OUTDIR": _util._get_output_file("OUTPUT/fig-2e"),
         'FORCE':FORCE,
         "BIGWIG_FILES":[
             _get_file('Mapped_data/192C/S1/1487-17-ZT10_S1_Ath-TAIR10_RPKM.bw'),
@@ -65,12 +66,45 @@ RESULTS = res = [
         ],
 }
 }),
+
+
+### note ylim = [75,200]
+ModuleJob({
+    "MODULE_FILE":"./src/plot_bigwig_pileup.py",
+    "DATA":{
+        "PEAK_FILE": _util._get_middle_file('OUTPUT/chipseq_differential_binding.peak_list.bed.summit'),
+        
+#         "PEAK_FILE":'/home/feng/static/lists/1112__ELF3__chipTarg.narrowPeak',
+        "OUTDIR": _util._get_output_file("OUTPUT/fig-2e-inlet"),
+        'FORCE':FORCE,
+        "BIGWIG_FILES":[
+            _get_file('Mapped_data/192C/S1/1487-17-ZT10_S1_Ath-TAIR10_RPKM.bw'),
+            _get_file('Mapped_data/192C/S2/1487-27-ZT10_S2_Ath-TAIR10_RPKM.bw'),
+            _get_file('Mapped_data/192C/S3/1488-17-ZT10_S3_Ath-TAIR10_RPKM.bw'),
+            _get_file('Mapped_data/192C/S4/1488-27-ZT10_S4_Ath-TAIR10_RPKM.bw'),
+            
+#             '/home/feng/writable/teamkj/__backup/mapped-data/ChIP-seq/Mapped_data/192C/S1/1487-17-ZT10_S1_Ath-TAIR10_RPKM.bw',
+#             '/home/feng/writable/teamkj/__backup/mapped-data/ChIP-seq/Mapped_data/192C/S2/1487-27-ZT10_S2_Ath-TAIR10_RPKM.bw',
+#             '/home/feng/writable/teamkj/__backup/mapped-data/ChIP-seq/Mapped_data/192C/S3/1488-17-ZT10_S3_Ath-TAIR10_RPKM.bw',
+#             '/home/feng/writable/teamkj/__backup/mapped-data/ChIP-seq/Mapped_data/192C/S4/1488-27-ZT10_S4_Ath-TAIR10_RPKM.bw',
+        ],
+
+        "AXIS_DICTS":[
+            {'set_ylim':[0,12],
+            'set_ylabel':"log2( RPKM_at_peak )"},
+            {'set_xlabel':"distance to peak(bp)",
+             'set_ylabel':"RPKM",
+             'set_ylim':[75,200],
+            }
+        ],
+}
+}),
     ModuleJob({
     "MODULE_FILE":"./src/plot_bigwig_pileup.py",
     "DATA":{
         "PEAK_FILE": _util._get_middle_file('OUTPUT/chipseq_differential_binding.peak_list.bed.summit'),
 #         "PEAK_FILE":'/home/feng/static/lists/1112__ELF3__chipTarg.narrowPeak',
-        "OUTDIR": _util._get_output_file("OUTPUT/fig-2e"),
+        "OUTDIR": _util._get_output_file("OUTPUT/fig-2f"),
         'FORCE':FORCE,
         "BIGWIG_FILES":[
             _get_file('Mapped_data/189C/S10/gELF3myc-17C_S10_RPKM.bw'),
