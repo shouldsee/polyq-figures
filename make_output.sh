@@ -13,6 +13,10 @@ mv -f chip* home* genes* infiles* job* temp* _temp* _build_temp || true
 
 
 find $DIR -type l -delete  ### jekyll does not work with symlink
+cd $DIR
 URL=https://gist.githubusercontent.com/glowinthedark/b1f5900be2490c5371f827a49fd09f49/raw/db45a596db2274b94206f4dfa6d479cee4e49845/generate_directory_index.py
-cd $DIR && curl -L $URL | python2 -
+curl -L $URL | python2 -
+
+mv OUTPUT docs
+ln README.md docs
 echo "[DONE]"
