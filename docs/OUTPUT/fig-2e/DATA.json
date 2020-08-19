@@ -1,0 +1,36 @@
+{
+    "AXIS_DICTS": [
+        {
+            "set_ylabel": "log2( RPKM_at_peak )", 
+            "set_ylim": [
+                0, 
+                12
+            ]
+        }, 
+        {
+            "set_xlabel": "distance to peak(bp)", 
+            "set_ylabel": "RPKM", 
+            "set_ylim": [
+                0, 
+                800
+            ]
+        }
+    ], 
+    "BIGWIG_FILES": [
+        "/home/user/repos/polyq-figures/src/static/Mapped_data.192C.S1.1487-17-ZT10_S1_Ath-TAIR10_RPKM.bw", 
+        "/home/user/repos/polyq-figures/src/static/Mapped_data.192C.S2.1487-27-ZT10_S2_Ath-TAIR10_RPKM.bw", 
+        "/home/user/repos/polyq-figures/src/static/Mapped_data.192C.S3.1488-17-ZT10_S3_Ath-TAIR10_RPKM.bw", 
+        "/home/user/repos/polyq-figures/src/static/Mapped_data.192C.S4.1488-27-ZT10_S4_Ath-TAIR10_RPKM.bw"
+    ], 
+    "BIGWIG_NAMES": [], 
+    "BIGWIG_PAIRS": [], 
+    "FORCE": 1, 
+    "NCORE": 4, 
+    "OUTDIR": "/home/user/repos/polyq-figures/OUTPUT/fig-2e", 
+    "PARAMS": {
+        "outerRadius": 500
+    }, 
+    "PARENT": "<pymisca.atto_jobs.ModuleJob object at 0x7f1f20b6dfd0>", 
+    "PEAK_FILE": "/home/user/repos/polyq-figures/OUTPUT/chipseq_differential_binding.peak_list.bed.summit", 
+    "TIME_DICT": {}
+}

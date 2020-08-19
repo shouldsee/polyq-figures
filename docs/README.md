@@ -1,5 +1,7 @@
 # polyq-figures
 
+Results: https://shouldsee.github.io/polyq-figures/
+
 ## Running the code
 
 - clone the repo to local `git clone https://github.com/shouldsee/polyq-figures && cd polyq-figures`
