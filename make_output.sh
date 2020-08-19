@@ -1,5 +1,7 @@
 DIR=${1:-$PWD/OUTPUT}
 rm -rf $DIR
+rm -rf docs
+
 mkdir -p $DIR
 set -e
 python2 src/make_boxplot.py

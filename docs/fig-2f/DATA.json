@@ -30,7 +30,7 @@
     "PARAMS": {
         "outerRadius": 500
     }, 
-    "PARENT": "<pymisca.atto_jobs.ModuleJob object at 0x7f381848cd50>", 
+    "PARENT": "<pymisca.atto_jobs.ModuleJob object at 0x7f2ed9198d50>", 
     "PEAK_FILE": "/home/user/repos/polyq-figures/OUTPUT/chipseq_differential_binding.peak_list.bed.summit", 
     "TIME_DICT": {}
 }
