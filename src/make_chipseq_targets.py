@@ -16,7 +16,7 @@ from util import _get_file
 import synotil.dio
 import synotil.qcplots
 
-
+import sys
 
 SRC_DIR = os.path.dirname(__file__)
 # pyext.os.chdir('/home/feng/envs/0726-polyq/')
@@ -26,28 +26,59 @@ meta = ns.df_mappedData_chipseq()
 # DATA_ACC = "189CS11"
 # npkFile = meta.loc["189CS10",'narrowPeak']
 # npkFile = meta.loc["189CS10",'narrowPeak']
+
+inputs = []
+def _get_file(fn):
+  fn= _util._get_file(fn)
+  inputs.append(fn)
+  return fn
+outputs  = []
+def _get_output_file(fn):
+  fn = _util._get_output_file(fn)
+  outputs.append(fn)
+  return fn
+
+_ = '''Get input files'''
 npkFile = meta.loc["192CS17",'narrowPeak']
 npkFile = _get_file(npkFile)
-
-df = pyext.readData(npkFile,'tsv',header=None,columns=pyext.columns.bed)
-df['FC'].apply(pyext.np.log2).hist(bins=30)
-sel = df['neglogPval'] > 3.
-print pyext.np.sum(sel)
-df = df.loc[sel].to_csv('temp.bed',sep='\t',header=None)
-
-
-
+GSIZE = _get_file("/home/feng/ref/Arabidopsis_thaliana_TAIR10/genome.sizes")
+cds_file = _get_file("/home/feng/ref/Arabidopsis_thaliana_TAIR10/Annotation/genes.gtf.cds")
 DATA_ACC_LIST = [
     "189CS10",
     "189CS11",
     "192CS17",
     "192CS18"]
 meta = ns.df_mappedData_chipseq()
-# bwFile = meta.loc[DATA_ACC,'bw']
 bwFiles = meta['bw']
-bwFiles=bwFiles[ DATA_ACC_LIST]
+bwFiles = bwFiles[ DATA_ACC_LIST]
 bwFiles = map(_get_file, bwFiles)
+if '--print-inputs' in sys.argv:
+  for x in inputs: print(x)
+  sys.exit(0)
 
+_ = '''Get output files'''
+OUTPUT_BED_FILE = _get_output_file('OUTPUT/chipseq_differential_binding.peak_list.bed')
+outputs.append(OUTPUT_BED_FILE+'.summit')
+OUTPUT_CSV_FILE = _get_output_file("OUTPUT/chipseq_differential_binding.peak_list.csv")
+OUTPUT_CSV_GENE_FILE = _get_output_file("OUTPUT/chipseq_targets_genes_job.peak_list.csv")
+
+if '--print-outputs' in sys.argv:
+  for x in outputs: print(x)
+  sys.exit(0)
+
+if '--run' not in sys.argv:
+  sys.exit(1)
+
+
+df = pyext.readData(npkFile,'tsv',header=None,columns=pyext.columns.bed)
+df['FC'].apply(pyext.np.log2).hist(bins=30)
+sel = df['neglogPval'] > 3.
+print(pyext.np.sum(sel))
+df = df.loc[sel].to_csv('temp.bed',sep='\t',header=None)
+
+
+
+[bwFiles]
 res = synotil.dio.extract_bigwig_multiple(bedFile='temp.bed',
                                     outIndex=DATA_ACC_LIST,
                                     bwFiles=bwFiles,
@@ -68,11 +99,11 @@ df = pyext.readData('temp.bed',columns=pyext.columns.bed,guess_index=0).set_inde
 # OUTPUT_FILE = 'OUTPUT/0918-elf3target.bed'
 pyext.dir__real(dirname="OUTPUT")
 
-OUTPUT_BED_FILE = OUTPUT_FILE = _util._get_output_file('OUTPUT/chipseq_differential_binding.peak_list.bed')
-df.loc[clu].to_csv(OUTPUT_FILE,sep='\t',header=None,index=0)
+[OUTPUT_BED_FILE]
+df.loc[clu].to_csv(OUTPUT_BED_FILE,sep='\t',header=None,index=0)
 
-OUTPUT_FILE = _util._get_output_file("OUTPUT/chipseq_differential_binding.peak_list.csv")
-df.loc[clu].to_csv( OUTPUT_FILE
+[OUTPUT_CSV_FILE]
+df.loc[clu].to_csv( OUTPUT_CSV_FILE
                    ,sep=',',header=None,index=0)
 
 
@@ -82,10 +113,9 @@ shutil.move(synotil.dio.npk_expandSummit(FNAME,radius=1,), FNAME+'.summit')
 INPUT_BED_FILE = FNAME +'.summit'
 
 # INPUT_BED_FILE = 'OUTPUT/chipseq_differential_binding.peak_list.bed.summit'
-OUTPUT_FILE = _util._get_output_file("OUTPUT/chipseq_targets_genes_job.peak_list.csv")
 
-GSIZE = _get_file("/home/feng/ref/Arabidopsis_thaliana_TAIR10/genome.sizes")
-cds_file = _get_file("/home/feng/ref/Arabidopsis_thaliana_TAIR10/Annotation/genes.gtf.cds")
+
+[GSIZE, cds_file]
 cds_summit = synotil.dio.bed__leftSummit(cds_file,GSIZE=GSIZE)
 
 res = synotil.qcplots.qc_summitDist(peak1= INPUT_BED_FILE,
@@ -94,7 +124,7 @@ res = synotil.qcplots.qc_summitDist(peak1= INPUT_BED_FILE,
                               GSIZE =GSIZE,
                              );
 
-res[0].to_csv(OUTPUT_FILE)
+res[0].to_csv(OUTPUT_CSV_GENE_FILE)
 
 
 # # OUTPUT_BED_FILE = os.path.realpath(OUTPUT_BED_FILE)

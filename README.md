@@ -30,3 +30,9 @@ docs/       # contains output for static sites
 # CHANGELOG
 
 - 20200715: reindexed pileup figures. added "fig2e-inlet"
+
+# Dependency Between tasks
+
+`luckmake graph`
+
+![graph](LUCKFILE.py.dot.svg)

@@ -1,0 +1,971 @@
+strict digraph G {
+	rankdir=RL
+	"src/static/home.feng.envs.Fig_POLYQ.rnaseq.pk" [label=<       
+        <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+         
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> filename </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white" HREF="src/static/home.feng.envs.Fig_POLYQ.rnaseq.pk"><FONT COLOR="blue"><U>src/static/home.feng.envs.Fig_POLYQ.rnaseq.pk</U></FONT></TD> 
+          </TR>
+
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> ruletype </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">TimeSizeStampRule</TD>
+          </TR>
+
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> level </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">source</TD>
+          </TR>
+
+
+        </TABLE>
+    > shape=plaintext]
+	"src/static/home.feng.static.results.0318-makeRNA-polyQ.mcurr0.csv" [label=<       
+        <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+         
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> filename </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white" HREF="src/static/home.feng.static.results.0318-makeRNA-polyQ.mcurr0.csv"><FONT COLOR="blue"><U>src/static/home.feng.static.results.0318-makeRNA-polyQ.mcurr0.csv</U></FONT></TD> 
+          </TR>
+
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> ruletype </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">TimeSizeStampRule</TD>
+          </TR>
+
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> level </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">source</TD>
+          </TR>
+
+
+        </TABLE>
+    > shape=plaintext]
+	"src/key_ath.csv" [label=<       
+        <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+         
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> filename </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white" HREF="src/key_ath.csv"><FONT COLOR="blue"><U>src/key_ath.csv</U></FONT></TD> 
+          </TR>
+
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> ruletype </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">TimeSizeStampRule</TD>
+          </TR>
+
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> level </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">source</TD>
+          </TR>
+
+
+        </TABLE>
+    > shape=plaintext]
+	"src/rnaseq_figure_2.py" [label=<       
+        <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+         
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> filename </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white" HREF="src/rnaseq_figure_2.py"><FONT COLOR="blue"><U>src/rnaseq_figure_2.py</U></FONT></TD> 
+          </TR>
+
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> ruletype </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">TimeSizeStampRule</TD>
+          </TR>
+
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> level </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">source</TD>
+          </TR>
+
+
+        </TABLE>
+    > shape=plaintext]
+	"src/BOXPLOT_1_OX-lines.tsv" [label=<       
+        <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+         
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> filename </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white" HREF="src/BOXPLOT_1_OX-lines.tsv"><FONT COLOR="blue"><U>src/BOXPLOT_1_OX-lines.tsv</U></FONT></TD> 
+          </TR>
+
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> ruletype </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">TimeSizeStampRule</TD>
+          </TR>
+
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> level </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">source</TD>
+          </TR>
+
+
+        </TABLE>
+    > shape=plaintext]
+	"OUTPUT/src_BOXPLOT_1_OX-lines.tsv.svg" [label=<       
+        <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+         
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> filename </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white" HREF="OUTPUT/src_BOXPLOT_1_OX-lines.tsv.svg"><FONT COLOR="blue"><U>OUTPUT/src_BOXPLOT_1_OX-lines.tsv.svg</U></FONT></TD> 
+          </TR>
+
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> ruletype </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">TimeSizeStampRule</TD>
+          </TR>
+
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> level </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">middle_or_sink</TD>
+          </TR>
+
+
+        </TABLE>
+    > shape=plaintext]
+	"src/BOXPLOT_1_OX-lines.tsv" -> "OUTPUT/src_BOXPLOT_1_OX-lines.tsv.svg"
+	"src/rnaseq_figure_2.py" -> "OUTPUT/src_BOXPLOT_1_OX-lines.tsv.svg"
+	"src/static/home.feng.envs.Fig_POLYQ.rnaseq.pk" -> "OUTPUT/src_BOXPLOT_1_OX-lines.tsv.svg"
+	"src/static/home.feng.static.results.0318-makeRNA-polyQ.mcurr0.csv" -> "OUTPUT/src_BOXPLOT_1_OX-lines.tsv.svg"
+	"src/key_ath.csv" -> "OUTPUT/src_BOXPLOT_1_OX-lines.tsv.svg"
+	"src/BOXPLOT2_mutants.tsv" [label=<       
+        <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+         
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> filename </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white" HREF="src/BOXPLOT2_mutants.tsv"><FONT COLOR="blue"><U>src/BOXPLOT2_mutants.tsv</U></FONT></TD> 
+          </TR>
+
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> ruletype </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">TimeSizeStampRule</TD>
+          </TR>
+
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> level </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">source</TD>
+          </TR>
+
+
+        </TABLE>
+    > shape=plaintext]
+	"OUTPUT/src_BOXPLOT2_mutants.tsv.svg" [label=<       
+        <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+         
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> filename </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white" HREF="OUTPUT/src_BOXPLOT2_mutants.tsv.svg"><FONT COLOR="blue"><U>OUTPUT/src_BOXPLOT2_mutants.tsv.svg</U></FONT></TD> 
+          </TR>
+
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> ruletype </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">TimeSizeStampRule</TD>
+          </TR>
+
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> level </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">middle_or_sink</TD>
+          </TR>
+
+
+        </TABLE>
+    > shape=plaintext]
+	"src/BOXPLOT2_mutants.tsv" -> "OUTPUT/src_BOXPLOT2_mutants.tsv.svg"
+	"src/rnaseq_figure_2.py" -> "OUTPUT/src_BOXPLOT2_mutants.tsv.svg"
+	"src/static/home.feng.envs.Fig_POLYQ.rnaseq.pk" -> "OUTPUT/src_BOXPLOT2_mutants.tsv.svg"
+	"src/static/home.feng.static.results.0318-makeRNA-polyQ.mcurr0.csv" -> "OUTPUT/src_BOXPLOT2_mutants.tsv.svg"
+	"src/key_ath.csv" -> "OUTPUT/src_BOXPLOT2_mutants.tsv.svg"
+	"src/BOXPLOT3_Qlines.tsv" [label=<       
+        <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+         
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> filename </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white" HREF="src/BOXPLOT3_Qlines.tsv"><FONT COLOR="blue"><U>src/BOXPLOT3_Qlines.tsv</U></FONT></TD> 
+          </TR>
+
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> ruletype </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">TimeSizeStampRule</TD>
+          </TR>
+
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> level </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">source</TD>
+          </TR>
+
+
+        </TABLE>
+    > shape=plaintext]
+	"OUTPUT/src_BOXPLOT3_Qlines.tsv.svg" [label=<       
+        <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+         
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> filename </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white" HREF="OUTPUT/src_BOXPLOT3_Qlines.tsv.svg"><FONT COLOR="blue"><U>OUTPUT/src_BOXPLOT3_Qlines.tsv.svg</U></FONT></TD> 
+          </TR>
+
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> ruletype </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">TimeSizeStampRule</TD>
+          </TR>
+
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> level </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">middle_or_sink</TD>
+          </TR>
+
+
+        </TABLE>
+    > shape=plaintext]
+	"src/BOXPLOT3_Qlines.tsv" -> "OUTPUT/src_BOXPLOT3_Qlines.tsv.svg"
+	"src/rnaseq_figure_2.py" -> "OUTPUT/src_BOXPLOT3_Qlines.tsv.svg"
+	"src/static/home.feng.envs.Fig_POLYQ.rnaseq.pk" -> "OUTPUT/src_BOXPLOT3_Qlines.tsv.svg"
+	"src/static/home.feng.static.results.0318-makeRNA-polyQ.mcurr0.csv" -> "OUTPUT/src_BOXPLOT3_Qlines.tsv.svg"
+	"src/key_ath.csv" -> "OUTPUT/src_BOXPLOT3_Qlines.tsv.svg"
+	boxplots [label=<       
+        <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+         
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> filename </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white" HREF="boxplots"><FONT COLOR="blue"><U>boxplots</U></FONT></TD> 
+          </TR>
+
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> ruletype </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">NoCacheRule</TD>
+          </TR>
+
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> level </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">middle_or_sink</TD>
+          </TR>
+
+
+        </TABLE>
+    > shape=plaintext]
+	"OUTPUT/src_BOXPLOT_1_OX-lines.tsv.svg" -> boxplots
+	"OUTPUT/src_BOXPLOT2_mutants.tsv.svg" -> boxplots
+	"OUTPUT/src_BOXPLOT3_Qlines.tsv.svg" -> boxplots
+	"src/FIG-S6_HEATMAP1_Q-lines.tsv" [label=<       
+        <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+         
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> filename </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white" HREF="src/FIG-S6_HEATMAP1_Q-lines.tsv"><FONT COLOR="blue"><U>src/FIG-S6_HEATMAP1_Q-lines.tsv</U></FONT></TD> 
+          </TR>
+
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> ruletype </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">TimeSizeStampRule</TD>
+          </TR>
+
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> level </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">source</TD>
+          </TR>
+
+
+        </TABLE>
+    > shape=plaintext]
+	"OUTPUT/src_FIG-S6_HEATMAP1_Q-lines.tsv.png" [label=<       
+        <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+         
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> filename </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white" HREF="OUTPUT/src_FIG-S6_HEATMAP1_Q-lines.tsv.png"><FONT COLOR="blue"><U>OUTPUT/src_FIG-S6_HEATMAP1_Q-lines.tsv.png</U></FONT></TD> 
+          </TR>
+
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> ruletype </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">TimeSizeStampRule</TD>
+          </TR>
+
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> level </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">middle_or_sink</TD>
+          </TR>
+
+
+        </TABLE>
+    > shape=plaintext]
+	"src/FIG-S6_HEATMAP1_Q-lines.tsv" -> "OUTPUT/src_FIG-S6_HEATMAP1_Q-lines.tsv.png"
+	"src/rnaseq_figure_2.py" -> "OUTPUT/src_FIG-S6_HEATMAP1_Q-lines.tsv.png"
+	"src/static/home.feng.envs.Fig_POLYQ.rnaseq.pk" -> "OUTPUT/src_FIG-S6_HEATMAP1_Q-lines.tsv.png"
+	"src/static/home.feng.static.results.0318-makeRNA-polyQ.mcurr0.csv" -> "OUTPUT/src_FIG-S6_HEATMAP1_Q-lines.tsv.png"
+	"src/key_ath.csv" -> "OUTPUT/src_FIG-S6_HEATMAP1_Q-lines.tsv.png"
+	"src/FIG-S5_HEATMAP2_genotypes.tsv" [label=<       
+        <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+         
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> filename </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white" HREF="src/FIG-S5_HEATMAP2_genotypes.tsv"><FONT COLOR="blue"><U>src/FIG-S5_HEATMAP2_genotypes.tsv</U></FONT></TD> 
+          </TR>
+
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> ruletype </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">TimeSizeStampRule</TD>
+          </TR>
+
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> level </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">source</TD>
+          </TR>
+
+
+        </TABLE>
+    > shape=plaintext]
+	"OUTPUT/src_FIG-S5_HEATMAP2_genotypes.tsv.png" [label=<       
+        <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+         
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> filename </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white" HREF="OUTPUT/src_FIG-S5_HEATMAP2_genotypes.tsv.png"><FONT COLOR="blue"><U>OUTPUT/src_FIG-S5_HEATMAP2_genotypes.tsv.png</U></FONT></TD> 
+          </TR>
+
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> ruletype </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">TimeSizeStampRule</TD>
+          </TR>
+
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> level </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">middle_or_sink</TD>
+          </TR>
+
+
+        </TABLE>
+    > shape=plaintext]
+	"src/FIG-S5_HEATMAP2_genotypes.tsv" -> "OUTPUT/src_FIG-S5_HEATMAP2_genotypes.tsv.png"
+	"src/rnaseq_figure_2.py" -> "OUTPUT/src_FIG-S5_HEATMAP2_genotypes.tsv.png"
+	"src/static/home.feng.envs.Fig_POLYQ.rnaseq.pk" -> "OUTPUT/src_FIG-S5_HEATMAP2_genotypes.tsv.png"
+	"src/static/home.feng.static.results.0318-makeRNA-polyQ.mcurr0.csv" -> "OUTPUT/src_FIG-S5_HEATMAP2_genotypes.tsv.png"
+	"src/key_ath.csv" -> "OUTPUT/src_FIG-S5_HEATMAP2_genotypes.tsv.png"
+	"src/FIG-S7_HEATMAP3.tsv" [label=<       
+        <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+         
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> filename </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white" HREF="src/FIG-S7_HEATMAP3.tsv"><FONT COLOR="blue"><U>src/FIG-S7_HEATMAP3.tsv</U></FONT></TD> 
+          </TR>
+
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> ruletype </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">TimeSizeStampRule</TD>
+          </TR>
+
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> level </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">source</TD>
+          </TR>
+
+
+        </TABLE>
+    > shape=plaintext]
+	"OUTPUT/src_FIG-S7_HEATMAP3.tsv.png" [label=<       
+        <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+         
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> filename </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white" HREF="OUTPUT/src_FIG-S7_HEATMAP3.tsv.png"><FONT COLOR="blue"><U>OUTPUT/src_FIG-S7_HEATMAP3.tsv.png</U></FONT></TD> 
+          </TR>
+
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> ruletype </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">TimeSizeStampRule</TD>
+          </TR>
+
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> level </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">middle_or_sink</TD>
+          </TR>
+
+
+        </TABLE>
+    > shape=plaintext]
+	"src/FIG-S7_HEATMAP3.tsv" -> "OUTPUT/src_FIG-S7_HEATMAP3.tsv.png"
+	"src/rnaseq_figure_2.py" -> "OUTPUT/src_FIG-S7_HEATMAP3.tsv.png"
+	"src/static/home.feng.envs.Fig_POLYQ.rnaseq.pk" -> "OUTPUT/src_FIG-S7_HEATMAP3.tsv.png"
+	"src/static/home.feng.static.results.0318-makeRNA-polyQ.mcurr0.csv" -> "OUTPUT/src_FIG-S7_HEATMAP3.tsv.png"
+	"src/key_ath.csv" -> "OUTPUT/src_FIG-S7_HEATMAP3.tsv.png"
+	heatmaps [label=<       
+        <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+         
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> filename </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white" HREF="heatmaps"><FONT COLOR="blue"><U>heatmaps</U></FONT></TD> 
+          </TR>
+
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> ruletype </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">NoCacheRule</TD>
+          </TR>
+
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> level </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">middle_or_sink</TD>
+          </TR>
+
+
+        </TABLE>
+    > shape=plaintext]
+	"OUTPUT/src_FIG-S6_HEATMAP1_Q-lines.tsv.png" -> heatmaps
+	"OUTPUT/src_FIG-S5_HEATMAP2_genotypes.tsv.png" -> heatmaps
+	"OUTPUT/src_FIG-S7_HEATMAP3.tsv.png" -> heatmaps
+	"src/plot_bigwig_pileup.py" [label=<       
+        <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+         
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> filename </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white" HREF="src/plot_bigwig_pileup.py"><FONT COLOR="blue"><U>src/plot_bigwig_pileup.py</U></FONT></TD> 
+          </TR>
+
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> ruletype </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">TimeSizeStampRule</TD>
+          </TR>
+
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> level </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">source</TD>
+          </TR>
+
+
+        </TABLE>
+    > shape=plaintext]
+	"src/static/Mapped_data.192C.S17.ELF3myc-17C-ZT10_S17_Ath-TAIR10_RPKM.bw" [label=<       
+        <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+         
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> filename </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white" HREF="src/static/Mapped_data.192C.S17.ELF3myc-17C-ZT10_S17_Ath-TAIR10_RPKM.bw"><FONT COLOR="blue"><U>src/static/Mapped_data.192C.S17.ELF3myc-17C-ZT10_S17_Ath-TAIR10_RPKM.bw</U></FONT></TD> 
+          </TR>
+
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> ruletype </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">TimeSizeStampRule</TD>
+          </TR>
+
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> level </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">source</TD>
+          </TR>
+
+
+        </TABLE>
+    > shape=plaintext]
+	"src/static/Mapped_data.192C.S18.ELF3myc-27C-ZT10_S18_Ath-TAIR10_RPKM.bw" [label=<       
+        <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+         
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> filename </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white" HREF="src/static/Mapped_data.192C.S18.ELF3myc-27C-ZT10_S18_Ath-TAIR10_RPKM.bw"><FONT COLOR="blue"><U>src/static/Mapped_data.192C.S18.ELF3myc-27C-ZT10_S18_Ath-TAIR10_RPKM.bw</U></FONT></TD> 
+          </TR>
+
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> ruletype </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">TimeSizeStampRule</TD>
+          </TR>
+
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> level </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">source</TD>
+          </TR>
+
+
+        </TABLE>
+    > shape=plaintext]
+	"OUTPUT/fig-2d/MAIN.png" [label=<       
+        <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+         
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> filename </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white" HREF="OUTPUT/fig-2d/MAIN.png"><FONT COLOR="blue"><U>OUTPUT/fig-2d/MAIN.png</U></FONT></TD> 
+          </TR>
+
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> ruletype </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">TimeSizeStampRule</TD>
+          </TR>
+
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> level </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">middle_or_sink</TD>
+          </TR>
+
+
+        </TABLE>
+    > shape=plaintext]
+	"src/plot_bigwig_pileup.py" -> "OUTPUT/fig-2d/MAIN.png"
+	"OUTPUT/chipseq_differential_binding.peak_list.bed.summit" -> "OUTPUT/fig-2d/MAIN.png"
+	"src/static/Mapped_data.192C.S17.ELF3myc-17C-ZT10_S17_Ath-TAIR10_RPKM.bw" -> "OUTPUT/fig-2d/MAIN.png"
+	"src/static/Mapped_data.192C.S18.ELF3myc-27C-ZT10_S18_Ath-TAIR10_RPKM.bw" -> "OUTPUT/fig-2d/MAIN.png"
+	"src/static/Mapped_data.192C.S1.1487-17-ZT10_S1_Ath-TAIR10_RPKM.bw" [label=<       
+        <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+         
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> filename </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white" HREF="src/static/Mapped_data.192C.S1.1487-17-ZT10_S1_Ath-TAIR10_RPKM.bw"><FONT COLOR="blue"><U>src/static/Mapped_data.192C.S1.1487-17-ZT10_S1_Ath-TAIR10_RPKM.bw</U></FONT></TD> 
+          </TR>
+
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> ruletype </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">TimeSizeStampRule</TD>
+          </TR>
+
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> level </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">source</TD>
+          </TR>
+
+
+        </TABLE>
+    > shape=plaintext]
+	"src/static/Mapped_data.192C.S2.1487-27-ZT10_S2_Ath-TAIR10_RPKM.bw" [label=<       
+        <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+         
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> filename </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white" HREF="src/static/Mapped_data.192C.S2.1487-27-ZT10_S2_Ath-TAIR10_RPKM.bw"><FONT COLOR="blue"><U>src/static/Mapped_data.192C.S2.1487-27-ZT10_S2_Ath-TAIR10_RPKM.bw</U></FONT></TD> 
+          </TR>
+
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> ruletype </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">TimeSizeStampRule</TD>
+          </TR>
+
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> level </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">source</TD>
+          </TR>
+
+
+        </TABLE>
+    > shape=plaintext]
+	"src/static/Mapped_data.192C.S3.1488-17-ZT10_S3_Ath-TAIR10_RPKM.bw" [label=<       
+        <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+         
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> filename </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white" HREF="src/static/Mapped_data.192C.S3.1488-17-ZT10_S3_Ath-TAIR10_RPKM.bw"><FONT COLOR="blue"><U>src/static/Mapped_data.192C.S3.1488-17-ZT10_S3_Ath-TAIR10_RPKM.bw</U></FONT></TD> 
+          </TR>
+
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> ruletype </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">TimeSizeStampRule</TD>
+          </TR>
+
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> level </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">source</TD>
+          </TR>
+
+
+        </TABLE>
+    > shape=plaintext]
+	"src/static/Mapped_data.192C.S4.1488-27-ZT10_S4_Ath-TAIR10_RPKM.bw" [label=<       
+        <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+         
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> filename </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white" HREF="src/static/Mapped_data.192C.S4.1488-27-ZT10_S4_Ath-TAIR10_RPKM.bw"><FONT COLOR="blue"><U>src/static/Mapped_data.192C.S4.1488-27-ZT10_S4_Ath-TAIR10_RPKM.bw</U></FONT></TD> 
+          </TR>
+
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> ruletype </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">TimeSizeStampRule</TD>
+          </TR>
+
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> level </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">source</TD>
+          </TR>
+
+
+        </TABLE>
+    > shape=plaintext]
+	"OUTPUT/fig-2e/MAIN.png" [label=<       
+        <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+         
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> filename </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white" HREF="OUTPUT/fig-2e/MAIN.png"><FONT COLOR="blue"><U>OUTPUT/fig-2e/MAIN.png</U></FONT></TD> 
+          </TR>
+
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> ruletype </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">TimeSizeStampRule</TD>
+          </TR>
+
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> level </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">middle_or_sink</TD>
+          </TR>
+
+
+        </TABLE>
+    > shape=plaintext]
+	"src/plot_bigwig_pileup.py" -> "OUTPUT/fig-2e/MAIN.png"
+	"OUTPUT/chipseq_differential_binding.peak_list.bed.summit" -> "OUTPUT/fig-2e/MAIN.png"
+	"src/static/Mapped_data.192C.S1.1487-17-ZT10_S1_Ath-TAIR10_RPKM.bw" -> "OUTPUT/fig-2e/MAIN.png"
+	"src/static/Mapped_data.192C.S2.1487-27-ZT10_S2_Ath-TAIR10_RPKM.bw" -> "OUTPUT/fig-2e/MAIN.png"
+	"src/static/Mapped_data.192C.S3.1488-17-ZT10_S3_Ath-TAIR10_RPKM.bw" -> "OUTPUT/fig-2e/MAIN.png"
+	"src/static/Mapped_data.192C.S4.1488-27-ZT10_S4_Ath-TAIR10_RPKM.bw" -> "OUTPUT/fig-2e/MAIN.png"
+	"OUTPUT/fig-2e-inlet/MAIN.png" [label=<       
+        <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+         
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> filename </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white" HREF="OUTPUT/fig-2e-inlet/MAIN.png"><FONT COLOR="blue"><U>OUTPUT/fig-2e-inlet/MAIN.png</U></FONT></TD> 
+          </TR>
+
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> ruletype </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">TimeSizeStampRule</TD>
+          </TR>
+
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> level </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">middle_or_sink</TD>
+          </TR>
+
+
+        </TABLE>
+    > shape=plaintext]
+	"src/plot_bigwig_pileup.py" -> "OUTPUT/fig-2e-inlet/MAIN.png"
+	"OUTPUT/chipseq_differential_binding.peak_list.bed.summit" -> "OUTPUT/fig-2e-inlet/MAIN.png"
+	"src/static/Mapped_data.192C.S1.1487-17-ZT10_S1_Ath-TAIR10_RPKM.bw" -> "OUTPUT/fig-2e-inlet/MAIN.png"
+	"src/static/Mapped_data.192C.S2.1487-27-ZT10_S2_Ath-TAIR10_RPKM.bw" -> "OUTPUT/fig-2e-inlet/MAIN.png"
+	"src/static/Mapped_data.192C.S3.1488-17-ZT10_S3_Ath-TAIR10_RPKM.bw" -> "OUTPUT/fig-2e-inlet/MAIN.png"
+	"src/static/Mapped_data.192C.S4.1488-27-ZT10_S4_Ath-TAIR10_RPKM.bw" -> "OUTPUT/fig-2e-inlet/MAIN.png"
+	"src/static/Mapped_data.189C.S10.gELF3myc-17C_S10_RPKM.bw" [label=<       
+        <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+         
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> filename </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white" HREF="src/static/Mapped_data.189C.S10.gELF3myc-17C_S10_RPKM.bw"><FONT COLOR="blue"><U>src/static/Mapped_data.189C.S10.gELF3myc-17C_S10_RPKM.bw</U></FONT></TD> 
+          </TR>
+
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> ruletype </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">TimeSizeStampRule</TD>
+          </TR>
+
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> level </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">source</TD>
+          </TR>
+
+
+        </TABLE>
+    > shape=plaintext]
+	"src/static/Mapped_data.189C.S11.gELF3myc-27C_S11_RPKM.bw" [label=<       
+        <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+         
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> filename </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white" HREF="src/static/Mapped_data.189C.S11.gELF3myc-27C_S11_RPKM.bw"><FONT COLOR="blue"><U>src/static/Mapped_data.189C.S11.gELF3myc-27C_S11_RPKM.bw</U></FONT></TD> 
+          </TR>
+
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> ruletype </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">TimeSizeStampRule</TD>
+          </TR>
+
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> level </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">source</TD>
+          </TR>
+
+
+        </TABLE>
+    > shape=plaintext]
+	"src/static/Mapped_data.189C.S16.1469-gELF3-myc-elf3-1xELF4-ox-ZT10-17C_S16_RPKM.bw" [label=<       
+        <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+         
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> filename </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white" HREF="src/static/Mapped_data.189C.S16.1469-gELF3-myc-elf3-1xELF4-ox-ZT10-17C_S16_RPKM.bw"><FONT COLOR="blue"><U>src/static/Mapped_data.189C.S16.1469-gELF3-myc-elf3-1xELF4-ox-ZT10-17C_S16_RPKM.bw</U></FONT></TD> 
+          </TR>
+
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> ruletype </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">TimeSizeStampRule</TD>
+          </TR>
+
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> level </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">source</TD>
+          </TR>
+
+
+        </TABLE>
+    > shape=plaintext]
+	"src/static/Mapped_data.189C.S17.1469-gELF3-myc-elf3-1xELF4-ox-ZT10-27C_S17_RPKM.bw" [label=<       
+        <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+         
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> filename </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white" HREF="src/static/Mapped_data.189C.S17.1469-gELF3-myc-elf3-1xELF4-ox-ZT10-27C_S17_RPKM.bw"><FONT COLOR="blue"><U>src/static/Mapped_data.189C.S17.1469-gELF3-myc-elf3-1xELF4-ox-ZT10-27C_S17_RPKM.bw</U></FONT></TD> 
+          </TR>
+
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> ruletype </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">TimeSizeStampRule</TD>
+          </TR>
+
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> level </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">source</TD>
+          </TR>
+
+
+        </TABLE>
+    > shape=plaintext]
+	"OUTPUT/fig-2f/MAIN.png" [label=<       
+        <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+         
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> filename </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white" HREF="OUTPUT/fig-2f/MAIN.png"><FONT COLOR="blue"><U>OUTPUT/fig-2f/MAIN.png</U></FONT></TD> 
+          </TR>
+
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> ruletype </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">TimeSizeStampRule</TD>
+          </TR>
+
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> level </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">middle_or_sink</TD>
+          </TR>
+
+
+        </TABLE>
+    > shape=plaintext]
+	"src/plot_bigwig_pileup.py" -> "OUTPUT/fig-2f/MAIN.png"
+	"OUTPUT/chipseq_differential_binding.peak_list.bed.summit" -> "OUTPUT/fig-2f/MAIN.png"
+	"src/static/Mapped_data.189C.S10.gELF3myc-17C_S10_RPKM.bw" -> "OUTPUT/fig-2f/MAIN.png"
+	"src/static/Mapped_data.189C.S11.gELF3myc-27C_S11_RPKM.bw" -> "OUTPUT/fig-2f/MAIN.png"
+	"src/static/Mapped_data.189C.S16.1469-gELF3-myc-elf3-1xELF4-ox-ZT10-17C_S16_RPKM.bw" -> "OUTPUT/fig-2f/MAIN.png"
+	"src/static/Mapped_data.189C.S17.1469-gELF3-myc-elf3-1xELF4-ox-ZT10-27C_S17_RPKM.bw" -> "OUTPUT/fig-2f/MAIN.png"
+	chipseq_pileups [label=<       
+        <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+         
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> filename </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white" HREF="chipseq_pileups"><FONT COLOR="blue"><U>chipseq_pileups</U></FONT></TD> 
+          </TR>
+
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> ruletype </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">NoCacheRule</TD>
+          </TR>
+
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> level </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">middle_or_sink</TD>
+          </TR>
+
+
+        </TABLE>
+    > shape=plaintext]
+	"OUTPUT/fig-2d/MAIN.png" -> chipseq_pileups
+	"OUTPUT/fig-2e/MAIN.png" -> chipseq_pileups
+	"OUTPUT/fig-2e-inlet/MAIN.png" -> chipseq_pileups
+	"OUTPUT/fig-2f/MAIN.png" -> chipseq_pileups
+	"OUTPUT/gene_lists_dataframe.csv" [label=<       
+        <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+         
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> filename </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white" HREF="OUTPUT/gene_lists_dataframe.csv"><FONT COLOR="blue"><U>OUTPUT/gene_lists_dataframe.csv</U></FONT></TD> 
+          </TR>
+
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> ruletype </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">TimeSizeStampRule</TD>
+          </TR>
+
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> level </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">middle_or_sink</TD>
+          </TR>
+
+
+        </TABLE>
+    > shape=plaintext]
+	"OUTPUT/chipseq_targets_genes_job.peak_list.csv" -> "OUTPUT/gene_lists_dataframe.csv"
+	gene_lists [label=<       
+        <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+         
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> filename </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white" HREF="gene_lists"><FONT COLOR="blue"><U>gene_lists</U></FONT></TD> 
+          </TR>
+
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> ruletype </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">NoCacheRule</TD>
+          </TR>
+
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> level </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">middle_or_sink</TD>
+          </TR>
+
+
+        </TABLE>
+    > shape=plaintext]
+	"OUTPUT/gene_lists_dataframe.csv" -> gene_lists
+	all [label=<       
+        <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+         
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> filename </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white" HREF="all"><FONT COLOR="blue"><U>all</U></FONT></TD> 
+          </TR>
+
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> ruletype </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">NoCacheRule</TD>
+          </TR>
+
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> level </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">middle_or_sink</TD>
+          </TR>
+
+
+        </TABLE>
+    > shape=plaintext]
+	boxplots -> all
+	heatmaps -> all
+	chipseq_targets -> all
+	chipseq_pileups -> all
+	gene_lists -> all
+	clean [label=<       
+        <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+         
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> filename </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white" HREF="clean"><FONT COLOR="blue"><U>clean</U></FONT></TD> 
+          </TR>
+
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> ruletype </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">NoCacheRule</TD>
+          </TR>
+
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> level </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">source</TD>
+          </TR>
+
+
+        </TABLE>
+    > shape=plaintext]
+	_sink [label=<       
+        <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+         
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> filename </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white" HREF="_sink"><FONT COLOR="blue"><U>_sink</U></FONT></TD> 
+          </TR>
+
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> ruletype </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">NoCacheRule</TD>
+          </TR>
+
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> level </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">middle_or_sink</TD>
+          </TR>
+
+
+        </TABLE>
+    > shape=plaintext]
+	all -> _sink
+	clean -> _sink
+}

@@ -1,0 +1,8 @@
+- - __version__
+  - 0.0.8
+- - __class__.__name__
+  - TimeSizeStampRule
+- - to_ident
+  - - /home/user/repos/polyq-figures/src/static/Mapped_data.192C.S2.1487-27-ZT10_S2_Ath-TAIR10_RPKM.bw
+    - 1589463702.5309153
+    - 40633951

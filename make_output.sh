@@ -4,11 +4,11 @@ rm -rf docs
 
 mkdir -p $DIR
 set -e
-python2 src/make_boxplot.py
-python2 src/make_heatmap.py
-python2 src/make_chipseq_targets.py
-python2 src/make_chipseq_pileups.py
-python2 src/make_gene_lists.py
+python2 src/make_boxplot.py  ## lucked
+python2 src/make_heatmap.py  ## lucked
+python2 src/make_chipseq_targets.py ##lucked
+python2 src/make_chipseq_pileups.py ##lucked
+python2 src/make_gene_lists.py ## lucked
 python2 src/make_dep_graph.py
 # mkdir -p _build_temp
 mv -f chip* home* genes* infiles* job* temp* _temp* _build_temp || true

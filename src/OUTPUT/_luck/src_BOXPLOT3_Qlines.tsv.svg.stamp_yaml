@@ -1,0 +1,8 @@
+- - __version__
+  - 0.0.8
+- - __class__.__name__
+  - TimeSizeStampRule
+- - to_ident
+  - - OUTPUT/src_BOXPLOT3_Qlines.tsv.svg
+    - 1597823933.3370585
+    - 80053
