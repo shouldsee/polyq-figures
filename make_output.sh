@@ -18,5 +18,6 @@ URL=https://gist.githubusercontent.com/glowinthedark/b1f5900be2490c5371f827a49fd
 curl -L $URL | python2 -
 
 mv OUTPUT docs
+cp -prf src/ -t docs
 ln README.md docs
 echo "[DONE]"
