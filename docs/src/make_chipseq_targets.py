@@ -29,7 +29,7 @@ meta = ns.df_mappedData_chipseq()
 
 inputs = []
 def _get_file(fn):
-  fn= _util._get_file(fn)
+  fn= os.path.relpath( _util._get_file(fn), "src")
   inputs.append(fn)
   return fn
 outputs  = []

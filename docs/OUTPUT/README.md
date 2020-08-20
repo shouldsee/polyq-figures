@@ -11,7 +11,12 @@ sudo apt-get install -y graphviz
 sudo bash -e install-binary.sh
 pip install requirements.txt --user
 ```
-- run the main script `bash make_output.sh`
+
+
+
+
+- [New] Install `wget https://github.com/shouldsee/luckmake/releases/download/0.0.6/luckmake && chmod +x luckmake`luckmake and run `./luckmake OUTPUT`
+- [Old]: run the main script `bash make_output.sh`
 - inspecting the outputed folder `./OUTPUT/`
 
 ## Overview

@@ -3,6 +3,6 @@
 - - __class__.__name__
   - TimeSizeStampRule
 - - to_ident
-  - - /home/user/repos/polyq-figures/src/src/static/home.feng.ref.Arabidopsis_thaliana_TAIR10.Annotation.genes.gtf.cds
+  - - src/static/home.feng.ref.Arabidopsis_thaliana_TAIR10.Annotation.genes.gtf.cds
     - 1589463703.8789246
     - 1041831

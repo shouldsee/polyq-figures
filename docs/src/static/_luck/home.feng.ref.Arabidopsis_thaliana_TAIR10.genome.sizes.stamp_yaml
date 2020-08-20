@@ -3,6 +3,6 @@
 - - __class__.__name__
   - TimeSizeStampRule
 - - to_ident
-  - - /home/user/repos/polyq-figures/src/src/static/home.feng.ref.Arabidopsis_thaliana_TAIR10.genome.sizes
+  - - src/static/home.feng.ref.Arabidopsis_thaliana_TAIR10.genome.sizes
     - 1589463703.8869245
     - 75

@@ -58,6 +58,7 @@ def _get_output_file(FNAME,INDEX_FILE=INDEX_FILE):
 #             json.dump(d, f)
 #             f.write('\n')
     return FNAME
+    
 get_output_file = _get_output_file
 
 def _get_file(FNAME, raw =False):
