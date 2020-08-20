@@ -1,0 +1,8 @@
+- - __version__
+  - 0.0.8
+- - __class__.__name__
+  - TimeSizeStampRule
+- - to_ident
+  - - OUTPUT/src_FIG-S5_HEATMAP2_genotypes.tsv.png
+    - 1597898594.8200917
+    - 96539

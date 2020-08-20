@@ -1,0 +1,8 @@
+- - __version__
+  - 0.0.8
+- - __class__.__name__
+  - TimeSizeStampRule
+- - to_ident
+  - - src/static/home.feng.meta.meta_chip.tsv
+    - 1589463703.8709245
+    - 863109

@@ -1,0 +1,8 @@
+- - __version__
+  - 0.0.8
+- - __class__.__name__
+  - TimeSizeStampRule
+- - to_ident
+  - - OUTPUT/chipseq_differential_binding.peak_list.bed.summit
+    - 1597898607.456163
+    - 26756

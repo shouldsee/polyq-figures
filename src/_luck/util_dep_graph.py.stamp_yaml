@@ -1,0 +1,8 @@
+- - __version__
+  - 0.0.8
+- - __class__.__name__
+  - TimeSizeStampRule
+- - to_ident
+  - - src/util_dep_graph.py
+    - 1589463705.2109337
+    - 2625

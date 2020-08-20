@@ -1,0 +1,8 @@
+- - __version__
+  - 0.0.8
+- - __class__.__name__
+  - TimeSizeStampRule
+- - to_ident
+  - - src/luck_boxplot.py
+    - 1597825073.4023423
+    - 2303

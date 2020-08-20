@@ -1,0 +1,8 @@
+- - __version__
+  - 0.0.8
+- - __class__.__name__
+  - TimeSizeStampRule
+- - to_ident
+  - - src/get_meta_soft.pyc
+    - 1589463975.5608096
+    - 27311

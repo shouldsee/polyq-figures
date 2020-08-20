@@ -1,0 +1,8 @@
+- - __version__
+  - 0.0.8
+- - __class__.__name__
+  - TimeSizeStampRule
+- - to_ident
+  - - OUTPUT/fig-2e-inlet/MAIN.png
+    - 1597898618.4162245
+    - 164167

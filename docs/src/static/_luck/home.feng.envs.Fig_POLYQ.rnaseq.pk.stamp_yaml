@@ -1,0 +1,8 @@
+- - __version__
+  - 0.0.8
+- - __class__.__name__
+  - TimeSizeStampRule
+- - to_ident
+  - - /home/user/repos/polyq-figures/src/static/home.feng.envs.Fig_POLYQ.rnaseq.pk
+    - 1589463703.7069232
+    - 30996272

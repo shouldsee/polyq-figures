@@ -1,0 +1,8 @@
+- - __version__
+  - 0.0.8
+- - __class__.__name__
+  - TimeSizeStampRule
+- - to_ident
+  - - OUTPUT/src_FIG-S7_HEATMAP3.tsv.png
+    - 1597898597.4121063
+    - 158174

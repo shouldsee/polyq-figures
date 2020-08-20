@@ -1,0 +1,8 @@
+- - __version__
+  - 0.0.8
+- - __class__.__name__
+  - TimeSizeStampRule
+- - to_ident
+  - - OUTPUT/src_FIG-S6_HEATMAP1_Q-lines.tsv.png
+    - 1597898592.5080786
+    - 68850

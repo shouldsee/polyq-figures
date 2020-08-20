@@ -1,0 +1,8 @@
+- - __version__
+  - 0.0.8
+- - __class__.__name__
+  - TimeSizeStampRule
+- - to_ident
+  - - src/static/home.feng.envs.upGeo.results.0424-database-raw.mcurr.csv
+    - 1589463703.8669245
+    - 20166038

@@ -1,0 +1,8 @@
+- - __version__
+  - 0.0.8
+- - __class__.__name__
+  - TimeSizeStampRule
+- - to_ident
+  - - src/plot_bigwig_pileup.pyc
+    - 1589463988.3768985
+    - 2424

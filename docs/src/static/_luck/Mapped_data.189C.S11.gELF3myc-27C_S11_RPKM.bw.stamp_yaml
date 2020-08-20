@@ -1,0 +1,8 @@
+- - __version__
+  - 0.0.8
+- - __class__.__name__
+  - TimeSizeStampRule
+- - to_ident
+  - - /home/user/repos/polyq-figures/src/static/Mapped_data.189C.S11.gELF3myc-27C_S11_RPKM.bw
+    - 1589463700.0028977
+    - 37959055

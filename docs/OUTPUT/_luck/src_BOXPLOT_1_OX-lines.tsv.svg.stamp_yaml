@@ -1,0 +1,8 @@
+- - __version__
+  - 0.0.8
+- - __class__.__name__
+  - TimeSizeStampRule
+- - to_ident
+  - - OUTPUT/src_BOXPLOT_1_OX-lines.tsv.svg
+    - 1597898585.7200403
+    - 73996

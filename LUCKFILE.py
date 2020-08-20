@@ -9,6 +9,7 @@ import os
 SRCDIR = os.path.realpath(os.getcwd())
 
 
+RULE.M(ns, "src/util.py")
 if 1:
     _ = '''
     #####################################
@@ -79,15 +80,19 @@ if 1:
     NCR.M(ns, "heatmaps", ' '.join(OUTS))
 
 
-if 0:
+if 1:
     _ = '''
     #############################
     ### Make chipseq targets ####
     '''
     SCRIPT = "src/make_chipseq_targets.py"
-    OUTPUTS = LSC(f'python2 {SCRIPT} --print-outputs').decode().replace("\n"," ")
+    OUTPUTS= LSC(f'python2 {SCRIPT} --print-outputs').decode().replace("\n"," ")
     INPUTS =  LSC(f'python2 {SCRIPT} --print-inputs').decode().replace("\n",' ')
-    RULE.MWF(ns, SCRIPT+' '+ INPUTS, None)
+    INPUTS += " "+ SCRIPT
+    # from pprint import pprint
+    # pprint([INPUTS,OUTPUTS])
+    # import pdb; pdb.set_trace()
+    [ RULE.MWF(ns, INPUT, None) for INPUT in INPUTS.split()]
     # assert 0,OUTPUTS
     RULE.MWF(ns, OUTPUTS, INPUTS, f'python2 {SCRIPT} --run')
     NCR.MWF(ns, "chipseq_targets", OUTPUTS);
@@ -100,7 +105,7 @@ if 1:
     import src.util as _util
     _get_file = _util._get_file
     SCRIPT = "./src/plot_bigwig_pileup.py"
-    FORCE = 0 
+    FORCE = 1
     DICTS = [
         dict({
         "MODULE_FILE": "./src/plot_bigwig_pileup.py",
@@ -233,7 +238,7 @@ if 1:
         RULE.MWF(ns, 
             OFNAME,
             " ".join([SCRIPT, DICT["DATA"]["PEAK_FILE"]] + DICT["DATA"]["BIGWIG_FILES"]), 
-            '''python2 -u - <<EOF\nfrom pymisca.atto_job import ModuleJob;ModuleJob({repr(DICT)})\nEOF''')
+            lambda c,DICT=DICT:LSC(f'''python2 -u - <<EOF\nfrom pymisca.atto_job import ModuleJob;ModuleJob({repr(DICT)})\nEOF'''))
         OUTS.append(OFNAME)
 
     NCR.M(ns, "chipseq_pileups", " ".join(OUTS))
@@ -243,7 +248,7 @@ if 1:
 
 if 1:
     ##### gene_lists
-    CMD = '''python2 -u - <<EOF
+    CMD = f'''python2 -u - <<EOF
 import pymisca.ext as pyext
 from src.rnaseq_figure_2 import rnaseq_figure
 import src.util as _util
@@ -260,12 +265,16 @@ job = rnaseq_figure()
 
 
 df["signature_targets"] = (job.signature_targets)
-df["chipseq_targets_genes"] = pyext.readData( "{c.i[0]}")['feat_acc'].unique()
+df["chipseq_targets_genes"] = pyext.readData( "{{c.i[0]}}")['feat_acc'].unique()
 df = pyext.pd.DataFrame.from_dict(df,orient='index').T
-df.to_csv("{c.o[0]}", index =0 )
+df.to_csv("{{c.o[0]}}", index =0 )
 EOF
 '''
-    INPUTS = "OUTPUT/chipseq_targets_genes_job.peak_list.csv"
+    INPUTS = f"\
+    OUTPUT/chipseq_targets_genes_job.peak_list.csv \
+    src/rnaseq_figure_2.py src/util.py {input_rnaseq} {input_datasets_meta} {input_markers_df}"
+    
+    "pyext"
     OUTPUTS = _util._get_output_file("OUTPUT/gene_lists_dataframe.csv")
     RULE.MWF(ns,
         OUTPUTS,
@@ -274,18 +283,41 @@ EOF
     )
     NCR.MWF(ns, "gene_lists", OUTPUTS)
 
-NCR.M(ns, "all", "boxplots heatmaps chipseq_targets chipseq_pileups gene_lists", )
-NCR.MWF(ns, "clean", None, "rm -rf OUTPUT")
+NCR.M(ns, "OUTPUT", "boxplots heatmaps chipseq_targets chipseq_pileups gene_lists", )
+NCR.MWF(ns, "clean", None, "rm -rf OUTPUT docs")
+
+
+INPUT = "OUTPUT/"
+OUTPUT = "docs/README.md"
+CMD = f'''
+DIR={INPUT}
+TARGET=docs
+mkdir -p $TARGET
+mkdir -p _build_temp && mv -f chip* home* genes* infiles* job* temp* _temp* _build_temp || true
+
+
+ln -f README.md $TARGET
+cp -prf src/ -t $TARGET;
+#rm -rf $TARGET/src/static/
+cp -pfr {{c.i[1]}} -t $TARGET
+cp -plrf $DIR -t $TARGET
+
+find $TARGET -type l -delete  ### jekyll does not work with symlink
+cd $TARGET
+URL=https://gist.githubusercontent.com/glowinthedark/b1f5900be2490c5371f827a49fd09f49/raw/db45a596db2274b94206f4dfa6d479cee4e49845/generate_directory_index.py
+curl -L $URL | python2 -
+
+echo "[DONE]"
+'''
+RULE.MWF(ns, OUTPUT, "OUTPUT LUCKFILE.py.dot.svg", CMD)
+NCR.MWF(ns, "docs", OUTPUT)
+
+# NCR.MWF(ns, "_sink", "OUTPUT clean docs")
 
 
 
-NCR.MWF(ns, "_sink", "all clean")
-
-
-
+'REQUIRE_APT_GRAPHVIZ_DOT_BINARY'
 from luck.graph import rules_to_graph
-
-
 from graphviz import Digraph
 # from graphviz import nohtml
 import graphviz
@@ -299,8 +331,8 @@ def jinja2_format(s,**context):
     # .update(__builtins__)
     return Template(s,undefined=StrictUndefined).render(**d)
 
-def rule_to_label( filename, ruletype, level):
-
+def rule_to_label( filename, ruletype, filesize):
+    import os
     fmt = '''<       
         <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
         {#
@@ -312,21 +344,22 @@ def rule_to_label( filename, ruletype, level):
         #} 
           <TR>
             <TD ALIGN="LEFT" BGCOLOR="lightblue"> filename </TD>
-            <TD ALIGN="LEFT" BGCOLOR="white" HREF="{{filename}}"><FONT COLOR="blue"><U>{{filename}}</U></FONT></TD> 
+            <TD ALIGN="LEFT" BGCOLOR="white" HREF="{{filename}}">
+              <FONT COLOR="{% if os.path.exists(filename) %}blue{%else%}black{%endif%}"><U>{{filename}}</U></FONT></TD> 
           </TR>
 
+
+
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> filesize </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">{{filesize}}</TD>
+          </TR>
 
           <TR>
             <TD ALIGN="LEFT" BGCOLOR="lightblue"> ruletype </TD>
             <TD ALIGN="LEFT" BGCOLOR="white">{{ruletype}}</TD>
           </TR>
-
-
-          <TR>
-            <TD ALIGN="LEFT" BGCOLOR="lightblue"> level </TD>
-            <TD ALIGN="LEFT" BGCOLOR="white">{{level}}</TD>
-          </TR>
-
 
         </TABLE>
     >'''
@@ -348,31 +381,42 @@ def rules_to_graph(rules, g, output_file, output_format):
         g.attr(rankdir='RL')    
     for v in rules:
         PWD = os.getcwd()
-        _output = os.path.relpath( v.output, PWD)
-        if v.input:
-            g.node( _output,  
-                label = rule_to_label(_output, type(v).__name__, level="middle_or_sink"),
-                shape='plaintext')      
-        else:
-            g.node( _output,  
-                label = rule_to_label(_output, type(v).__name__, level="source"),
-                shape='plaintext')      
-            continue
-        for _input in v.input.split():
-            _input  = os.path.relpath(_input,PWD)
-            g.edge( _input, _output)
-            # v.output, _input)
-            # pprint([v.output,  rule_to_label(v)])
+        for _output in v.output.split():
+            _output = os.path.relpath( _output, PWD)
+            filesize = os_stat_safe( _output).st_size
+            if v.input:
+                g.node( _output,  
+                    label = rule_to_label(_output, type(v).__name__, filesize=filesize),
+                    # level="middle_or_sink"),
+                    shape='plaintext')      
+            else:
+                g.node( _output,  
+                    label = rule_to_label(_output, type(v).__name__, filesize=filesize),
+                    shape='plaintext')      
+                continue
+            for _input in v.input.split():
+                _input  = os.path.relpath(_input,PWD)
+                g.edge( _input, _output)
+                # v.output, _input)
+                # pprint([v.output,  rule_to_label(v)])
     if output_file is not None:
         res = g.render(filename = output_file, format = output_format)
         return res
     else:
         return g
 
-
+from luck.header import os_stat_safe
 OFNAME = "LUCKFILE.py.dot"
-rules_to_graph( ns.values(), None, OFNAME, "svg")
 print(os.path.realpath(OFNAME+'.svg'))
+
+RULE.M(
+    ns,
+    f'LUCKFILE.py.dot.svg',
+    None,
+    lambda c:rules_to_graph( ns.values(), None, OFNAME, "svg")
+    )
+
+
 # g.render()
     # v.input.split()])
 # for v in ns.values():

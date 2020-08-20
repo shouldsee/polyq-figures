@@ -1,25 +1,50 @@
 strict digraph G {
 	rankdir=RL
-	"src/static/home.feng.envs.Fig_POLYQ.rnaseq.pk" [label=<       
+	"src/util.py" [label=<       
         <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
          
           <TR>
             <TD ALIGN="LEFT" BGCOLOR="lightblue"> filename </TD>
-            <TD ALIGN="LEFT" BGCOLOR="white" HREF="src/static/home.feng.envs.Fig_POLYQ.rnaseq.pk"><FONT COLOR="blue"><U>src/static/home.feng.envs.Fig_POLYQ.rnaseq.pk</U></FONT></TD> 
+            <TD ALIGN="LEFT" BGCOLOR="white" HREF="src/util.py">
+              <FONT COLOR="blue"><U>src/util.py</U></FONT></TD> 
           </TR>
 
+
+
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> filesize </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">2808</TD>
+          </TR>
 
           <TR>
             <TD ALIGN="LEFT" BGCOLOR="lightblue"> ruletype </TD>
             <TD ALIGN="LEFT" BGCOLOR="white">TimeSizeStampRule</TD>
           </TR>
 
-
+        </TABLE>
+    > shape=plaintext]
+	"src/static/home.feng.envs.Fig_POLYQ.rnaseq.pk" [label=<       
+        <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+         
           <TR>
-            <TD ALIGN="LEFT" BGCOLOR="lightblue"> level </TD>
-            <TD ALIGN="LEFT" BGCOLOR="white">source</TD>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> filename </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white" HREF="src/static/home.feng.envs.Fig_POLYQ.rnaseq.pk">
+              <FONT COLOR="blue"><U>src/static/home.feng.envs.Fig_POLYQ.rnaseq.pk</U></FONT></TD> 
           </TR>
 
+
+
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> filesize </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">30996272</TD>
+          </TR>
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> ruletype </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">TimeSizeStampRule</TD>
+          </TR>
 
         </TABLE>
     > shape=plaintext]
@@ -28,21 +53,22 @@ strict digraph G {
          
           <TR>
             <TD ALIGN="LEFT" BGCOLOR="lightblue"> filename </TD>
-            <TD ALIGN="LEFT" BGCOLOR="white" HREF="src/static/home.feng.static.results.0318-makeRNA-polyQ.mcurr0.csv"><FONT COLOR="blue"><U>src/static/home.feng.static.results.0318-makeRNA-polyQ.mcurr0.csv</U></FONT></TD> 
+            <TD ALIGN="LEFT" BGCOLOR="white" HREF="src/static/home.feng.static.results.0318-makeRNA-polyQ.mcurr0.csv">
+              <FONT COLOR="blue"><U>src/static/home.feng.static.results.0318-makeRNA-polyQ.mcurr0.csv</U></FONT></TD> 
           </TR>
 
+
+
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> filesize </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">39857</TD>
+          </TR>
 
           <TR>
             <TD ALIGN="LEFT" BGCOLOR="lightblue"> ruletype </TD>
             <TD ALIGN="LEFT" BGCOLOR="white">TimeSizeStampRule</TD>
           </TR>
-
-
-          <TR>
-            <TD ALIGN="LEFT" BGCOLOR="lightblue"> level </TD>
-            <TD ALIGN="LEFT" BGCOLOR="white">source</TD>
-          </TR>
-
 
         </TABLE>
     > shape=plaintext]
@@ -51,21 +77,22 @@ strict digraph G {
          
           <TR>
             <TD ALIGN="LEFT" BGCOLOR="lightblue"> filename </TD>
-            <TD ALIGN="LEFT" BGCOLOR="white" HREF="src/key_ath.csv"><FONT COLOR="blue"><U>src/key_ath.csv</U></FONT></TD> 
+            <TD ALIGN="LEFT" BGCOLOR="white" HREF="src/key_ath.csv">
+              <FONT COLOR="blue"><U>src/key_ath.csv</U></FONT></TD> 
           </TR>
 
+
+
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> filesize </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">1435</TD>
+          </TR>
 
           <TR>
             <TD ALIGN="LEFT" BGCOLOR="lightblue"> ruletype </TD>
             <TD ALIGN="LEFT" BGCOLOR="white">TimeSizeStampRule</TD>
           </TR>
-
-
-          <TR>
-            <TD ALIGN="LEFT" BGCOLOR="lightblue"> level </TD>
-            <TD ALIGN="LEFT" BGCOLOR="white">source</TD>
-          </TR>
-
 
         </TABLE>
     > shape=plaintext]
@@ -74,21 +101,22 @@ strict digraph G {
          
           <TR>
             <TD ALIGN="LEFT" BGCOLOR="lightblue"> filename </TD>
-            <TD ALIGN="LEFT" BGCOLOR="white" HREF="src/rnaseq_figure_2.py"><FONT COLOR="blue"><U>src/rnaseq_figure_2.py</U></FONT></TD> 
+            <TD ALIGN="LEFT" BGCOLOR="white" HREF="src/rnaseq_figure_2.py">
+              <FONT COLOR="blue"><U>src/rnaseq_figure_2.py</U></FONT></TD> 
           </TR>
 
+
+
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> filesize </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">9859</TD>
+          </TR>
 
           <TR>
             <TD ALIGN="LEFT" BGCOLOR="lightblue"> ruletype </TD>
             <TD ALIGN="LEFT" BGCOLOR="white">TimeSizeStampRule</TD>
           </TR>
-
-
-          <TR>
-            <TD ALIGN="LEFT" BGCOLOR="lightblue"> level </TD>
-            <TD ALIGN="LEFT" BGCOLOR="white">source</TD>
-          </TR>
-
 
         </TABLE>
     > shape=plaintext]
@@ -97,21 +125,22 @@ strict digraph G {
          
           <TR>
             <TD ALIGN="LEFT" BGCOLOR="lightblue"> filename </TD>
-            <TD ALIGN="LEFT" BGCOLOR="white" HREF="src/BOXPLOT_1_OX-lines.tsv"><FONT COLOR="blue"><U>src/BOXPLOT_1_OX-lines.tsv</U></FONT></TD> 
+            <TD ALIGN="LEFT" BGCOLOR="white" HREF="src/BOXPLOT_1_OX-lines.tsv">
+              <FONT COLOR="blue"><U>src/BOXPLOT_1_OX-lines.tsv</U></FONT></TD> 
           </TR>
 
+
+
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> filesize </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">478</TD>
+          </TR>
 
           <TR>
             <TD ALIGN="LEFT" BGCOLOR="lightblue"> ruletype </TD>
             <TD ALIGN="LEFT" BGCOLOR="white">TimeSizeStampRule</TD>
           </TR>
-
-
-          <TR>
-            <TD ALIGN="LEFT" BGCOLOR="lightblue"> level </TD>
-            <TD ALIGN="LEFT" BGCOLOR="white">source</TD>
-          </TR>
-
 
         </TABLE>
     > shape=plaintext]
@@ -120,21 +149,22 @@ strict digraph G {
          
           <TR>
             <TD ALIGN="LEFT" BGCOLOR="lightblue"> filename </TD>
-            <TD ALIGN="LEFT" BGCOLOR="white" HREF="OUTPUT/src_BOXPLOT_1_OX-lines.tsv.svg"><FONT COLOR="blue"><U>OUTPUT/src_BOXPLOT_1_OX-lines.tsv.svg</U></FONT></TD> 
+            <TD ALIGN="LEFT" BGCOLOR="white" HREF="OUTPUT/src_BOXPLOT_1_OX-lines.tsv.svg">
+              <FONT COLOR="blue"><U>OUTPUT/src_BOXPLOT_1_OX-lines.tsv.svg</U></FONT></TD> 
           </TR>
 
+
+
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> filesize </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">73996</TD>
+          </TR>
 
           <TR>
             <TD ALIGN="LEFT" BGCOLOR="lightblue"> ruletype </TD>
             <TD ALIGN="LEFT" BGCOLOR="white">TimeSizeStampRule</TD>
           </TR>
-
-
-          <TR>
-            <TD ALIGN="LEFT" BGCOLOR="lightblue"> level </TD>
-            <TD ALIGN="LEFT" BGCOLOR="white">middle_or_sink</TD>
-          </TR>
-
 
         </TABLE>
     > shape=plaintext]
@@ -148,21 +178,22 @@ strict digraph G {
          
           <TR>
             <TD ALIGN="LEFT" BGCOLOR="lightblue"> filename </TD>
-            <TD ALIGN="LEFT" BGCOLOR="white" HREF="src/BOXPLOT2_mutants.tsv"><FONT COLOR="blue"><U>src/BOXPLOT2_mutants.tsv</U></FONT></TD> 
+            <TD ALIGN="LEFT" BGCOLOR="white" HREF="src/BOXPLOT2_mutants.tsv">
+              <FONT COLOR="blue"><U>src/BOXPLOT2_mutants.tsv</U></FONT></TD> 
           </TR>
 
+
+
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> filesize </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">444</TD>
+          </TR>
 
           <TR>
             <TD ALIGN="LEFT" BGCOLOR="lightblue"> ruletype </TD>
             <TD ALIGN="LEFT" BGCOLOR="white">TimeSizeStampRule</TD>
           </TR>
-
-
-          <TR>
-            <TD ALIGN="LEFT" BGCOLOR="lightblue"> level </TD>
-            <TD ALIGN="LEFT" BGCOLOR="white">source</TD>
-          </TR>
-
 
         </TABLE>
     > shape=plaintext]
@@ -171,21 +202,22 @@ strict digraph G {
          
           <TR>
             <TD ALIGN="LEFT" BGCOLOR="lightblue"> filename </TD>
-            <TD ALIGN="LEFT" BGCOLOR="white" HREF="OUTPUT/src_BOXPLOT2_mutants.tsv.svg"><FONT COLOR="blue"><U>OUTPUT/src_BOXPLOT2_mutants.tsv.svg</U></FONT></TD> 
+            <TD ALIGN="LEFT" BGCOLOR="white" HREF="OUTPUT/src_BOXPLOT2_mutants.tsv.svg">
+              <FONT COLOR="blue"><U>OUTPUT/src_BOXPLOT2_mutants.tsv.svg</U></FONT></TD> 
           </TR>
 
+
+
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> filesize </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">74506</TD>
+          </TR>
 
           <TR>
             <TD ALIGN="LEFT" BGCOLOR="lightblue"> ruletype </TD>
             <TD ALIGN="LEFT" BGCOLOR="white">TimeSizeStampRule</TD>
           </TR>
-
-
-          <TR>
-            <TD ALIGN="LEFT" BGCOLOR="lightblue"> level </TD>
-            <TD ALIGN="LEFT" BGCOLOR="white">middle_or_sink</TD>
-          </TR>
-
 
         </TABLE>
     > shape=plaintext]
@@ -199,21 +231,22 @@ strict digraph G {
          
           <TR>
             <TD ALIGN="LEFT" BGCOLOR="lightblue"> filename </TD>
-            <TD ALIGN="LEFT" BGCOLOR="white" HREF="src/BOXPLOT3_Qlines.tsv"><FONT COLOR="blue"><U>src/BOXPLOT3_Qlines.tsv</U></FONT></TD> 
+            <TD ALIGN="LEFT" BGCOLOR="white" HREF="src/BOXPLOT3_Qlines.tsv">
+              <FONT COLOR="blue"><U>src/BOXPLOT3_Qlines.tsv</U></FONT></TD> 
           </TR>
 
+
+
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> filesize </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">486</TD>
+          </TR>
 
           <TR>
             <TD ALIGN="LEFT" BGCOLOR="lightblue"> ruletype </TD>
             <TD ALIGN="LEFT" BGCOLOR="white">TimeSizeStampRule</TD>
           </TR>
-
-
-          <TR>
-            <TD ALIGN="LEFT" BGCOLOR="lightblue"> level </TD>
-            <TD ALIGN="LEFT" BGCOLOR="white">source</TD>
-          </TR>
-
 
         </TABLE>
     > shape=plaintext]
@@ -222,21 +255,22 @@ strict digraph G {
          
           <TR>
             <TD ALIGN="LEFT" BGCOLOR="lightblue"> filename </TD>
-            <TD ALIGN="LEFT" BGCOLOR="white" HREF="OUTPUT/src_BOXPLOT3_Qlines.tsv.svg"><FONT COLOR="blue"><U>OUTPUT/src_BOXPLOT3_Qlines.tsv.svg</U></FONT></TD> 
+            <TD ALIGN="LEFT" BGCOLOR="white" HREF="OUTPUT/src_BOXPLOT3_Qlines.tsv.svg">
+              <FONT COLOR="blue"><U>OUTPUT/src_BOXPLOT3_Qlines.tsv.svg</U></FONT></TD> 
           </TR>
 
+
+
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> filesize </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">80053</TD>
+          </TR>
 
           <TR>
             <TD ALIGN="LEFT" BGCOLOR="lightblue"> ruletype </TD>
             <TD ALIGN="LEFT" BGCOLOR="white">TimeSizeStampRule</TD>
           </TR>
-
-
-          <TR>
-            <TD ALIGN="LEFT" BGCOLOR="lightblue"> level </TD>
-            <TD ALIGN="LEFT" BGCOLOR="white">middle_or_sink</TD>
-          </TR>
-
 
         </TABLE>
     > shape=plaintext]
@@ -250,21 +284,22 @@ strict digraph G {
          
           <TR>
             <TD ALIGN="LEFT" BGCOLOR="lightblue"> filename </TD>
-            <TD ALIGN="LEFT" BGCOLOR="white" HREF="boxplots"><FONT COLOR="blue"><U>boxplots</U></FONT></TD> 
+            <TD ALIGN="LEFT" BGCOLOR="white" HREF="boxplots">
+              <FONT COLOR="black"><U>boxplots</U></FONT></TD> 
           </TR>
 
+
+
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> filesize </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">0</TD>
+          </TR>
 
           <TR>
             <TD ALIGN="LEFT" BGCOLOR="lightblue"> ruletype </TD>
             <TD ALIGN="LEFT" BGCOLOR="white">NoCacheRule</TD>
           </TR>
-
-
-          <TR>
-            <TD ALIGN="LEFT" BGCOLOR="lightblue"> level </TD>
-            <TD ALIGN="LEFT" BGCOLOR="white">middle_or_sink</TD>
-          </TR>
-
 
         </TABLE>
     > shape=plaintext]
@@ -276,21 +311,22 @@ strict digraph G {
          
           <TR>
             <TD ALIGN="LEFT" BGCOLOR="lightblue"> filename </TD>
-            <TD ALIGN="LEFT" BGCOLOR="white" HREF="src/FIG-S6_HEATMAP1_Q-lines.tsv"><FONT COLOR="blue"><U>src/FIG-S6_HEATMAP1_Q-lines.tsv</U></FONT></TD> 
+            <TD ALIGN="LEFT" BGCOLOR="white" HREF="src/FIG-S6_HEATMAP1_Q-lines.tsv">
+              <FONT COLOR="blue"><U>src/FIG-S6_HEATMAP1_Q-lines.tsv</U></FONT></TD> 
           </TR>
 
+
+
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> filesize </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">486</TD>
+          </TR>
 
           <TR>
             <TD ALIGN="LEFT" BGCOLOR="lightblue"> ruletype </TD>
             <TD ALIGN="LEFT" BGCOLOR="white">TimeSizeStampRule</TD>
           </TR>
-
-
-          <TR>
-            <TD ALIGN="LEFT" BGCOLOR="lightblue"> level </TD>
-            <TD ALIGN="LEFT" BGCOLOR="white">source</TD>
-          </TR>
-
 
         </TABLE>
     > shape=plaintext]
@@ -299,21 +335,22 @@ strict digraph G {
          
           <TR>
             <TD ALIGN="LEFT" BGCOLOR="lightblue"> filename </TD>
-            <TD ALIGN="LEFT" BGCOLOR="white" HREF="OUTPUT/src_FIG-S6_HEATMAP1_Q-lines.tsv.png"><FONT COLOR="blue"><U>OUTPUT/src_FIG-S6_HEATMAP1_Q-lines.tsv.png</U></FONT></TD> 
+            <TD ALIGN="LEFT" BGCOLOR="white" HREF="OUTPUT/src_FIG-S6_HEATMAP1_Q-lines.tsv.png">
+              <FONT COLOR="blue"><U>OUTPUT/src_FIG-S6_HEATMAP1_Q-lines.tsv.png</U></FONT></TD> 
           </TR>
 
+
+
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> filesize </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">68850</TD>
+          </TR>
 
           <TR>
             <TD ALIGN="LEFT" BGCOLOR="lightblue"> ruletype </TD>
             <TD ALIGN="LEFT" BGCOLOR="white">TimeSizeStampRule</TD>
           </TR>
-
-
-          <TR>
-            <TD ALIGN="LEFT" BGCOLOR="lightblue"> level </TD>
-            <TD ALIGN="LEFT" BGCOLOR="white">middle_or_sink</TD>
-          </TR>
-
 
         </TABLE>
     > shape=plaintext]
@@ -327,21 +364,22 @@ strict digraph G {
          
           <TR>
             <TD ALIGN="LEFT" BGCOLOR="lightblue"> filename </TD>
-            <TD ALIGN="LEFT" BGCOLOR="white" HREF="src/FIG-S5_HEATMAP2_genotypes.tsv"><FONT COLOR="blue"><U>src/FIG-S5_HEATMAP2_genotypes.tsv</U></FONT></TD> 
+            <TD ALIGN="LEFT" BGCOLOR="white" HREF="src/FIG-S5_HEATMAP2_genotypes.tsv">
+              <FONT COLOR="blue"><U>src/FIG-S5_HEATMAP2_genotypes.tsv</U></FONT></TD> 
           </TR>
 
+
+
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> filesize </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">874</TD>
+          </TR>
 
           <TR>
             <TD ALIGN="LEFT" BGCOLOR="lightblue"> ruletype </TD>
             <TD ALIGN="LEFT" BGCOLOR="white">TimeSizeStampRule</TD>
           </TR>
-
-
-          <TR>
-            <TD ALIGN="LEFT" BGCOLOR="lightblue"> level </TD>
-            <TD ALIGN="LEFT" BGCOLOR="white">source</TD>
-          </TR>
-
 
         </TABLE>
     > shape=plaintext]
@@ -350,21 +388,22 @@ strict digraph G {
          
           <TR>
             <TD ALIGN="LEFT" BGCOLOR="lightblue"> filename </TD>
-            <TD ALIGN="LEFT" BGCOLOR="white" HREF="OUTPUT/src_FIG-S5_HEATMAP2_genotypes.tsv.png"><FONT COLOR="blue"><U>OUTPUT/src_FIG-S5_HEATMAP2_genotypes.tsv.png</U></FONT></TD> 
+            <TD ALIGN="LEFT" BGCOLOR="white" HREF="OUTPUT/src_FIG-S5_HEATMAP2_genotypes.tsv.png">
+              <FONT COLOR="blue"><U>OUTPUT/src_FIG-S5_HEATMAP2_genotypes.tsv.png</U></FONT></TD> 
           </TR>
 
+
+
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> filesize </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">96539</TD>
+          </TR>
 
           <TR>
             <TD ALIGN="LEFT" BGCOLOR="lightblue"> ruletype </TD>
             <TD ALIGN="LEFT" BGCOLOR="white">TimeSizeStampRule</TD>
           </TR>
-
-
-          <TR>
-            <TD ALIGN="LEFT" BGCOLOR="lightblue"> level </TD>
-            <TD ALIGN="LEFT" BGCOLOR="white">middle_or_sink</TD>
-          </TR>
-
 
         </TABLE>
     > shape=plaintext]
@@ -378,21 +417,22 @@ strict digraph G {
          
           <TR>
             <TD ALIGN="LEFT" BGCOLOR="lightblue"> filename </TD>
-            <TD ALIGN="LEFT" BGCOLOR="white" HREF="src/FIG-S7_HEATMAP3.tsv"><FONT COLOR="blue"><U>src/FIG-S7_HEATMAP3.tsv</U></FONT></TD> 
+            <TD ALIGN="LEFT" BGCOLOR="white" HREF="src/FIG-S7_HEATMAP3.tsv">
+              <FONT COLOR="blue"><U>src/FIG-S7_HEATMAP3.tsv</U></FONT></TD> 
           </TR>
 
+
+
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> filesize </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">2047</TD>
+          </TR>
 
           <TR>
             <TD ALIGN="LEFT" BGCOLOR="lightblue"> ruletype </TD>
             <TD ALIGN="LEFT" BGCOLOR="white">TimeSizeStampRule</TD>
           </TR>
-
-
-          <TR>
-            <TD ALIGN="LEFT" BGCOLOR="lightblue"> level </TD>
-            <TD ALIGN="LEFT" BGCOLOR="white">source</TD>
-          </TR>
-
 
         </TABLE>
     > shape=plaintext]
@@ -401,21 +441,22 @@ strict digraph G {
          
           <TR>
             <TD ALIGN="LEFT" BGCOLOR="lightblue"> filename </TD>
-            <TD ALIGN="LEFT" BGCOLOR="white" HREF="OUTPUT/src_FIG-S7_HEATMAP3.tsv.png"><FONT COLOR="blue"><U>OUTPUT/src_FIG-S7_HEATMAP3.tsv.png</U></FONT></TD> 
+            <TD ALIGN="LEFT" BGCOLOR="white" HREF="OUTPUT/src_FIG-S7_HEATMAP3.tsv.png">
+              <FONT COLOR="blue"><U>OUTPUT/src_FIG-S7_HEATMAP3.tsv.png</U></FONT></TD> 
           </TR>
 
+
+
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> filesize </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">158174</TD>
+          </TR>
 
           <TR>
             <TD ALIGN="LEFT" BGCOLOR="lightblue"> ruletype </TD>
             <TD ALIGN="LEFT" BGCOLOR="white">TimeSizeStampRule</TD>
           </TR>
-
-
-          <TR>
-            <TD ALIGN="LEFT" BGCOLOR="lightblue"> level </TD>
-            <TD ALIGN="LEFT" BGCOLOR="white">middle_or_sink</TD>
-          </TR>
-
 
         </TABLE>
     > shape=plaintext]
@@ -429,47 +470,781 @@ strict digraph G {
          
           <TR>
             <TD ALIGN="LEFT" BGCOLOR="lightblue"> filename </TD>
-            <TD ALIGN="LEFT" BGCOLOR="white" HREF="heatmaps"><FONT COLOR="blue"><U>heatmaps</U></FONT></TD> 
+            <TD ALIGN="LEFT" BGCOLOR="white" HREF="heatmaps">
+              <FONT COLOR="black"><U>heatmaps</U></FONT></TD> 
           </TR>
 
+
+
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> filesize </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">0</TD>
+          </TR>
 
           <TR>
             <TD ALIGN="LEFT" BGCOLOR="lightblue"> ruletype </TD>
             <TD ALIGN="LEFT" BGCOLOR="white">NoCacheRule</TD>
           </TR>
 
-
-          <TR>
-            <TD ALIGN="LEFT" BGCOLOR="lightblue"> level </TD>
-            <TD ALIGN="LEFT" BGCOLOR="white">middle_or_sink</TD>
-          </TR>
-
-
         </TABLE>
     > shape=plaintext]
 	"OUTPUT/src_FIG-S6_HEATMAP1_Q-lines.tsv.png" -> heatmaps
 	"OUTPUT/src_FIG-S5_HEATMAP2_genotypes.tsv.png" -> heatmaps
 	"OUTPUT/src_FIG-S7_HEATMAP3.tsv.png" -> heatmaps
-	"src/plot_bigwig_pileup.py" [label=<       
+	"src/src/static/home.feng.writable.teamkj.__backup.mapped-data.ChIP-seq.Mapped_data.192C.S17.ELF3myc-17C-ZT10_S17_Ath-TAIR10_peaks.narrowPeak" [label=<       
         <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
          
           <TR>
             <TD ALIGN="LEFT" BGCOLOR="lightblue"> filename </TD>
-            <TD ALIGN="LEFT" BGCOLOR="white" HREF="src/plot_bigwig_pileup.py"><FONT COLOR="blue"><U>src/plot_bigwig_pileup.py</U></FONT></TD> 
+            <TD ALIGN="LEFT" BGCOLOR="white" HREF="src/src/static/home.feng.writable.teamkj.__backup.mapped-data.ChIP-seq.Mapped_data.192C.S17.ELF3myc-17C-ZT10_S17_Ath-TAIR10_peaks.narrowPeak">
+              <FONT COLOR="blue"><U>src/src/static/home.feng.writable.teamkj.__backup.mapped-data.ChIP-seq.Mapped_data.192C.S17.ELF3myc-17C-ZT10_S17_Ath-TAIR10_peaks.narrowPeak</U></FONT></TD> 
           </TR>
 
+
+
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> filesize </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">2155634</TD>
+          </TR>
 
           <TR>
             <TD ALIGN="LEFT" BGCOLOR="lightblue"> ruletype </TD>
             <TD ALIGN="LEFT" BGCOLOR="white">TimeSizeStampRule</TD>
           </TR>
 
-
+        </TABLE>
+    > shape=plaintext]
+	"src/src/static/home.feng.ref.Arabidopsis_thaliana_TAIR10.genome.sizes" [label=<       
+        <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+         
           <TR>
-            <TD ALIGN="LEFT" BGCOLOR="lightblue"> level </TD>
-            <TD ALIGN="LEFT" BGCOLOR="white">source</TD>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> filename </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white" HREF="src/src/static/home.feng.ref.Arabidopsis_thaliana_TAIR10.genome.sizes">
+              <FONT COLOR="blue"><U>src/src/static/home.feng.ref.Arabidopsis_thaliana_TAIR10.genome.sizes</U></FONT></TD> 
           </TR>
 
+
+
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> filesize </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">75</TD>
+          </TR>
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> ruletype </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">TimeSizeStampRule</TD>
+          </TR>
+
+        </TABLE>
+    > shape=plaintext]
+	"src/src/static/home.feng.ref.Arabidopsis_thaliana_TAIR10.Annotation.genes.gtf.cds" [label=<       
+        <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+         
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> filename </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white" HREF="src/src/static/home.feng.ref.Arabidopsis_thaliana_TAIR10.Annotation.genes.gtf.cds">
+              <FONT COLOR="blue"><U>src/src/static/home.feng.ref.Arabidopsis_thaliana_TAIR10.Annotation.genes.gtf.cds</U></FONT></TD> 
+          </TR>
+
+
+
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> filesize </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">1041831</TD>
+          </TR>
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> ruletype </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">TimeSizeStampRule</TD>
+          </TR>
+
+        </TABLE>
+    > shape=plaintext]
+	"src/src/static/home.feng.writable.teamkj.__backup.mapped-data.ChIP-seq.Mapped_data.189C.S10.gELF3myc-17C_S10_RPKM.bw" [label=<       
+        <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+         
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> filename </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white" HREF="src/src/static/home.feng.writable.teamkj.__backup.mapped-data.ChIP-seq.Mapped_data.189C.S10.gELF3myc-17C_S10_RPKM.bw">
+              <FONT COLOR="blue"><U>src/src/static/home.feng.writable.teamkj.__backup.mapped-data.ChIP-seq.Mapped_data.189C.S10.gELF3myc-17C_S10_RPKM.bw</U></FONT></TD> 
+          </TR>
+
+
+
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> filesize </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">21762198</TD>
+          </TR>
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> ruletype </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">TimeSizeStampRule</TD>
+          </TR>
+
+        </TABLE>
+    > shape=plaintext]
+	"src/src/static/home.feng.writable.teamkj.__backup.mapped-data.ChIP-seq.Mapped_data.189C.S11.gELF3myc-27C_S11_RPKM.bw" [label=<       
+        <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+         
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> filename </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white" HREF="src/src/static/home.feng.writable.teamkj.__backup.mapped-data.ChIP-seq.Mapped_data.189C.S11.gELF3myc-27C_S11_RPKM.bw">
+              <FONT COLOR="blue"><U>src/src/static/home.feng.writable.teamkj.__backup.mapped-data.ChIP-seq.Mapped_data.189C.S11.gELF3myc-27C_S11_RPKM.bw</U></FONT></TD> 
+          </TR>
+
+
+
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> filesize </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">37959055</TD>
+          </TR>
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> ruletype </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">TimeSizeStampRule</TD>
+          </TR>
+
+        </TABLE>
+    > shape=plaintext]
+	"src/src/static/home.feng.writable.teamkj.__backup.mapped-data.ChIP-seq.Mapped_data.192C.S17.ELF3myc-17C-ZT10_S17_Ath-TAIR10_RPKM.bw" [label=<       
+        <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+         
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> filename </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white" HREF="src/src/static/home.feng.writable.teamkj.__backup.mapped-data.ChIP-seq.Mapped_data.192C.S17.ELF3myc-17C-ZT10_S17_Ath-TAIR10_RPKM.bw">
+              <FONT COLOR="blue"><U>src/src/static/home.feng.writable.teamkj.__backup.mapped-data.ChIP-seq.Mapped_data.192C.S17.ELF3myc-17C-ZT10_S17_Ath-TAIR10_RPKM.bw</U></FONT></TD> 
+          </TR>
+
+
+
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> filesize </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">28204483</TD>
+          </TR>
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> ruletype </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">TimeSizeStampRule</TD>
+          </TR>
+
+        </TABLE>
+    > shape=plaintext]
+	"src/src/static/home.feng.writable.teamkj.__backup.mapped-data.ChIP-seq.Mapped_data.192C.S18.ELF3myc-27C-ZT10_S18_Ath-TAIR10_RPKM.bw" [label=<       
+        <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+         
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> filename </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white" HREF="src/src/static/home.feng.writable.teamkj.__backup.mapped-data.ChIP-seq.Mapped_data.192C.S18.ELF3myc-27C-ZT10_S18_Ath-TAIR10_RPKM.bw">
+              <FONT COLOR="blue"><U>src/src/static/home.feng.writable.teamkj.__backup.mapped-data.ChIP-seq.Mapped_data.192C.S18.ELF3myc-27C-ZT10_S18_Ath-TAIR10_RPKM.bw</U></FONT></TD> 
+          </TR>
+
+
+
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> filesize </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">26651243</TD>
+          </TR>
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> ruletype </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">TimeSizeStampRule</TD>
+          </TR>
+
+        </TABLE>
+    > shape=plaintext]
+	"src/make_chipseq_targets.py" [label=<       
+        <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+         
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> filename </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white" HREF="src/make_chipseq_targets.py">
+              <FONT COLOR="blue"><U>src/make_chipseq_targets.py</U></FONT></TD> 
+          </TR>
+
+
+
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> filesize </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">4532</TD>
+          </TR>
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> ruletype </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">TimeSizeStampRule</TD>
+          </TR>
+
+        </TABLE>
+    > shape=plaintext]
+	"OUTPUT/chipseq_differential_binding.peak_list.bed" [label=<       
+        <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+         
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> filename </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white" HREF="OUTPUT/chipseq_differential_binding.peak_list.bed">
+              <FONT COLOR="blue"><U>OUTPUT/chipseq_differential_binding.peak_list.bed</U></FONT></TD> 
+          </TR>
+
+
+
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> filesize </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">24516</TD>
+          </TR>
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> ruletype </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">TimeSizeStampRule</TD>
+          </TR>
+
+        </TABLE>
+    > shape=plaintext]
+	"src/src/static/home.feng.writable.teamkj.__backup.mapped-data.ChIP-seq.Mapped_data.192C.S17.ELF3myc-17C-ZT10_S17_Ath-TAIR10_peaks.narrowPeak" -> "OUTPUT/chipseq_differential_binding.peak_list.bed"
+	"src/src/static/home.feng.ref.Arabidopsis_thaliana_TAIR10.genome.sizes" -> "OUTPUT/chipseq_differential_binding.peak_list.bed"
+	"src/src/static/home.feng.ref.Arabidopsis_thaliana_TAIR10.Annotation.genes.gtf.cds" -> "OUTPUT/chipseq_differential_binding.peak_list.bed"
+	"src/src/static/home.feng.writable.teamkj.__backup.mapped-data.ChIP-seq.Mapped_data.189C.S10.gELF3myc-17C_S10_RPKM.bw" -> "OUTPUT/chipseq_differential_binding.peak_list.bed"
+	"src/src/static/home.feng.writable.teamkj.__backup.mapped-data.ChIP-seq.Mapped_data.189C.S11.gELF3myc-27C_S11_RPKM.bw" -> "OUTPUT/chipseq_differential_binding.peak_list.bed"
+	"src/src/static/home.feng.writable.teamkj.__backup.mapped-data.ChIP-seq.Mapped_data.192C.S17.ELF3myc-17C-ZT10_S17_Ath-TAIR10_RPKM.bw" -> "OUTPUT/chipseq_differential_binding.peak_list.bed"
+	"src/src/static/home.feng.writable.teamkj.__backup.mapped-data.ChIP-seq.Mapped_data.192C.S18.ELF3myc-27C-ZT10_S18_Ath-TAIR10_RPKM.bw" -> "OUTPUT/chipseq_differential_binding.peak_list.bed"
+	"src/make_chipseq_targets.py" -> "OUTPUT/chipseq_differential_binding.peak_list.bed"
+	"OUTPUT/chipseq_differential_binding.peak_list.bed.summit" [label=<       
+        <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+         
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> filename </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white" HREF="OUTPUT/chipseq_differential_binding.peak_list.bed.summit">
+              <FONT COLOR="blue"><U>OUTPUT/chipseq_differential_binding.peak_list.bed.summit</U></FONT></TD> 
+          </TR>
+
+
+
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> filesize </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">26756</TD>
+          </TR>
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> ruletype </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">TimeSizeStampRule</TD>
+          </TR>
+
+        </TABLE>
+    > shape=plaintext]
+	"src/src/static/home.feng.writable.teamkj.__backup.mapped-data.ChIP-seq.Mapped_data.192C.S17.ELF3myc-17C-ZT10_S17_Ath-TAIR10_peaks.narrowPeak" -> "OUTPUT/chipseq_differential_binding.peak_list.bed.summit"
+	"src/src/static/home.feng.ref.Arabidopsis_thaliana_TAIR10.genome.sizes" -> "OUTPUT/chipseq_differential_binding.peak_list.bed.summit"
+	"src/src/static/home.feng.ref.Arabidopsis_thaliana_TAIR10.Annotation.genes.gtf.cds" -> "OUTPUT/chipseq_differential_binding.peak_list.bed.summit"
+	"src/src/static/home.feng.writable.teamkj.__backup.mapped-data.ChIP-seq.Mapped_data.189C.S10.gELF3myc-17C_S10_RPKM.bw" -> "OUTPUT/chipseq_differential_binding.peak_list.bed.summit"
+	"src/src/static/home.feng.writable.teamkj.__backup.mapped-data.ChIP-seq.Mapped_data.189C.S11.gELF3myc-27C_S11_RPKM.bw" -> "OUTPUT/chipseq_differential_binding.peak_list.bed.summit"
+	"src/src/static/home.feng.writable.teamkj.__backup.mapped-data.ChIP-seq.Mapped_data.192C.S17.ELF3myc-17C-ZT10_S17_Ath-TAIR10_RPKM.bw" -> "OUTPUT/chipseq_differential_binding.peak_list.bed.summit"
+	"src/src/static/home.feng.writable.teamkj.__backup.mapped-data.ChIP-seq.Mapped_data.192C.S18.ELF3myc-27C-ZT10_S18_Ath-TAIR10_RPKM.bw" -> "OUTPUT/chipseq_differential_binding.peak_list.bed.summit"
+	"src/make_chipseq_targets.py" -> "OUTPUT/chipseq_differential_binding.peak_list.bed.summit"
+	"OUTPUT/chipseq_differential_binding.peak_list.csv" [label=<       
+        <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+         
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> filename </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white" HREF="OUTPUT/chipseq_differential_binding.peak_list.csv">
+              <FONT COLOR="blue"><U>OUTPUT/chipseq_differential_binding.peak_list.csv</U></FONT></TD> 
+          </TR>
+
+
+
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> filesize </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">24516</TD>
+          </TR>
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> ruletype </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">TimeSizeStampRule</TD>
+          </TR>
+
+        </TABLE>
+    > shape=plaintext]
+	"src/src/static/home.feng.writable.teamkj.__backup.mapped-data.ChIP-seq.Mapped_data.192C.S17.ELF3myc-17C-ZT10_S17_Ath-TAIR10_peaks.narrowPeak" -> "OUTPUT/chipseq_differential_binding.peak_list.csv"
+	"src/src/static/home.feng.ref.Arabidopsis_thaliana_TAIR10.genome.sizes" -> "OUTPUT/chipseq_differential_binding.peak_list.csv"
+	"src/src/static/home.feng.ref.Arabidopsis_thaliana_TAIR10.Annotation.genes.gtf.cds" -> "OUTPUT/chipseq_differential_binding.peak_list.csv"
+	"src/src/static/home.feng.writable.teamkj.__backup.mapped-data.ChIP-seq.Mapped_data.189C.S10.gELF3myc-17C_S10_RPKM.bw" -> "OUTPUT/chipseq_differential_binding.peak_list.csv"
+	"src/src/static/home.feng.writable.teamkj.__backup.mapped-data.ChIP-seq.Mapped_data.189C.S11.gELF3myc-27C_S11_RPKM.bw" -> "OUTPUT/chipseq_differential_binding.peak_list.csv"
+	"src/src/static/home.feng.writable.teamkj.__backup.mapped-data.ChIP-seq.Mapped_data.192C.S17.ELF3myc-17C-ZT10_S17_Ath-TAIR10_RPKM.bw" -> "OUTPUT/chipseq_differential_binding.peak_list.csv"
+	"src/src/static/home.feng.writable.teamkj.__backup.mapped-data.ChIP-seq.Mapped_data.192C.S18.ELF3myc-27C-ZT10_S18_Ath-TAIR10_RPKM.bw" -> "OUTPUT/chipseq_differential_binding.peak_list.csv"
+	"src/make_chipseq_targets.py" -> "OUTPUT/chipseq_differential_binding.peak_list.csv"
+	"OUTPUT/chipseq_targets_genes_job.peak_list.csv" [label=<       
+        <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+         
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> filename </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white" HREF="OUTPUT/chipseq_targets_genes_job.peak_list.csv">
+              <FONT COLOR="blue"><U>OUTPUT/chipseq_targets_genes_job.peak_list.csv</U></FONT></TD> 
+          </TR>
+
+
+
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> filesize </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">18345</TD>
+          </TR>
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> ruletype </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">TimeSizeStampRule</TD>
+          </TR>
+
+        </TABLE>
+    > shape=plaintext]
+	"src/src/static/home.feng.writable.teamkj.__backup.mapped-data.ChIP-seq.Mapped_data.192C.S17.ELF3myc-17C-ZT10_S17_Ath-TAIR10_peaks.narrowPeak" -> "OUTPUT/chipseq_targets_genes_job.peak_list.csv"
+	"src/src/static/home.feng.ref.Arabidopsis_thaliana_TAIR10.genome.sizes" -> "OUTPUT/chipseq_targets_genes_job.peak_list.csv"
+	"src/src/static/home.feng.ref.Arabidopsis_thaliana_TAIR10.Annotation.genes.gtf.cds" -> "OUTPUT/chipseq_targets_genes_job.peak_list.csv"
+	"src/src/static/home.feng.writable.teamkj.__backup.mapped-data.ChIP-seq.Mapped_data.189C.S10.gELF3myc-17C_S10_RPKM.bw" -> "OUTPUT/chipseq_targets_genes_job.peak_list.csv"
+	"src/src/static/home.feng.writable.teamkj.__backup.mapped-data.ChIP-seq.Mapped_data.189C.S11.gELF3myc-27C_S11_RPKM.bw" -> "OUTPUT/chipseq_targets_genes_job.peak_list.csv"
+	"src/src/static/home.feng.writable.teamkj.__backup.mapped-data.ChIP-seq.Mapped_data.192C.S17.ELF3myc-17C-ZT10_S17_Ath-TAIR10_RPKM.bw" -> "OUTPUT/chipseq_targets_genes_job.peak_list.csv"
+	"src/src/static/home.feng.writable.teamkj.__backup.mapped-data.ChIP-seq.Mapped_data.192C.S18.ELF3myc-27C-ZT10_S18_Ath-TAIR10_RPKM.bw" -> "OUTPUT/chipseq_targets_genes_job.peak_list.csv"
+	"src/make_chipseq_targets.py" -> "OUTPUT/chipseq_targets_genes_job.peak_list.csv"
+	"OUTPUT/chipseq_differential_binding.peak_list.bed" [label=<       
+        <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+         
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> filename </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white" HREF="OUTPUT/chipseq_differential_binding.peak_list.bed">
+              <FONT COLOR="blue"><U>OUTPUT/chipseq_differential_binding.peak_list.bed</U></FONT></TD> 
+          </TR>
+
+
+
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> filesize </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">24516</TD>
+          </TR>
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> ruletype </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">TimeSizeStampRule</TD>
+          </TR>
+
+        </TABLE>
+    > shape=plaintext]
+	"src/src/static/home.feng.writable.teamkj.__backup.mapped-data.ChIP-seq.Mapped_data.192C.S17.ELF3myc-17C-ZT10_S17_Ath-TAIR10_peaks.narrowPeak" -> "OUTPUT/chipseq_differential_binding.peak_list.bed"
+	"src/src/static/home.feng.ref.Arabidopsis_thaliana_TAIR10.genome.sizes" -> "OUTPUT/chipseq_differential_binding.peak_list.bed"
+	"src/src/static/home.feng.ref.Arabidopsis_thaliana_TAIR10.Annotation.genes.gtf.cds" -> "OUTPUT/chipseq_differential_binding.peak_list.bed"
+	"src/src/static/home.feng.writable.teamkj.__backup.mapped-data.ChIP-seq.Mapped_data.189C.S10.gELF3myc-17C_S10_RPKM.bw" -> "OUTPUT/chipseq_differential_binding.peak_list.bed"
+	"src/src/static/home.feng.writable.teamkj.__backup.mapped-data.ChIP-seq.Mapped_data.189C.S11.gELF3myc-27C_S11_RPKM.bw" -> "OUTPUT/chipseq_differential_binding.peak_list.bed"
+	"src/src/static/home.feng.writable.teamkj.__backup.mapped-data.ChIP-seq.Mapped_data.192C.S17.ELF3myc-17C-ZT10_S17_Ath-TAIR10_RPKM.bw" -> "OUTPUT/chipseq_differential_binding.peak_list.bed"
+	"src/src/static/home.feng.writable.teamkj.__backup.mapped-data.ChIP-seq.Mapped_data.192C.S18.ELF3myc-27C-ZT10_S18_Ath-TAIR10_RPKM.bw" -> "OUTPUT/chipseq_differential_binding.peak_list.bed"
+	"src/make_chipseq_targets.py" -> "OUTPUT/chipseq_differential_binding.peak_list.bed"
+	"OUTPUT/chipseq_differential_binding.peak_list.bed.summit" [label=<       
+        <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+         
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> filename </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white" HREF="OUTPUT/chipseq_differential_binding.peak_list.bed.summit">
+              <FONT COLOR="blue"><U>OUTPUT/chipseq_differential_binding.peak_list.bed.summit</U></FONT></TD> 
+          </TR>
+
+
+
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> filesize </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">26756</TD>
+          </TR>
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> ruletype </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">TimeSizeStampRule</TD>
+          </TR>
+
+        </TABLE>
+    > shape=plaintext]
+	"src/src/static/home.feng.writable.teamkj.__backup.mapped-data.ChIP-seq.Mapped_data.192C.S17.ELF3myc-17C-ZT10_S17_Ath-TAIR10_peaks.narrowPeak" -> "OUTPUT/chipseq_differential_binding.peak_list.bed.summit"
+	"src/src/static/home.feng.ref.Arabidopsis_thaliana_TAIR10.genome.sizes" -> "OUTPUT/chipseq_differential_binding.peak_list.bed.summit"
+	"src/src/static/home.feng.ref.Arabidopsis_thaliana_TAIR10.Annotation.genes.gtf.cds" -> "OUTPUT/chipseq_differential_binding.peak_list.bed.summit"
+	"src/src/static/home.feng.writable.teamkj.__backup.mapped-data.ChIP-seq.Mapped_data.189C.S10.gELF3myc-17C_S10_RPKM.bw" -> "OUTPUT/chipseq_differential_binding.peak_list.bed.summit"
+	"src/src/static/home.feng.writable.teamkj.__backup.mapped-data.ChIP-seq.Mapped_data.189C.S11.gELF3myc-27C_S11_RPKM.bw" -> "OUTPUT/chipseq_differential_binding.peak_list.bed.summit"
+	"src/src/static/home.feng.writable.teamkj.__backup.mapped-data.ChIP-seq.Mapped_data.192C.S17.ELF3myc-17C-ZT10_S17_Ath-TAIR10_RPKM.bw" -> "OUTPUT/chipseq_differential_binding.peak_list.bed.summit"
+	"src/src/static/home.feng.writable.teamkj.__backup.mapped-data.ChIP-seq.Mapped_data.192C.S18.ELF3myc-27C-ZT10_S18_Ath-TAIR10_RPKM.bw" -> "OUTPUT/chipseq_differential_binding.peak_list.bed.summit"
+	"src/make_chipseq_targets.py" -> "OUTPUT/chipseq_differential_binding.peak_list.bed.summit"
+	"OUTPUT/chipseq_differential_binding.peak_list.csv" [label=<       
+        <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+         
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> filename </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white" HREF="OUTPUT/chipseq_differential_binding.peak_list.csv">
+              <FONT COLOR="blue"><U>OUTPUT/chipseq_differential_binding.peak_list.csv</U></FONT></TD> 
+          </TR>
+
+
+
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> filesize </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">24516</TD>
+          </TR>
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> ruletype </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">TimeSizeStampRule</TD>
+          </TR>
+
+        </TABLE>
+    > shape=plaintext]
+	"src/src/static/home.feng.writable.teamkj.__backup.mapped-data.ChIP-seq.Mapped_data.192C.S17.ELF3myc-17C-ZT10_S17_Ath-TAIR10_peaks.narrowPeak" -> "OUTPUT/chipseq_differential_binding.peak_list.csv"
+	"src/src/static/home.feng.ref.Arabidopsis_thaliana_TAIR10.genome.sizes" -> "OUTPUT/chipseq_differential_binding.peak_list.csv"
+	"src/src/static/home.feng.ref.Arabidopsis_thaliana_TAIR10.Annotation.genes.gtf.cds" -> "OUTPUT/chipseq_differential_binding.peak_list.csv"
+	"src/src/static/home.feng.writable.teamkj.__backup.mapped-data.ChIP-seq.Mapped_data.189C.S10.gELF3myc-17C_S10_RPKM.bw" -> "OUTPUT/chipseq_differential_binding.peak_list.csv"
+	"src/src/static/home.feng.writable.teamkj.__backup.mapped-data.ChIP-seq.Mapped_data.189C.S11.gELF3myc-27C_S11_RPKM.bw" -> "OUTPUT/chipseq_differential_binding.peak_list.csv"
+	"src/src/static/home.feng.writable.teamkj.__backup.mapped-data.ChIP-seq.Mapped_data.192C.S17.ELF3myc-17C-ZT10_S17_Ath-TAIR10_RPKM.bw" -> "OUTPUT/chipseq_differential_binding.peak_list.csv"
+	"src/src/static/home.feng.writable.teamkj.__backup.mapped-data.ChIP-seq.Mapped_data.192C.S18.ELF3myc-27C-ZT10_S18_Ath-TAIR10_RPKM.bw" -> "OUTPUT/chipseq_differential_binding.peak_list.csv"
+	"src/make_chipseq_targets.py" -> "OUTPUT/chipseq_differential_binding.peak_list.csv"
+	"OUTPUT/chipseq_targets_genes_job.peak_list.csv" [label=<       
+        <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+         
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> filename </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white" HREF="OUTPUT/chipseq_targets_genes_job.peak_list.csv">
+              <FONT COLOR="blue"><U>OUTPUT/chipseq_targets_genes_job.peak_list.csv</U></FONT></TD> 
+          </TR>
+
+
+
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> filesize </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">18345</TD>
+          </TR>
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> ruletype </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">TimeSizeStampRule</TD>
+          </TR>
+
+        </TABLE>
+    > shape=plaintext]
+	"src/src/static/home.feng.writable.teamkj.__backup.mapped-data.ChIP-seq.Mapped_data.192C.S17.ELF3myc-17C-ZT10_S17_Ath-TAIR10_peaks.narrowPeak" -> "OUTPUT/chipseq_targets_genes_job.peak_list.csv"
+	"src/src/static/home.feng.ref.Arabidopsis_thaliana_TAIR10.genome.sizes" -> "OUTPUT/chipseq_targets_genes_job.peak_list.csv"
+	"src/src/static/home.feng.ref.Arabidopsis_thaliana_TAIR10.Annotation.genes.gtf.cds" -> "OUTPUT/chipseq_targets_genes_job.peak_list.csv"
+	"src/src/static/home.feng.writable.teamkj.__backup.mapped-data.ChIP-seq.Mapped_data.189C.S10.gELF3myc-17C_S10_RPKM.bw" -> "OUTPUT/chipseq_targets_genes_job.peak_list.csv"
+	"src/src/static/home.feng.writable.teamkj.__backup.mapped-data.ChIP-seq.Mapped_data.189C.S11.gELF3myc-27C_S11_RPKM.bw" -> "OUTPUT/chipseq_targets_genes_job.peak_list.csv"
+	"src/src/static/home.feng.writable.teamkj.__backup.mapped-data.ChIP-seq.Mapped_data.192C.S17.ELF3myc-17C-ZT10_S17_Ath-TAIR10_RPKM.bw" -> "OUTPUT/chipseq_targets_genes_job.peak_list.csv"
+	"src/src/static/home.feng.writable.teamkj.__backup.mapped-data.ChIP-seq.Mapped_data.192C.S18.ELF3myc-27C-ZT10_S18_Ath-TAIR10_RPKM.bw" -> "OUTPUT/chipseq_targets_genes_job.peak_list.csv"
+	"src/make_chipseq_targets.py" -> "OUTPUT/chipseq_targets_genes_job.peak_list.csv"
+	"OUTPUT/chipseq_differential_binding.peak_list.bed" [label=<       
+        <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+         
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> filename </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white" HREF="OUTPUT/chipseq_differential_binding.peak_list.bed">
+              <FONT COLOR="blue"><U>OUTPUT/chipseq_differential_binding.peak_list.bed</U></FONT></TD> 
+          </TR>
+
+
+
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> filesize </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">24516</TD>
+          </TR>
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> ruletype </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">TimeSizeStampRule</TD>
+          </TR>
+
+        </TABLE>
+    > shape=plaintext]
+	"src/src/static/home.feng.writable.teamkj.__backup.mapped-data.ChIP-seq.Mapped_data.192C.S17.ELF3myc-17C-ZT10_S17_Ath-TAIR10_peaks.narrowPeak" -> "OUTPUT/chipseq_differential_binding.peak_list.bed"
+	"src/src/static/home.feng.ref.Arabidopsis_thaliana_TAIR10.genome.sizes" -> "OUTPUT/chipseq_differential_binding.peak_list.bed"
+	"src/src/static/home.feng.ref.Arabidopsis_thaliana_TAIR10.Annotation.genes.gtf.cds" -> "OUTPUT/chipseq_differential_binding.peak_list.bed"
+	"src/src/static/home.feng.writable.teamkj.__backup.mapped-data.ChIP-seq.Mapped_data.189C.S10.gELF3myc-17C_S10_RPKM.bw" -> "OUTPUT/chipseq_differential_binding.peak_list.bed"
+	"src/src/static/home.feng.writable.teamkj.__backup.mapped-data.ChIP-seq.Mapped_data.189C.S11.gELF3myc-27C_S11_RPKM.bw" -> "OUTPUT/chipseq_differential_binding.peak_list.bed"
+	"src/src/static/home.feng.writable.teamkj.__backup.mapped-data.ChIP-seq.Mapped_data.192C.S17.ELF3myc-17C-ZT10_S17_Ath-TAIR10_RPKM.bw" -> "OUTPUT/chipseq_differential_binding.peak_list.bed"
+	"src/src/static/home.feng.writable.teamkj.__backup.mapped-data.ChIP-seq.Mapped_data.192C.S18.ELF3myc-27C-ZT10_S18_Ath-TAIR10_RPKM.bw" -> "OUTPUT/chipseq_differential_binding.peak_list.bed"
+	"src/make_chipseq_targets.py" -> "OUTPUT/chipseq_differential_binding.peak_list.bed"
+	"OUTPUT/chipseq_differential_binding.peak_list.bed.summit" [label=<       
+        <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+         
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> filename </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white" HREF="OUTPUT/chipseq_differential_binding.peak_list.bed.summit">
+              <FONT COLOR="blue"><U>OUTPUT/chipseq_differential_binding.peak_list.bed.summit</U></FONT></TD> 
+          </TR>
+
+
+
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> filesize </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">26756</TD>
+          </TR>
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> ruletype </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">TimeSizeStampRule</TD>
+          </TR>
+
+        </TABLE>
+    > shape=plaintext]
+	"src/src/static/home.feng.writable.teamkj.__backup.mapped-data.ChIP-seq.Mapped_data.192C.S17.ELF3myc-17C-ZT10_S17_Ath-TAIR10_peaks.narrowPeak" -> "OUTPUT/chipseq_differential_binding.peak_list.bed.summit"
+	"src/src/static/home.feng.ref.Arabidopsis_thaliana_TAIR10.genome.sizes" -> "OUTPUT/chipseq_differential_binding.peak_list.bed.summit"
+	"src/src/static/home.feng.ref.Arabidopsis_thaliana_TAIR10.Annotation.genes.gtf.cds" -> "OUTPUT/chipseq_differential_binding.peak_list.bed.summit"
+	"src/src/static/home.feng.writable.teamkj.__backup.mapped-data.ChIP-seq.Mapped_data.189C.S10.gELF3myc-17C_S10_RPKM.bw" -> "OUTPUT/chipseq_differential_binding.peak_list.bed.summit"
+	"src/src/static/home.feng.writable.teamkj.__backup.mapped-data.ChIP-seq.Mapped_data.189C.S11.gELF3myc-27C_S11_RPKM.bw" -> "OUTPUT/chipseq_differential_binding.peak_list.bed.summit"
+	"src/src/static/home.feng.writable.teamkj.__backup.mapped-data.ChIP-seq.Mapped_data.192C.S17.ELF3myc-17C-ZT10_S17_Ath-TAIR10_RPKM.bw" -> "OUTPUT/chipseq_differential_binding.peak_list.bed.summit"
+	"src/src/static/home.feng.writable.teamkj.__backup.mapped-data.ChIP-seq.Mapped_data.192C.S18.ELF3myc-27C-ZT10_S18_Ath-TAIR10_RPKM.bw" -> "OUTPUT/chipseq_differential_binding.peak_list.bed.summit"
+	"src/make_chipseq_targets.py" -> "OUTPUT/chipseq_differential_binding.peak_list.bed.summit"
+	"OUTPUT/chipseq_differential_binding.peak_list.csv" [label=<       
+        <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+         
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> filename </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white" HREF="OUTPUT/chipseq_differential_binding.peak_list.csv">
+              <FONT COLOR="blue"><U>OUTPUT/chipseq_differential_binding.peak_list.csv</U></FONT></TD> 
+          </TR>
+
+
+
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> filesize </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">24516</TD>
+          </TR>
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> ruletype </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">TimeSizeStampRule</TD>
+          </TR>
+
+        </TABLE>
+    > shape=plaintext]
+	"src/src/static/home.feng.writable.teamkj.__backup.mapped-data.ChIP-seq.Mapped_data.192C.S17.ELF3myc-17C-ZT10_S17_Ath-TAIR10_peaks.narrowPeak" -> "OUTPUT/chipseq_differential_binding.peak_list.csv"
+	"src/src/static/home.feng.ref.Arabidopsis_thaliana_TAIR10.genome.sizes" -> "OUTPUT/chipseq_differential_binding.peak_list.csv"
+	"src/src/static/home.feng.ref.Arabidopsis_thaliana_TAIR10.Annotation.genes.gtf.cds" -> "OUTPUT/chipseq_differential_binding.peak_list.csv"
+	"src/src/static/home.feng.writable.teamkj.__backup.mapped-data.ChIP-seq.Mapped_data.189C.S10.gELF3myc-17C_S10_RPKM.bw" -> "OUTPUT/chipseq_differential_binding.peak_list.csv"
+	"src/src/static/home.feng.writable.teamkj.__backup.mapped-data.ChIP-seq.Mapped_data.189C.S11.gELF3myc-27C_S11_RPKM.bw" -> "OUTPUT/chipseq_differential_binding.peak_list.csv"
+	"src/src/static/home.feng.writable.teamkj.__backup.mapped-data.ChIP-seq.Mapped_data.192C.S17.ELF3myc-17C-ZT10_S17_Ath-TAIR10_RPKM.bw" -> "OUTPUT/chipseq_differential_binding.peak_list.csv"
+	"src/src/static/home.feng.writable.teamkj.__backup.mapped-data.ChIP-seq.Mapped_data.192C.S18.ELF3myc-27C-ZT10_S18_Ath-TAIR10_RPKM.bw" -> "OUTPUT/chipseq_differential_binding.peak_list.csv"
+	"src/make_chipseq_targets.py" -> "OUTPUT/chipseq_differential_binding.peak_list.csv"
+	"OUTPUT/chipseq_targets_genes_job.peak_list.csv" [label=<       
+        <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+         
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> filename </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white" HREF="OUTPUT/chipseq_targets_genes_job.peak_list.csv">
+              <FONT COLOR="blue"><U>OUTPUT/chipseq_targets_genes_job.peak_list.csv</U></FONT></TD> 
+          </TR>
+
+
+
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> filesize </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">18345</TD>
+          </TR>
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> ruletype </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">TimeSizeStampRule</TD>
+          </TR>
+
+        </TABLE>
+    > shape=plaintext]
+	"src/src/static/home.feng.writable.teamkj.__backup.mapped-data.ChIP-seq.Mapped_data.192C.S17.ELF3myc-17C-ZT10_S17_Ath-TAIR10_peaks.narrowPeak" -> "OUTPUT/chipseq_targets_genes_job.peak_list.csv"
+	"src/src/static/home.feng.ref.Arabidopsis_thaliana_TAIR10.genome.sizes" -> "OUTPUT/chipseq_targets_genes_job.peak_list.csv"
+	"src/src/static/home.feng.ref.Arabidopsis_thaliana_TAIR10.Annotation.genes.gtf.cds" -> "OUTPUT/chipseq_targets_genes_job.peak_list.csv"
+	"src/src/static/home.feng.writable.teamkj.__backup.mapped-data.ChIP-seq.Mapped_data.189C.S10.gELF3myc-17C_S10_RPKM.bw" -> "OUTPUT/chipseq_targets_genes_job.peak_list.csv"
+	"src/src/static/home.feng.writable.teamkj.__backup.mapped-data.ChIP-seq.Mapped_data.189C.S11.gELF3myc-27C_S11_RPKM.bw" -> "OUTPUT/chipseq_targets_genes_job.peak_list.csv"
+	"src/src/static/home.feng.writable.teamkj.__backup.mapped-data.ChIP-seq.Mapped_data.192C.S17.ELF3myc-17C-ZT10_S17_Ath-TAIR10_RPKM.bw" -> "OUTPUT/chipseq_targets_genes_job.peak_list.csv"
+	"src/src/static/home.feng.writable.teamkj.__backup.mapped-data.ChIP-seq.Mapped_data.192C.S18.ELF3myc-27C-ZT10_S18_Ath-TAIR10_RPKM.bw" -> "OUTPUT/chipseq_targets_genes_job.peak_list.csv"
+	"src/make_chipseq_targets.py" -> "OUTPUT/chipseq_targets_genes_job.peak_list.csv"
+	"OUTPUT/chipseq_differential_binding.peak_list.bed" [label=<       
+        <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+         
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> filename </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white" HREF="OUTPUT/chipseq_differential_binding.peak_list.bed">
+              <FONT COLOR="blue"><U>OUTPUT/chipseq_differential_binding.peak_list.bed</U></FONT></TD> 
+          </TR>
+
+
+
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> filesize </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">24516</TD>
+          </TR>
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> ruletype </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">TimeSizeStampRule</TD>
+          </TR>
+
+        </TABLE>
+    > shape=plaintext]
+	"src/src/static/home.feng.writable.teamkj.__backup.mapped-data.ChIP-seq.Mapped_data.192C.S17.ELF3myc-17C-ZT10_S17_Ath-TAIR10_peaks.narrowPeak" -> "OUTPUT/chipseq_differential_binding.peak_list.bed"
+	"src/src/static/home.feng.ref.Arabidopsis_thaliana_TAIR10.genome.sizes" -> "OUTPUT/chipseq_differential_binding.peak_list.bed"
+	"src/src/static/home.feng.ref.Arabidopsis_thaliana_TAIR10.Annotation.genes.gtf.cds" -> "OUTPUT/chipseq_differential_binding.peak_list.bed"
+	"src/src/static/home.feng.writable.teamkj.__backup.mapped-data.ChIP-seq.Mapped_data.189C.S10.gELF3myc-17C_S10_RPKM.bw" -> "OUTPUT/chipseq_differential_binding.peak_list.bed"
+	"src/src/static/home.feng.writable.teamkj.__backup.mapped-data.ChIP-seq.Mapped_data.189C.S11.gELF3myc-27C_S11_RPKM.bw" -> "OUTPUT/chipseq_differential_binding.peak_list.bed"
+	"src/src/static/home.feng.writable.teamkj.__backup.mapped-data.ChIP-seq.Mapped_data.192C.S17.ELF3myc-17C-ZT10_S17_Ath-TAIR10_RPKM.bw" -> "OUTPUT/chipseq_differential_binding.peak_list.bed"
+	"src/src/static/home.feng.writable.teamkj.__backup.mapped-data.ChIP-seq.Mapped_data.192C.S18.ELF3myc-27C-ZT10_S18_Ath-TAIR10_RPKM.bw" -> "OUTPUT/chipseq_differential_binding.peak_list.bed"
+	"src/make_chipseq_targets.py" -> "OUTPUT/chipseq_differential_binding.peak_list.bed"
+	"OUTPUT/chipseq_differential_binding.peak_list.bed.summit" [label=<       
+        <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+         
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> filename </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white" HREF="OUTPUT/chipseq_differential_binding.peak_list.bed.summit">
+              <FONT COLOR="blue"><U>OUTPUT/chipseq_differential_binding.peak_list.bed.summit</U></FONT></TD> 
+          </TR>
+
+
+
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> filesize </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">26756</TD>
+          </TR>
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> ruletype </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">TimeSizeStampRule</TD>
+          </TR>
+
+        </TABLE>
+    > shape=plaintext]
+	"src/src/static/home.feng.writable.teamkj.__backup.mapped-data.ChIP-seq.Mapped_data.192C.S17.ELF3myc-17C-ZT10_S17_Ath-TAIR10_peaks.narrowPeak" -> "OUTPUT/chipseq_differential_binding.peak_list.bed.summit"
+	"src/src/static/home.feng.ref.Arabidopsis_thaliana_TAIR10.genome.sizes" -> "OUTPUT/chipseq_differential_binding.peak_list.bed.summit"
+	"src/src/static/home.feng.ref.Arabidopsis_thaliana_TAIR10.Annotation.genes.gtf.cds" -> "OUTPUT/chipseq_differential_binding.peak_list.bed.summit"
+	"src/src/static/home.feng.writable.teamkj.__backup.mapped-data.ChIP-seq.Mapped_data.189C.S10.gELF3myc-17C_S10_RPKM.bw" -> "OUTPUT/chipseq_differential_binding.peak_list.bed.summit"
+	"src/src/static/home.feng.writable.teamkj.__backup.mapped-data.ChIP-seq.Mapped_data.189C.S11.gELF3myc-27C_S11_RPKM.bw" -> "OUTPUT/chipseq_differential_binding.peak_list.bed.summit"
+	"src/src/static/home.feng.writable.teamkj.__backup.mapped-data.ChIP-seq.Mapped_data.192C.S17.ELF3myc-17C-ZT10_S17_Ath-TAIR10_RPKM.bw" -> "OUTPUT/chipseq_differential_binding.peak_list.bed.summit"
+	"src/src/static/home.feng.writable.teamkj.__backup.mapped-data.ChIP-seq.Mapped_data.192C.S18.ELF3myc-27C-ZT10_S18_Ath-TAIR10_RPKM.bw" -> "OUTPUT/chipseq_differential_binding.peak_list.bed.summit"
+	"src/make_chipseq_targets.py" -> "OUTPUT/chipseq_differential_binding.peak_list.bed.summit"
+	"OUTPUT/chipseq_differential_binding.peak_list.csv" [label=<       
+        <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+         
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> filename </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white" HREF="OUTPUT/chipseq_differential_binding.peak_list.csv">
+              <FONT COLOR="blue"><U>OUTPUT/chipseq_differential_binding.peak_list.csv</U></FONT></TD> 
+          </TR>
+
+
+
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> filesize </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">24516</TD>
+          </TR>
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> ruletype </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">TimeSizeStampRule</TD>
+          </TR>
+
+        </TABLE>
+    > shape=plaintext]
+	"src/src/static/home.feng.writable.teamkj.__backup.mapped-data.ChIP-seq.Mapped_data.192C.S17.ELF3myc-17C-ZT10_S17_Ath-TAIR10_peaks.narrowPeak" -> "OUTPUT/chipseq_differential_binding.peak_list.csv"
+	"src/src/static/home.feng.ref.Arabidopsis_thaliana_TAIR10.genome.sizes" -> "OUTPUT/chipseq_differential_binding.peak_list.csv"
+	"src/src/static/home.feng.ref.Arabidopsis_thaliana_TAIR10.Annotation.genes.gtf.cds" -> "OUTPUT/chipseq_differential_binding.peak_list.csv"
+	"src/src/static/home.feng.writable.teamkj.__backup.mapped-data.ChIP-seq.Mapped_data.189C.S10.gELF3myc-17C_S10_RPKM.bw" -> "OUTPUT/chipseq_differential_binding.peak_list.csv"
+	"src/src/static/home.feng.writable.teamkj.__backup.mapped-data.ChIP-seq.Mapped_data.189C.S11.gELF3myc-27C_S11_RPKM.bw" -> "OUTPUT/chipseq_differential_binding.peak_list.csv"
+	"src/src/static/home.feng.writable.teamkj.__backup.mapped-data.ChIP-seq.Mapped_data.192C.S17.ELF3myc-17C-ZT10_S17_Ath-TAIR10_RPKM.bw" -> "OUTPUT/chipseq_differential_binding.peak_list.csv"
+	"src/src/static/home.feng.writable.teamkj.__backup.mapped-data.ChIP-seq.Mapped_data.192C.S18.ELF3myc-27C-ZT10_S18_Ath-TAIR10_RPKM.bw" -> "OUTPUT/chipseq_differential_binding.peak_list.csv"
+	"src/make_chipseq_targets.py" -> "OUTPUT/chipseq_differential_binding.peak_list.csv"
+	"OUTPUT/chipseq_targets_genes_job.peak_list.csv" [label=<       
+        <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+         
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> filename </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white" HREF="OUTPUT/chipseq_targets_genes_job.peak_list.csv">
+              <FONT COLOR="blue"><U>OUTPUT/chipseq_targets_genes_job.peak_list.csv</U></FONT></TD> 
+          </TR>
+
+
+
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> filesize </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">18345</TD>
+          </TR>
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> ruletype </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">TimeSizeStampRule</TD>
+          </TR>
+
+        </TABLE>
+    > shape=plaintext]
+	"src/src/static/home.feng.writable.teamkj.__backup.mapped-data.ChIP-seq.Mapped_data.192C.S17.ELF3myc-17C-ZT10_S17_Ath-TAIR10_peaks.narrowPeak" -> "OUTPUT/chipseq_targets_genes_job.peak_list.csv"
+	"src/src/static/home.feng.ref.Arabidopsis_thaliana_TAIR10.genome.sizes" -> "OUTPUT/chipseq_targets_genes_job.peak_list.csv"
+	"src/src/static/home.feng.ref.Arabidopsis_thaliana_TAIR10.Annotation.genes.gtf.cds" -> "OUTPUT/chipseq_targets_genes_job.peak_list.csv"
+	"src/src/static/home.feng.writable.teamkj.__backup.mapped-data.ChIP-seq.Mapped_data.189C.S10.gELF3myc-17C_S10_RPKM.bw" -> "OUTPUT/chipseq_targets_genes_job.peak_list.csv"
+	"src/src/static/home.feng.writable.teamkj.__backup.mapped-data.ChIP-seq.Mapped_data.189C.S11.gELF3myc-27C_S11_RPKM.bw" -> "OUTPUT/chipseq_targets_genes_job.peak_list.csv"
+	"src/src/static/home.feng.writable.teamkj.__backup.mapped-data.ChIP-seq.Mapped_data.192C.S17.ELF3myc-17C-ZT10_S17_Ath-TAIR10_RPKM.bw" -> "OUTPUT/chipseq_targets_genes_job.peak_list.csv"
+	"src/src/static/home.feng.writable.teamkj.__backup.mapped-data.ChIP-seq.Mapped_data.192C.S18.ELF3myc-27C-ZT10_S18_Ath-TAIR10_RPKM.bw" -> "OUTPUT/chipseq_targets_genes_job.peak_list.csv"
+	"src/make_chipseq_targets.py" -> "OUTPUT/chipseq_targets_genes_job.peak_list.csv"
+	chipseq_targets [label=<       
+        <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+         
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> filename </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white" HREF="chipseq_targets">
+              <FONT COLOR="black"><U>chipseq_targets</U></FONT></TD> 
+          </TR>
+
+
+
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> filesize </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">0</TD>
+          </TR>
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> ruletype </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">NoCacheRule</TD>
+          </TR>
+
+        </TABLE>
+    > shape=plaintext]
+	"OUTPUT/chipseq_differential_binding.peak_list.bed" -> chipseq_targets
+	"OUTPUT/chipseq_differential_binding.peak_list.bed.summit" -> chipseq_targets
+	"OUTPUT/chipseq_differential_binding.peak_list.csv" -> chipseq_targets
+	"OUTPUT/chipseq_targets_genes_job.peak_list.csv" -> chipseq_targets
+	"src/plot_bigwig_pileup.py" [label=<       
+        <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+         
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> filename </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white" HREF="src/plot_bigwig_pileup.py">
+              <FONT COLOR="blue"><U>src/plot_bigwig_pileup.py</U></FONT></TD> 
+          </TR>
+
+
+
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> filesize </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">2913</TD>
+          </TR>
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> ruletype </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">TimeSizeStampRule</TD>
+          </TR>
 
         </TABLE>
     > shape=plaintext]
@@ -478,21 +1253,22 @@ strict digraph G {
          
           <TR>
             <TD ALIGN="LEFT" BGCOLOR="lightblue"> filename </TD>
-            <TD ALIGN="LEFT" BGCOLOR="white" HREF="src/static/Mapped_data.192C.S17.ELF3myc-17C-ZT10_S17_Ath-TAIR10_RPKM.bw"><FONT COLOR="blue"><U>src/static/Mapped_data.192C.S17.ELF3myc-17C-ZT10_S17_Ath-TAIR10_RPKM.bw</U></FONT></TD> 
+            <TD ALIGN="LEFT" BGCOLOR="white" HREF="src/static/Mapped_data.192C.S17.ELF3myc-17C-ZT10_S17_Ath-TAIR10_RPKM.bw">
+              <FONT COLOR="blue"><U>src/static/Mapped_data.192C.S17.ELF3myc-17C-ZT10_S17_Ath-TAIR10_RPKM.bw</U></FONT></TD> 
           </TR>
 
+
+
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> filesize </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">28204483</TD>
+          </TR>
 
           <TR>
             <TD ALIGN="LEFT" BGCOLOR="lightblue"> ruletype </TD>
             <TD ALIGN="LEFT" BGCOLOR="white">TimeSizeStampRule</TD>
           </TR>
-
-
-          <TR>
-            <TD ALIGN="LEFT" BGCOLOR="lightblue"> level </TD>
-            <TD ALIGN="LEFT" BGCOLOR="white">source</TD>
-          </TR>
-
 
         </TABLE>
     > shape=plaintext]
@@ -501,21 +1277,22 @@ strict digraph G {
          
           <TR>
             <TD ALIGN="LEFT" BGCOLOR="lightblue"> filename </TD>
-            <TD ALIGN="LEFT" BGCOLOR="white" HREF="src/static/Mapped_data.192C.S18.ELF3myc-27C-ZT10_S18_Ath-TAIR10_RPKM.bw"><FONT COLOR="blue"><U>src/static/Mapped_data.192C.S18.ELF3myc-27C-ZT10_S18_Ath-TAIR10_RPKM.bw</U></FONT></TD> 
+            <TD ALIGN="LEFT" BGCOLOR="white" HREF="src/static/Mapped_data.192C.S18.ELF3myc-27C-ZT10_S18_Ath-TAIR10_RPKM.bw">
+              <FONT COLOR="blue"><U>src/static/Mapped_data.192C.S18.ELF3myc-27C-ZT10_S18_Ath-TAIR10_RPKM.bw</U></FONT></TD> 
           </TR>
 
+
+
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> filesize </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">26651243</TD>
+          </TR>
 
           <TR>
             <TD ALIGN="LEFT" BGCOLOR="lightblue"> ruletype </TD>
             <TD ALIGN="LEFT" BGCOLOR="white">TimeSizeStampRule</TD>
           </TR>
-
-
-          <TR>
-            <TD ALIGN="LEFT" BGCOLOR="lightblue"> level </TD>
-            <TD ALIGN="LEFT" BGCOLOR="white">source</TD>
-          </TR>
-
 
         </TABLE>
     > shape=plaintext]
@@ -524,21 +1301,22 @@ strict digraph G {
          
           <TR>
             <TD ALIGN="LEFT" BGCOLOR="lightblue"> filename </TD>
-            <TD ALIGN="LEFT" BGCOLOR="white" HREF="OUTPUT/fig-2d/MAIN.png"><FONT COLOR="blue"><U>OUTPUT/fig-2d/MAIN.png</U></FONT></TD> 
+            <TD ALIGN="LEFT" BGCOLOR="white" HREF="OUTPUT/fig-2d/MAIN.png">
+              <FONT COLOR="black"><U>OUTPUT/fig-2d/MAIN.png</U></FONT></TD> 
           </TR>
 
+
+
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> filesize </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">0</TD>
+          </TR>
 
           <TR>
             <TD ALIGN="LEFT" BGCOLOR="lightblue"> ruletype </TD>
             <TD ALIGN="LEFT" BGCOLOR="white">TimeSizeStampRule</TD>
           </TR>
-
-
-          <TR>
-            <TD ALIGN="LEFT" BGCOLOR="lightblue"> level </TD>
-            <TD ALIGN="LEFT" BGCOLOR="white">middle_or_sink</TD>
-          </TR>
-
 
         </TABLE>
     > shape=plaintext]
@@ -551,21 +1329,22 @@ strict digraph G {
          
           <TR>
             <TD ALIGN="LEFT" BGCOLOR="lightblue"> filename </TD>
-            <TD ALIGN="LEFT" BGCOLOR="white" HREF="src/static/Mapped_data.192C.S1.1487-17-ZT10_S1_Ath-TAIR10_RPKM.bw"><FONT COLOR="blue"><U>src/static/Mapped_data.192C.S1.1487-17-ZT10_S1_Ath-TAIR10_RPKM.bw</U></FONT></TD> 
+            <TD ALIGN="LEFT" BGCOLOR="white" HREF="src/static/Mapped_data.192C.S1.1487-17-ZT10_S1_Ath-TAIR10_RPKM.bw">
+              <FONT COLOR="blue"><U>src/static/Mapped_data.192C.S1.1487-17-ZT10_S1_Ath-TAIR10_RPKM.bw</U></FONT></TD> 
           </TR>
 
+
+
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> filesize </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">40445817</TD>
+          </TR>
 
           <TR>
             <TD ALIGN="LEFT" BGCOLOR="lightblue"> ruletype </TD>
             <TD ALIGN="LEFT" BGCOLOR="white">TimeSizeStampRule</TD>
           </TR>
-
-
-          <TR>
-            <TD ALIGN="LEFT" BGCOLOR="lightblue"> level </TD>
-            <TD ALIGN="LEFT" BGCOLOR="white">source</TD>
-          </TR>
-
 
         </TABLE>
     > shape=plaintext]
@@ -574,21 +1353,22 @@ strict digraph G {
          
           <TR>
             <TD ALIGN="LEFT" BGCOLOR="lightblue"> filename </TD>
-            <TD ALIGN="LEFT" BGCOLOR="white" HREF="src/static/Mapped_data.192C.S2.1487-27-ZT10_S2_Ath-TAIR10_RPKM.bw"><FONT COLOR="blue"><U>src/static/Mapped_data.192C.S2.1487-27-ZT10_S2_Ath-TAIR10_RPKM.bw</U></FONT></TD> 
+            <TD ALIGN="LEFT" BGCOLOR="white" HREF="src/static/Mapped_data.192C.S2.1487-27-ZT10_S2_Ath-TAIR10_RPKM.bw">
+              <FONT COLOR="blue"><U>src/static/Mapped_data.192C.S2.1487-27-ZT10_S2_Ath-TAIR10_RPKM.bw</U></FONT></TD> 
           </TR>
 
+
+
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> filesize </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">40633951</TD>
+          </TR>
 
           <TR>
             <TD ALIGN="LEFT" BGCOLOR="lightblue"> ruletype </TD>
             <TD ALIGN="LEFT" BGCOLOR="white">TimeSizeStampRule</TD>
           </TR>
-
-
-          <TR>
-            <TD ALIGN="LEFT" BGCOLOR="lightblue"> level </TD>
-            <TD ALIGN="LEFT" BGCOLOR="white">source</TD>
-          </TR>
-
 
         </TABLE>
     > shape=plaintext]
@@ -597,21 +1377,22 @@ strict digraph G {
          
           <TR>
             <TD ALIGN="LEFT" BGCOLOR="lightblue"> filename </TD>
-            <TD ALIGN="LEFT" BGCOLOR="white" HREF="src/static/Mapped_data.192C.S3.1488-17-ZT10_S3_Ath-TAIR10_RPKM.bw"><FONT COLOR="blue"><U>src/static/Mapped_data.192C.S3.1488-17-ZT10_S3_Ath-TAIR10_RPKM.bw</U></FONT></TD> 
+            <TD ALIGN="LEFT" BGCOLOR="white" HREF="src/static/Mapped_data.192C.S3.1488-17-ZT10_S3_Ath-TAIR10_RPKM.bw">
+              <FONT COLOR="blue"><U>src/static/Mapped_data.192C.S3.1488-17-ZT10_S3_Ath-TAIR10_RPKM.bw</U></FONT></TD> 
           </TR>
 
+
+
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> filesize </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">40933873</TD>
+          </TR>
 
           <TR>
             <TD ALIGN="LEFT" BGCOLOR="lightblue"> ruletype </TD>
             <TD ALIGN="LEFT" BGCOLOR="white">TimeSizeStampRule</TD>
           </TR>
-
-
-          <TR>
-            <TD ALIGN="LEFT" BGCOLOR="lightblue"> level </TD>
-            <TD ALIGN="LEFT" BGCOLOR="white">source</TD>
-          </TR>
-
 
         </TABLE>
     > shape=plaintext]
@@ -620,21 +1401,22 @@ strict digraph G {
          
           <TR>
             <TD ALIGN="LEFT" BGCOLOR="lightblue"> filename </TD>
-            <TD ALIGN="LEFT" BGCOLOR="white" HREF="src/static/Mapped_data.192C.S4.1488-27-ZT10_S4_Ath-TAIR10_RPKM.bw"><FONT COLOR="blue"><U>src/static/Mapped_data.192C.S4.1488-27-ZT10_S4_Ath-TAIR10_RPKM.bw</U></FONT></TD> 
+            <TD ALIGN="LEFT" BGCOLOR="white" HREF="src/static/Mapped_data.192C.S4.1488-27-ZT10_S4_Ath-TAIR10_RPKM.bw">
+              <FONT COLOR="blue"><U>src/static/Mapped_data.192C.S4.1488-27-ZT10_S4_Ath-TAIR10_RPKM.bw</U></FONT></TD> 
           </TR>
 
+
+
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> filesize </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">39441826</TD>
+          </TR>
 
           <TR>
             <TD ALIGN="LEFT" BGCOLOR="lightblue"> ruletype </TD>
             <TD ALIGN="LEFT" BGCOLOR="white">TimeSizeStampRule</TD>
           </TR>
-
-
-          <TR>
-            <TD ALIGN="LEFT" BGCOLOR="lightblue"> level </TD>
-            <TD ALIGN="LEFT" BGCOLOR="white">source</TD>
-          </TR>
-
 
         </TABLE>
     > shape=plaintext]
@@ -643,21 +1425,22 @@ strict digraph G {
          
           <TR>
             <TD ALIGN="LEFT" BGCOLOR="lightblue"> filename </TD>
-            <TD ALIGN="LEFT" BGCOLOR="white" HREF="OUTPUT/fig-2e/MAIN.png"><FONT COLOR="blue"><U>OUTPUT/fig-2e/MAIN.png</U></FONT></TD> 
+            <TD ALIGN="LEFT" BGCOLOR="white" HREF="OUTPUT/fig-2e/MAIN.png">
+              <FONT COLOR="black"><U>OUTPUT/fig-2e/MAIN.png</U></FONT></TD> 
           </TR>
 
+
+
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> filesize </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">0</TD>
+          </TR>
 
           <TR>
             <TD ALIGN="LEFT" BGCOLOR="lightblue"> ruletype </TD>
             <TD ALIGN="LEFT" BGCOLOR="white">TimeSizeStampRule</TD>
           </TR>
-
-
-          <TR>
-            <TD ALIGN="LEFT" BGCOLOR="lightblue"> level </TD>
-            <TD ALIGN="LEFT" BGCOLOR="white">middle_or_sink</TD>
-          </TR>
-
 
         </TABLE>
     > shape=plaintext]
@@ -672,21 +1455,22 @@ strict digraph G {
          
           <TR>
             <TD ALIGN="LEFT" BGCOLOR="lightblue"> filename </TD>
-            <TD ALIGN="LEFT" BGCOLOR="white" HREF="OUTPUT/fig-2e-inlet/MAIN.png"><FONT COLOR="blue"><U>OUTPUT/fig-2e-inlet/MAIN.png</U></FONT></TD> 
+            <TD ALIGN="LEFT" BGCOLOR="white" HREF="OUTPUT/fig-2e-inlet/MAIN.png">
+              <FONT COLOR="black"><U>OUTPUT/fig-2e-inlet/MAIN.png</U></FONT></TD> 
           </TR>
 
+
+
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> filesize </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">0</TD>
+          </TR>
 
           <TR>
             <TD ALIGN="LEFT" BGCOLOR="lightblue"> ruletype </TD>
             <TD ALIGN="LEFT" BGCOLOR="white">TimeSizeStampRule</TD>
           </TR>
-
-
-          <TR>
-            <TD ALIGN="LEFT" BGCOLOR="lightblue"> level </TD>
-            <TD ALIGN="LEFT" BGCOLOR="white">middle_or_sink</TD>
-          </TR>
-
 
         </TABLE>
     > shape=plaintext]
@@ -701,21 +1485,22 @@ strict digraph G {
          
           <TR>
             <TD ALIGN="LEFT" BGCOLOR="lightblue"> filename </TD>
-            <TD ALIGN="LEFT" BGCOLOR="white" HREF="src/static/Mapped_data.189C.S10.gELF3myc-17C_S10_RPKM.bw"><FONT COLOR="blue"><U>src/static/Mapped_data.189C.S10.gELF3myc-17C_S10_RPKM.bw</U></FONT></TD> 
+            <TD ALIGN="LEFT" BGCOLOR="white" HREF="src/static/Mapped_data.189C.S10.gELF3myc-17C_S10_RPKM.bw">
+              <FONT COLOR="blue"><U>src/static/Mapped_data.189C.S10.gELF3myc-17C_S10_RPKM.bw</U></FONT></TD> 
           </TR>
 
+
+
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> filesize </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">21762198</TD>
+          </TR>
 
           <TR>
             <TD ALIGN="LEFT" BGCOLOR="lightblue"> ruletype </TD>
             <TD ALIGN="LEFT" BGCOLOR="white">TimeSizeStampRule</TD>
           </TR>
-
-
-          <TR>
-            <TD ALIGN="LEFT" BGCOLOR="lightblue"> level </TD>
-            <TD ALIGN="LEFT" BGCOLOR="white">source</TD>
-          </TR>
-
 
         </TABLE>
     > shape=plaintext]
@@ -724,21 +1509,22 @@ strict digraph G {
          
           <TR>
             <TD ALIGN="LEFT" BGCOLOR="lightblue"> filename </TD>
-            <TD ALIGN="LEFT" BGCOLOR="white" HREF="src/static/Mapped_data.189C.S11.gELF3myc-27C_S11_RPKM.bw"><FONT COLOR="blue"><U>src/static/Mapped_data.189C.S11.gELF3myc-27C_S11_RPKM.bw</U></FONT></TD> 
+            <TD ALIGN="LEFT" BGCOLOR="white" HREF="src/static/Mapped_data.189C.S11.gELF3myc-27C_S11_RPKM.bw">
+              <FONT COLOR="blue"><U>src/static/Mapped_data.189C.S11.gELF3myc-27C_S11_RPKM.bw</U></FONT></TD> 
           </TR>
 
+
+
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> filesize </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">37959055</TD>
+          </TR>
 
           <TR>
             <TD ALIGN="LEFT" BGCOLOR="lightblue"> ruletype </TD>
             <TD ALIGN="LEFT" BGCOLOR="white">TimeSizeStampRule</TD>
           </TR>
-
-
-          <TR>
-            <TD ALIGN="LEFT" BGCOLOR="lightblue"> level </TD>
-            <TD ALIGN="LEFT" BGCOLOR="white">source</TD>
-          </TR>
-
 
         </TABLE>
     > shape=plaintext]
@@ -747,21 +1533,22 @@ strict digraph G {
          
           <TR>
             <TD ALIGN="LEFT" BGCOLOR="lightblue"> filename </TD>
-            <TD ALIGN="LEFT" BGCOLOR="white" HREF="src/static/Mapped_data.189C.S16.1469-gELF3-myc-elf3-1xELF4-ox-ZT10-17C_S16_RPKM.bw"><FONT COLOR="blue"><U>src/static/Mapped_data.189C.S16.1469-gELF3-myc-elf3-1xELF4-ox-ZT10-17C_S16_RPKM.bw</U></FONT></TD> 
+            <TD ALIGN="LEFT" BGCOLOR="white" HREF="src/static/Mapped_data.189C.S16.1469-gELF3-myc-elf3-1xELF4-ox-ZT10-17C_S16_RPKM.bw">
+              <FONT COLOR="blue"><U>src/static/Mapped_data.189C.S16.1469-gELF3-myc-elf3-1xELF4-ox-ZT10-17C_S16_RPKM.bw</U></FONT></TD> 
           </TR>
 
+
+
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> filesize </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">31642224</TD>
+          </TR>
 
           <TR>
             <TD ALIGN="LEFT" BGCOLOR="lightblue"> ruletype </TD>
             <TD ALIGN="LEFT" BGCOLOR="white">TimeSizeStampRule</TD>
           </TR>
-
-
-          <TR>
-            <TD ALIGN="LEFT" BGCOLOR="lightblue"> level </TD>
-            <TD ALIGN="LEFT" BGCOLOR="white">source</TD>
-          </TR>
-
 
         </TABLE>
     > shape=plaintext]
@@ -770,21 +1557,22 @@ strict digraph G {
          
           <TR>
             <TD ALIGN="LEFT" BGCOLOR="lightblue"> filename </TD>
-            <TD ALIGN="LEFT" BGCOLOR="white" HREF="src/static/Mapped_data.189C.S17.1469-gELF3-myc-elf3-1xELF4-ox-ZT10-27C_S17_RPKM.bw"><FONT COLOR="blue"><U>src/static/Mapped_data.189C.S17.1469-gELF3-myc-elf3-1xELF4-ox-ZT10-27C_S17_RPKM.bw</U></FONT></TD> 
+            <TD ALIGN="LEFT" BGCOLOR="white" HREF="src/static/Mapped_data.189C.S17.1469-gELF3-myc-elf3-1xELF4-ox-ZT10-27C_S17_RPKM.bw">
+              <FONT COLOR="blue"><U>src/static/Mapped_data.189C.S17.1469-gELF3-myc-elf3-1xELF4-ox-ZT10-27C_S17_RPKM.bw</U></FONT></TD> 
           </TR>
 
+
+
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> filesize </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">33604650</TD>
+          </TR>
 
           <TR>
             <TD ALIGN="LEFT" BGCOLOR="lightblue"> ruletype </TD>
             <TD ALIGN="LEFT" BGCOLOR="white">TimeSizeStampRule</TD>
           </TR>
-
-
-          <TR>
-            <TD ALIGN="LEFT" BGCOLOR="lightblue"> level </TD>
-            <TD ALIGN="LEFT" BGCOLOR="white">source</TD>
-          </TR>
-
 
         </TABLE>
     > shape=plaintext]
@@ -793,21 +1581,22 @@ strict digraph G {
          
           <TR>
             <TD ALIGN="LEFT" BGCOLOR="lightblue"> filename </TD>
-            <TD ALIGN="LEFT" BGCOLOR="white" HREF="OUTPUT/fig-2f/MAIN.png"><FONT COLOR="blue"><U>OUTPUT/fig-2f/MAIN.png</U></FONT></TD> 
+            <TD ALIGN="LEFT" BGCOLOR="white" HREF="OUTPUT/fig-2f/MAIN.png">
+              <FONT COLOR="blue"><U>OUTPUT/fig-2f/MAIN.png</U></FONT></TD> 
           </TR>
 
+
+
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> filesize </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">185757</TD>
+          </TR>
 
           <TR>
             <TD ALIGN="LEFT" BGCOLOR="lightblue"> ruletype </TD>
             <TD ALIGN="LEFT" BGCOLOR="white">TimeSizeStampRule</TD>
           </TR>
-
-
-          <TR>
-            <TD ALIGN="LEFT" BGCOLOR="lightblue"> level </TD>
-            <TD ALIGN="LEFT" BGCOLOR="white">middle_or_sink</TD>
-          </TR>
-
 
         </TABLE>
     > shape=plaintext]
@@ -822,21 +1611,22 @@ strict digraph G {
          
           <TR>
             <TD ALIGN="LEFT" BGCOLOR="lightblue"> filename </TD>
-            <TD ALIGN="LEFT" BGCOLOR="white" HREF="chipseq_pileups"><FONT COLOR="blue"><U>chipseq_pileups</U></FONT></TD> 
+            <TD ALIGN="LEFT" BGCOLOR="white" HREF="chipseq_pileups">
+              <FONT COLOR="black"><U>chipseq_pileups</U></FONT></TD> 
           </TR>
 
+
+
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> filesize </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">0</TD>
+          </TR>
 
           <TR>
             <TD ALIGN="LEFT" BGCOLOR="lightblue"> ruletype </TD>
             <TD ALIGN="LEFT" BGCOLOR="white">NoCacheRule</TD>
           </TR>
-
-
-          <TR>
-            <TD ALIGN="LEFT" BGCOLOR="lightblue"> level </TD>
-            <TD ALIGN="LEFT" BGCOLOR="white">middle_or_sink</TD>
-          </TR>
-
 
         </TABLE>
     > shape=plaintext]
@@ -849,123 +1639,182 @@ strict digraph G {
          
           <TR>
             <TD ALIGN="LEFT" BGCOLOR="lightblue"> filename </TD>
-            <TD ALIGN="LEFT" BGCOLOR="white" HREF="OUTPUT/gene_lists_dataframe.csv"><FONT COLOR="blue"><U>OUTPUT/gene_lists_dataframe.csv</U></FONT></TD> 
+            <TD ALIGN="LEFT" BGCOLOR="white" HREF="OUTPUT/gene_lists_dataframe.csv">
+              <FONT COLOR="blue"><U>OUTPUT/gene_lists_dataframe.csv</U></FONT></TD> 
           </TR>
 
+
+
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> filesize </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">4746</TD>
+          </TR>
 
           <TR>
             <TD ALIGN="LEFT" BGCOLOR="lightblue"> ruletype </TD>
             <TD ALIGN="LEFT" BGCOLOR="white">TimeSizeStampRule</TD>
           </TR>
 
-
-          <TR>
-            <TD ALIGN="LEFT" BGCOLOR="lightblue"> level </TD>
-            <TD ALIGN="LEFT" BGCOLOR="white">middle_or_sink</TD>
-          </TR>
-
-
         </TABLE>
     > shape=plaintext]
 	"OUTPUT/chipseq_targets_genes_job.peak_list.csv" -> "OUTPUT/gene_lists_dataframe.csv"
+	"src/rnaseq_figure_2.py" -> "OUTPUT/gene_lists_dataframe.csv"
+	"src/util.py" -> "OUTPUT/gene_lists_dataframe.csv"
+	"src/static/home.feng.envs.Fig_POLYQ.rnaseq.pk" -> "OUTPUT/gene_lists_dataframe.csv"
+	"src/static/home.feng.static.results.0318-makeRNA-polyQ.mcurr0.csv" -> "OUTPUT/gene_lists_dataframe.csv"
+	"src/key_ath.csv" -> "OUTPUT/gene_lists_dataframe.csv"
 	gene_lists [label=<       
         <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
          
           <TR>
             <TD ALIGN="LEFT" BGCOLOR="lightblue"> filename </TD>
-            <TD ALIGN="LEFT" BGCOLOR="white" HREF="gene_lists"><FONT COLOR="blue"><U>gene_lists</U></FONT></TD> 
+            <TD ALIGN="LEFT" BGCOLOR="white" HREF="gene_lists">
+              <FONT COLOR="black"><U>gene_lists</U></FONT></TD> 
           </TR>
 
+
+
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> filesize </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">0</TD>
+          </TR>
 
           <TR>
             <TD ALIGN="LEFT" BGCOLOR="lightblue"> ruletype </TD>
             <TD ALIGN="LEFT" BGCOLOR="white">NoCacheRule</TD>
           </TR>
-
-
-          <TR>
-            <TD ALIGN="LEFT" BGCOLOR="lightblue"> level </TD>
-            <TD ALIGN="LEFT" BGCOLOR="white">middle_or_sink</TD>
-          </TR>
-
 
         </TABLE>
     > shape=plaintext]
 	"OUTPUT/gene_lists_dataframe.csv" -> gene_lists
-	all [label=<       
+	OUTPUT [label=<       
         <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
          
           <TR>
             <TD ALIGN="LEFT" BGCOLOR="lightblue"> filename </TD>
-            <TD ALIGN="LEFT" BGCOLOR="white" HREF="all"><FONT COLOR="blue"><U>all</U></FONT></TD> 
+            <TD ALIGN="LEFT" BGCOLOR="white" HREF="OUTPUT">
+              <FONT COLOR="blue"><U>OUTPUT</U></FONT></TD> 
           </TR>
 
+
+
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> filesize </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">0</TD>
+          </TR>
 
           <TR>
             <TD ALIGN="LEFT" BGCOLOR="lightblue"> ruletype </TD>
             <TD ALIGN="LEFT" BGCOLOR="white">NoCacheRule</TD>
           </TR>
 
-
-          <TR>
-            <TD ALIGN="LEFT" BGCOLOR="lightblue"> level </TD>
-            <TD ALIGN="LEFT" BGCOLOR="white">middle_or_sink</TD>
-          </TR>
-
-
         </TABLE>
     > shape=plaintext]
-	boxplots -> all
-	heatmaps -> all
-	chipseq_targets -> all
-	chipseq_pileups -> all
-	gene_lists -> all
+	boxplots -> OUTPUT
+	heatmaps -> OUTPUT
+	chipseq_targets -> OUTPUT
+	chipseq_pileups -> OUTPUT
+	gene_lists -> OUTPUT
 	clean [label=<       
         <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
          
           <TR>
             <TD ALIGN="LEFT" BGCOLOR="lightblue"> filename </TD>
-            <TD ALIGN="LEFT" BGCOLOR="white" HREF="clean"><FONT COLOR="blue"><U>clean</U></FONT></TD> 
+            <TD ALIGN="LEFT" BGCOLOR="white" HREF="clean">
+              <FONT COLOR="black"><U>clean</U></FONT></TD> 
           </TR>
 
+
+
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> filesize </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">0</TD>
+          </TR>
 
           <TR>
             <TD ALIGN="LEFT" BGCOLOR="lightblue"> ruletype </TD>
             <TD ALIGN="LEFT" BGCOLOR="white">NoCacheRule</TD>
           </TR>
 
-
-          <TR>
-            <TD ALIGN="LEFT" BGCOLOR="lightblue"> level </TD>
-            <TD ALIGN="LEFT" BGCOLOR="white">source</TD>
-          </TR>
-
-
         </TABLE>
     > shape=plaintext]
-	_sink [label=<       
+	"docs/README.md" [label=<       
         <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
          
           <TR>
             <TD ALIGN="LEFT" BGCOLOR="lightblue"> filename </TD>
-            <TD ALIGN="LEFT" BGCOLOR="white" HREF="_sink"><FONT COLOR="blue"><U>_sink</U></FONT></TD> 
+            <TD ALIGN="LEFT" BGCOLOR="white" HREF="docs/README.md">
+              <FONT COLOR="black"><U>docs/README.md</U></FONT></TD> 
           </TR>
 
+
+
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> filesize </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">0</TD>
+          </TR>
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> ruletype </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">TimeSizeStampRule</TD>
+          </TR>
+
+        </TABLE>
+    > shape=plaintext]
+	OUTPUT -> "docs/README.md"
+	"LUCKFILE.py.dot.svg" -> "docs/README.md"
+	docs [label=<       
+        <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+         
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> filename </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white" HREF="docs">
+              <FONT COLOR="blue"><U>docs</U></FONT></TD> 
+          </TR>
+
+
+
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> filesize </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">0</TD>
+          </TR>
 
           <TR>
             <TD ALIGN="LEFT" BGCOLOR="lightblue"> ruletype </TD>
             <TD ALIGN="LEFT" BGCOLOR="white">NoCacheRule</TD>
           </TR>
 
-
+        </TABLE>
+    > shape=plaintext]
+	"docs/README.md" -> docs
+	"LUCKFILE.py.dot.svg" [label=<       
+        <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+         
           <TR>
-            <TD ALIGN="LEFT" BGCOLOR="lightblue"> level </TD>
-            <TD ALIGN="LEFT" BGCOLOR="white">middle_or_sink</TD>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> filename </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white" HREF="LUCKFILE.py.dot.svg">
+              <FONT COLOR="blue"><U>LUCKFILE.py.dot.svg</U></FONT></TD> 
           </TR>
 
 
+
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> filesize </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">212390</TD>
+          </TR>
+
+          <TR>
+            <TD ALIGN="LEFT" BGCOLOR="lightblue"> ruletype </TD>
+            <TD ALIGN="LEFT" BGCOLOR="white">TimeSizeStampRule</TD>
+          </TR>
+
         </TABLE>
     > shape=plaintext]
-	all -> _sink
-	clean -> _sink
 }

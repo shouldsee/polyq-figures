@@ -1,0 +1,8 @@
+- - __version__
+  - 0.0.8
+- - __class__.__name__
+  - TimeSizeStampRule
+- - to_ident
+  - - src/static/home.feng.ref.Arabidopsis_thaliana_TAIR10.Annotation.genes.gtf.cds.summit
+    - 1597897037.3864613
+    - 1014417

@@ -1,0 +1,8 @@
+- - __version__
+  - 0.0.8
+- - __class__.__name__
+  - TimeSizeStampRule
+- - to_ident
+  - - /home/user/repos/polyq-figures/src/static/home.feng.static.results.0318-makeRNA-polyQ.mcurr0.csv
+    - 1589463703.8869245
+    - 39857

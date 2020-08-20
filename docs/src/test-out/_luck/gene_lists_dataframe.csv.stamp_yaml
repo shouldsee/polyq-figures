@@ -1,0 +1,8 @@
+- - __version__
+  - 0.0.8
+- - __class__.__name__
+  - TimeSizeStampRule
+- - to_ident
+  - - src/test-out/gene_lists_dataframe.csv
+    - 1597816410.0210164
+    - 3305

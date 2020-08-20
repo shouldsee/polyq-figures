@@ -1,0 +1,8 @@
+- - __version__
+  - 0.0.8
+- - __class__.__name__
+  - TimeSizeStampRule
+- - to_ident
+  - - src/polyq-0830.get_soft_text_jaehoon.tar.gz
+    - 1589463699.2628927
+    - 3737
